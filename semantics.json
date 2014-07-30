@@ -1,0 +1,233 @@
+[
+  {
+    "name": "timeline",
+    "type": "group",
+    "fields":
+    [
+      {
+        "name": "headline",
+        "type": "text",
+        "label": "Headline",
+        "description": "Main timeline heading goes here (first page)"
+      },
+      {
+        "name": "text",
+        "type": "text",
+        "label": "Body Text",
+        "widget": "html",
+        "description": "The main timeline body goes here (first page).",
+        "optional": true,
+        "tags":
+        [
+          "strong",
+          "em",
+          "del",
+          "a",
+          "ul",
+          "ol",
+          "hr"
+        ]
+      },
+      {
+        "name": "asset",
+        "type": "group",
+        "label": "Asset",
+        "description": "Here you can add an asset to your timeline \"front page\"",
+        "optional": true,
+        "fields": [
+          {
+            "name": "media",
+            "type": "text",
+            "label": "Media",
+            "description": "Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)",
+            "optional": true
+          },
+          {
+            "name": "credit",
+            "type": "text",
+            "label": "Credits",
+            "description": "Credits to the media",
+            "optional": true
+          },
+          {
+            "name": "caption",
+            "type": "text",
+            "label": "Caption",
+            "description": "Caption description goes here",
+            "optional": true
+          }
+        ]
+      },
+      {
+        "name": "date",
+        "type": "list",
+        "label": "Dates",
+        "description": "Add some dates to your timeline!",
+        "field": {
+          "name": "adate",
+          "type": "group",
+          "label": "Date",
+          "description": "Date",
+          "fields":
+          [
+            {
+              "name": "startDate",
+              "type": "text",
+              "label": "Start date",
+              "description": "YYYY,MM,DD (Minimum YYYY required)",
+              "regexp": {
+                "pattern": "^-?\\d{1,}(,(1[012]|[0]?[1-9])(,([12][0-9]|3[01]|[0]?[1-9]))?)?$"
+              }
+            },
+            {
+              "name": "endDate",
+              "type": "text",
+              "label": "End date",
+              "description": "YYYY,MM,DD (Minimum YYYY required)",
+              "optional": true,
+              "regexp": {
+                "pattern": "^-?\\d{1,}(,(1[012]|[0]?[1-9])(,([12][0-9]|3[01]|[0]?[1-9]))?)?$"
+              }
+            },
+            {
+              "name": "headline",
+              "type": "text",
+              "label": "Headline",
+              "description": "Headline for the date entry"
+            },
+            {
+              "name": "text",
+              "type": "text",
+              "label": "Body text",
+              "widget": "html",
+              "optional": true,
+              "description": "Body for the date entry",
+              "tags":
+              [
+                "strong",
+                "em",
+                "del",
+                "a",
+                "ul",
+                "ol",
+                "h2",
+                "h3",
+                "hr"
+              ]
+            },
+            {
+              "name": "tag",
+              "type": "text",
+              "label": "Tags",
+              "description": "Enter Tags (categories)",
+              "optional": true
+            },
+            {
+              "name": "asset",
+              "type": "group",
+              "label": "Asset",
+              "description": "",
+              "optional": true,
+              "fields": [
+                {
+                  "name": "media",
+                  "type": "text",
+                  "label": "Media",
+                  "description": "URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported).",
+                  "optional": true
+                },
+                {
+                  "name": "thumbnail",
+                  "type": "image",
+                  "label": "Thumbnail",
+                  "description": "Add a thumbnail if needed, 32x32",
+                  "optional": true
+                },
+                {
+                  "name": "credit",
+                  "type": "text",
+                  "label": "Credit",
+                  "description": "Credits to the media",
+                  "optional": true
+                },
+                {
+                  "name": "caption",
+                  "type": "text",
+                  "label": "Caption",
+                  "description": "Caption text",
+                  "optional": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "era",
+        "type": "list",
+        "label": "Eras",
+        "description": "Add an era to your timeline",
+        "optional": true,
+        "field": {
+          "name": "anera",
+          "type": "group",
+          "label": "Era",
+          "description": "",
+          "fields":
+          [
+            {
+              "name": "startDate",
+              "type": "text",
+              "label": "Start date",
+              "description": "YYYY,MM,DD (Minimum YYYY required)",
+              "regexp": {
+                "pattern": "^-?\\d{1,}(,(1[012]|[0]?[1-9])(,([12][0-9]|3[01]|[0]?[1-9]))?)?$"
+              }
+            },
+            {
+              "name": "endDate",
+              "type": "text",
+              "label": "End date",
+              "description": "YYYY,MM,DD (Minimum YYYY required)",
+              "optional": true,
+              "regexp": {
+                "pattern": "^-?\\d{1,}(,(1[012]|[0]?[1-9])(,([12][0-9]|3[01]|[0]?[1-9]))?)?$"
+              }
+            },
+            {
+              "name": "headline",
+              "type": "text",
+              "label": "Headline",
+              "description": "Era headline"
+            },
+            {
+              "name": "text",
+              "type": "text",
+              "label": "Text",
+              "widget": "html",
+              "optional": true,
+              "description": "Era body",
+              "tags":
+              [
+                "strong",
+                "em",
+                "del",
+                "a",
+                "ul",
+                "ol",
+                "hr"
+              ]
+            },
+            {
+              "name": "tag",
+              "type": "text",
+              "label": "Tag",
+              "description": "Era tags (categories)",
+              "optional": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
