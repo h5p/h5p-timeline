@@ -14,7 +14,8 @@
   function C(options, contentId) {
     this.options = $.extend(true, {}, {
       timeline: {
-        type: 'default'
+        type: 'default',
+        defaultZoomLevel: 0
       }
     }, options);
   };
@@ -30,6 +31,7 @@
       width: '100%',
       height: '600',
       source: this.options,
+      start_zoom_adjust: this.options.timeline.defaultZoomLevel,
       embed_id: 'my-timeline',
       css: H5P.getLibraryPath('TimelineJS-1.0') + '/css/timeline.css',
       js: H5P.getLibraryPath('TimelineJS-1.0') + '/js/timeline-min.js'

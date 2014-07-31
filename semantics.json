@@ -29,6 +29,14 @@
         ]
       },
       {
+        "name": "defaultZoomLevel",
+        "type": "text",
+        "label": "Default zoom level",
+        "default": "0",
+        "optional": true,
+        "description": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
+      },
+      {
         "name": "asset",
         "type": "group",
         "label": "Asset",
