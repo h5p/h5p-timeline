@@ -15,7 +15,8 @@
     this.options = $.extend(true, {}, {
       timeline: {
         type: 'default',
-        defaultZoomLevel: 0
+        defaultZoomLevel: 0,
+        language: 'en'
       }
     }, options);
   };
@@ -31,6 +32,7 @@
       width: '100%',
       height: '600',
       source: this.options,
+      lang: this.options.timeline.language,
       start_zoom_adjust: this.options.timeline.defaultZoomLevel,
       embed_id: 'my-timeline',
       css: H5P.getLibraryPath('TimelineJS-1.0') + '/css/timeline.css',
