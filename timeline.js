@@ -37,7 +37,9 @@
       source: this.options,
       lang: this.options.timeline.language,
       start_zoom_adjust: this.options.timeline.defaultZoomLevel,
-      embed_id: 'h5p-timeline'
+      embed_id: 'h5p-timeline',
+      css: H5P.getLibraryPath('TimelineJS-1.0') + '/css/timeline.css',
+      js: H5P.getLibraryPath('TimelineJS-1.0') + '/js/timeline-min.js'
     });
   };
   
