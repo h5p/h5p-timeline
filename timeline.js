@@ -19,6 +19,16 @@
         language: 'en'
       }
     }, options);
+    
+    // Need to create the URL for all H5P.Images
+    if (this.options.timeline.date !== undefined) {
+      var dates = this.options.timeline.date;
+      for(var i=0; i<dates.length; i++) {
+        if (dates[i].asset.thumbnail !== undefined) {
+          dates[i].asset.thumbnail = H5P.getPath(dates[i].asset.thumbnail.path, contentId);
+        }
+      }
+    }
   };
   
   /**
