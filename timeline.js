@@ -24,9 +24,12 @@
   /**
    * Attatch the Timeline HTML to a given target.
    **/
-  C.prototype.attach = function(target) {
-    target[0].insertAdjacentHTML('beforeend', '<div id="my-timeline"></div>');
-    //Create the timeline, yo.
+  C.prototype.attach = function ($container) {
+    $container.append($('<div>', {id: 'h5p-timeline'}));
+    
+    // Need to set this to make timeline behave correctly:
+    window.jQuery = $;
+
     createStoryJS({
       type: 'timeline',
       width: '100%',
@@ -34,9 +37,7 @@
       source: this.options,
       lang: this.options.timeline.language,
       start_zoom_adjust: this.options.timeline.defaultZoomLevel,
-      embed_id: 'my-timeline',
-      css: H5P.getLibraryPath('TimelineJS-1.0') + '/css/timeline.css',
-      js: H5P.getLibraryPath('TimelineJS-1.0') + '/js/timeline-min.js'
+      embed_id: 'h5p-timeline'
     });
   };
   
