@@ -21,7 +21,7 @@
         "fields": [
           {
             "label": "Media",
-            "description": "Linkki median URL-osoitteeseen (tällä hetkellä tuettuna Twitter, YouTube, Flickr, Vimeo, Google Maps ja SoundCloud)."
+            "description": "Linkki median URL-osoitteeseen (tällä hetkellä tuettuna Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps ja SoundCloud)."
           },
           {
             "label": "Lähdetiedot",
@@ -67,7 +67,7 @@
               "fields": [
                 {
                   "label": "Media",
-                  "description": "Linkki median URL-osoitteeseen (tällä hetkellä tuettuna Twitter, YouTube, Flickr, Vimeo, Google Maps ja SoundCloud)."
+                  "description": "Linkki median URL-osoitteeseen (tällä hetkellä tuettuna Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps ja SoundCloud)."
                 },
                 {
                   "label": "Esikatselukuva",
@@ -99,7 +99,7 @@
               "description": "VVVV,KK,PP (Anna vähintään VVVV)."
             },
             {
-              "label": "Loppupäivämäärä",
+              "label": "Loppupäivämäärä,
               "description": "VVVV,KK,PP (Anna vähintään VVVV)."
             },
             {
