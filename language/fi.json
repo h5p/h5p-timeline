@@ -4,82 +4,82 @@
     "fields":
     [
       { 
-        "label": "Headline",
-        "description": "Main timeline heading goes here (first side)"
+        "label": "Otsikko",
+        "description": "Ensimmäisen ruudun otsikko."
       },
       {
-        "label": "Body Text",
-        "description": "The main timeline body goes here (first page)."
+        "label": "Leipäteksti",
+        "description": "Anna ensimmäisen sivun varsinainen sisältö."
       },
       {
-        "label": "Default zoom level",
-        "description": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
+        "label": "Zoomin alkutaso",
+        "description": "Voit muuttaa zoomauksen oletustasoa. Arvo vastaa zoomausnapin painallusta. Negatiivinen arvo vastaa loitonnusta ja positiivinen lähennystä. Oletusarvo on 0."
       },
       {
-        "label": "Asset",
-        "description": "Here you can add an asset to your timeline \"front page\"",
+        "label": "Media",
+        "description": "Voit laittaa \"etusivulle\" mediaa.",
         "fields": [
           {
             "label": "Media",
-            "description": "Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)"
+            "description": "Linkki median URL-osoitteeseen (tällä hetkellä tuettuna Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps ja SoundCloud)."
           },
           {
-            "label": "Credits",
-            "description": "Credits to the media"
+            "label": "Lähdetiedot",
+            "description": "Median lähdetiedot."
           },
           {
-            "label": "Caption",
-            "description": "Caption description goes here"
+            "label": "Kuvateksti",
+            "description": "Anna medialle kuvaus."
           }
         ]
       },
       {
-        "label": "Dates",
-        "description": "Add some dates to your timeline!",
+        "label": "Päivämäärät",
+        "description": "Lisää päivämääriä aikajanalle.",
         "field": {
-          "label": "Date",
-          "description": "Date",
+          "label": "Päivämäärä",
+          "description": "Päivämäärä",
           "fields":
           [
             {
-              "label": "Start date",
-              "description": "YYYY,MM,DD (Minimum YYYY required)"
+              "label": "Alkupäivämäärä",
+              "description": "VVVV,KK,PP (Anna vähintään VVVV)."
             },
             {
-              "label": "End date",
-              "description": "YYYY,MM,DD (Minimum YYYY required)"
+              "label": "Loppupäivämäärä",
+              "description": "VVVV,KK,PP (Anna vähintään VVVV)."
             },
             {
-              "label": "Headline",
-              "description": "Headline for the date entry"
+              "label": "Otsikko",
+              "description": "Anna päivämäärälle otsikko."
             },
             {
-              "label": "Body text",
-              "description": "Body for the date entry"
+              "label": "Leipäteksti",
+              "description": "Anna päivämäärälle sisältö."
             },
             {
-              "label": "Tags",
-              "description": "Enter Tags (categories)"
+              "label": "Avainsanat",
+              "description": "Anna avainsanat (kategoriat)."
             },
             {
-              "label": "Asset",
+              "label": "Media",
               "description": "",
               "fields": [
                 {
                   "label": "Media",
-                  "description": "URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported)."
+                  "description": "Linkki median URL-osoitteeseen (tällä hetkellä tuettuna Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps ja SoundCloud)."
                 },
                 {
-                  "label": "Thumbnail",
-                  "description": "Add a thumbnail if needed, 32x32"
+                  "label": "Esikatselukuva",
+                  "description": "Anna tarvittaessa esikatselukuva, 32x32"
                 },
                 {
-                  "label": "Credit",
-                  "description": "Credits to the media"
+                  "label": "Lähdetiedot",
+                  "description": "Median lähdetiedot."
                 },
                 {
-                  "label": "Caption",
-                  "description": "Caption text"
+                  "label": "Kuvateksti",
+                  "description": "Anna medialle kuvaus."
                 }
               ]
             }
@@ -87,39 +87,39 @@
         }
       },
       {
-        "label": "Eras",
-        "description": "Add an era to your timeline",
+        "label": "Aikakaudet",
+        "description": "Lisää aikakausi aikajanalle.",
         "field": {
-          "label": "Era",
+          "label": "Aikakausi",
           "description": "",
           "fields":
           [
             {
-              "label": "Start date",
-              "description": "YYYY,MM,DD (Minimum YYYY required)"
+              "label": "Alkupäivämäärä",
+              "description": "VVVV,KK,PP (Anna vähintään VVVV)."
             },
             {
-              "label": "End date",
-              "description": "YYYY,MM,DD (Minimum YYYY required)"
+              "label": "Loppupäivämäärä,
+              "description": "VVVV,KK,PP (Anna vähintään VVVV)."
             },
             {
-              "label": "Headline",
-              "description": "Era headline"
+              "label": "Otsikko",
+              "description": "Aikakauden otsikko."
             },
             {
-              "label": "Text",
-              "description": "Era body"
+              "label": "Teksti",
+              "description": "Aikakauden sisältöteksti"
             },
             {
-              "label": "Tag",
-              "description": "Era tags (categories)"
+              "label": "Avainsana",
+              "description": "Aikakauden avainsanat (kategoria)."
             }
           ]
         }
       },
       {
-        "label": "Language",
-        "description": "The language of the user interface",
+        "label": "Kieli",
+        "description": "Käyttöliittymän kieli.",
         "options": [
           {"label": "Afrikaans"},
           {"label": "Arabic"},
