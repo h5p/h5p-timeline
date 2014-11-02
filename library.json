@@ -3,17 +3,25 @@
   "description": "Create good loking timelines",
   "majorVersion": 1,
   "minorVersion": 0,
-  "patchVersion": 11,
+  "patchVersion": 13,
   "runnable": 1,
   "fullscreen": 0,
   "machineName": "H5P.Timeline",
   "preloadedDependencies": [
-    {"machineName": "TimelineJS", "majorVersion": 1, "minorVersion": 0}
+    {
+      "machineName": "TimelineJS",
+      "majorVersion": 1,
+      "minorVersion": 0
+    }
   ],
   "author": "Thomas Knudsen",
   "license": "GPL2",
   "preloadedJs": [
-    {"path": "timeline.js"}
+    {
+      "path": "timeline.js"
+    }
   ],
-  "embedTypes": ["iframe"]
+  "embedTypes": [
+    "iframe"
+  ]
 }
