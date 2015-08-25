@@ -12,7 +12,6 @@
         },
         {
           "label": "Niveau zoom par défaut",
-          "default": "0",
           "description": "Cela adaptera le niveau du zoom par défaut. revient à utiliser les boutons spécifiques aggrandir ou zoom arrière. Nombres négatifs zoom arrière. defaut est 0"
         },
         {
