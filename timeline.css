@@ -1,0 +1,25 @@
+.h5p-timeline .h5p-content-controls {
+  z-index: 1000;
+}
+.h5p-fullscreen #h5p-timeline,
+.h5p-semi-fullscreen #h5p-timeline {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* Allow wysiwygging */
+#h5p-timeline ul {
+  list-style-type: square;
+  margin: 1em;
+  padding-left: 1em;
+}
+#h5p-timeline ol {
+  list-style-type: decimal;
+  margin: 1em;
+  padding-left: 1em;
+}
+#storyjs-timeline.vco-skinny .vco-slider .slider-item .content .layout-text-media .text .container {
+  text-align: left !important;
+}

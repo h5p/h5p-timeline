@@ -5,7 +5,7 @@
   "minorVersion": 0,
   "patchVersion": 14,
   "runnable": 1,
-  "fullscreen": 0,
+  "fullscreen": 1,
   "machineName": "H5P.Timeline",
   "preloadedDependencies": [
     {
@@ -19,6 +19,11 @@
   "preloadedJs": [
     {
       "path": "timeline.js"
+    }
+  ],
+  "preloadedCss": [
+    {
+      "path": "timeline.css"
     }
   ],
   "embedTypes": [
