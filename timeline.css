@@ -23,3 +23,25 @@
 #storyjs-timeline.vco-skinny .vco-slider .slider-item .content .layout-text-media .text .container {
   text-align: left !important;
 }
+/* Background image */
+#h5p-timeline .vco-slider {
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Could use this to keep the background image a little more muted
+#h5p-timeline .vco-slider::before {
+  content: "";
+  opacity: 0.7;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+*/

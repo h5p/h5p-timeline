@@ -12,6 +12,7 @@
  H5P.Timeline = (function ($) {
 
   function C(options, contentId) {
+    var self = this;
     this.options = $.extend(true, {}, {
       timeline: {
         type: 'default',
@@ -36,12 +37,31 @@
         this.options.timeline.era.splice(i,1);
       }
     }
+
+    /**
+     * Set background image
+     * @method setBackgroundImage
+     * @param  {Object}           image Image object as part of H5P content jeson
+     */
+    self.setBackgroundImage = function (image) {
+      // Need to wait for timelinejs to be finished
+      setTimeout(function () {
+        var $slider = self.$container.find('.vco-slider');
+        if ($slider.length !== 0) {
+          $slider.css('background-image', 'url(' + H5P.getPath(image.path, contentId) + ')');
+        }
+        else {
+          self.setBackgroundImage(image);
+        }
+      }, 200);
+    };
   };
 
   /**
    * Attatch the Timeline HTML to a given target.
    **/
   C.prototype.attach = function ($container) {
+    this.$container = $container;
     $container.addClass('h5p-timeline');
     $container.append($('<div>', {id: 'h5p-timeline'}));
 
@@ -57,6 +77,11 @@
       start_zoom_adjust: this.options.timeline.defaultZoomLevel,
       embed_id: 'h5p-timeline'
     });
+
+    // Add background image if any:
+    if (this.options.timeline.backgroundImage !== undefined) {
+      this.setBackgroundImage(this.options.timeline.backgroundImage);
+    }
   };
 
   return C;
