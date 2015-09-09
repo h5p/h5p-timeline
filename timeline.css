@@ -1,14 +1,6 @@
 .h5p-timeline .h5p-content-controls {
   z-index: 1000;
 }
-.h5p-fullscreen #h5p-timeline,
-.h5p-semi-fullscreen #h5p-timeline {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
 /* Allow wysiwygging */
 #h5p-timeline ul {
   list-style-type: square;
@@ -31,17 +23,34 @@
   -o-background-size: cover;
   background-size: cover;
 }
-
-/* Could use this to keep the background image a little more muted
-#h5p-timeline .vco-slider::before {
-  content: "";
-  opacity: 0.7;
-  background-color: #fff;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
+#h5p-timeline .vco-slider .slider-item .content .content-container .media .media-wrapper .media-container .credit {
+  color: #333;
+  text-align: center;
 }
-*/
+#h5p-timeline .vco-slider .slider-item .content .content-container {
+  padding: .5em;
+  background: rgba(255,255,255,0.7);
+  border-radius: .2em;
+}
+#h5p-timeline .vco-storyjs .vco-feature p,
+#h5p-timeline .vco-storyjs h2.date {
+  color: #333;
+}
+#h5p-timeline .vco-slider .nav-previous,
+#h5p-timeline .vco-slider .nav-next {
+  height: auto !important;
+  top: 0;
+  bottom: 0;
+}
+#h5p-timeline .vco-slider .nav-previous:hover,
+#h5p-timeline .vco-slider .nav-next:hover {
+  background-color: rgba(255,255,255,0.7);
+}
+#h5p-timeline .vco-skinny.vco-notouch .vco-slider .nav-previous:hover,
+#h5p-timeline .vco-skinny.vco-notouch .vco-slider .nav-next:hover {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  background-color: #333;
+  background-color: rgba(0,0,0,0.65);
+}

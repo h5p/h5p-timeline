@@ -2,6 +2,7 @@
   {
     "name": "timeline",
     "type": "group",
+    "expanded": true,
     "fields":
     [
       {
@@ -42,6 +43,13 @@
         "label": "Background image",
         "optional": true,
         "description": "An image to display as background."
+      },
+      {
+        "name": "height",
+        "type": "number",
+        "label": "Height",
+        "description": "The height in pixels",
+        "default": 600
       },
       {
         "name": "asset",

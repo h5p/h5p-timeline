@@ -17,7 +17,8 @@
       timeline: {
         type: 'default',
         defaultZoomLevel: 0,
-        language: 'en'
+        language: 'en',
+        height: 600
       }
     }, options);
 
@@ -55,6 +56,14 @@
         }
       }, 200);
     };
+
+    self.on('enterFullScreen', function () {
+      this.$container.css('height', '100%');
+    });
+
+    self.on('exitFullScreen', function () {
+      this.$container.css('height', self.options.timeline.height + 'px');
+    });
   };
 
   /**
@@ -62,7 +71,7 @@
    **/
   C.prototype.attach = function ($container) {
     this.$container = $container;
-    $container.addClass('h5p-timeline');
+    $container.addClass('h5p-timeline').css('height', this.options.timeline.height + 'px');
     $container.append($('<div>', {id: 'h5p-timeline'}));
 
     // Need to set this to make timeline behave correctly:
@@ -71,7 +80,7 @@
     createStoryJS({
       type: 'timeline',
       width: '100%',
-      height: '600',
+      height: '100%',
       source: this.options,
       lang: this.options.timeline.language,
       start_zoom_adjust: this.options.timeline.defaultZoomLevel,

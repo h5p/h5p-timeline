@@ -15,6 +15,14 @@
           "description": "Cela adaptera le niveau du zoom par défaut. revient à utiliser les boutons spécifiques aggrandir ou zoom arrière. Nombres négatifs zoom arrière. defaut est 0"
         },
         {
+          "label": "Background image",
+          "description": "An image to display as background."
+        },
+        {
+          "label": "Height",
+          "description": "The height in pixels"
+        },
+        {
           "label": "Avantage",
           "description": "Ici vous pouvez ajouter un avantage à votre chronologie \"Page de garde\"",
           "fields": [
