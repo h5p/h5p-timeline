@@ -10,7 +10,7 @@
  *  The nodes vid
  */
  H5P.Timeline = (function ($) {
-  
+
   function C(options, contentId) {
     this.options = $.extend(true, {}, {
       timeline: {
@@ -19,7 +19,7 @@
         language: 'en'
       }
     }, options);
-    
+
     // Need to create the URL for all H5P.Images
     if (this.options.timeline.date !== undefined) {
       var dates = this.options.timeline.date;
@@ -29,14 +29,23 @@
         }
       }
     }
+
+    // Check if eras are legal - if not, remove them!
+    if (this.options.timeline.era !== undefined) {
+      for (var i = this.options.timeline.era.length-1; i >= 0; i--) {
+        if(this.options.timeline.era[i].startDate === undefined || this.options.timeline.era[i].endDate === undefined) {
+          this.options.timeline.era.splice(i,1);
+        }
+      }
+    }
   };
-  
+
   /**
    * Attatch the Timeline HTML to a given target.
    **/
   C.prototype.attach = function ($container) {
     $container.append($('<div>', {id: 'h5p-timeline'}));
-    
+
     // Need to set this to make timeline behave correctly:
     window.jQuery = $;
 
@@ -52,6 +61,6 @@
       js: H5P.getLibraryPath('TimelineJS-1.0') + '/js/timeline-min.js'
     });
   };
-  
+
   return C;
  })(H5P.jQuery);
