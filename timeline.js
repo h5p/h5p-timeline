@@ -33,9 +33,11 @@
     }
 
     // Check if eras are legal - if not, remove them!
-    for (var i=this.options.timeline.era.length-1; i >= 0; i--) {
-      if(this.options.timeline.era[i].startDate === undefined || this.options.timeline.era[i].endDate === undefined) {
-        this.options.timeline.era.splice(i,1);
+    if (this.options.timeline.era !== undefined) {
+      for (var i=this.options.timeline.era.length-1; i >= 0; i--) {
+        if(this.options.timeline.era[i].startDate === undefined || this.options.timeline.era[i].endDate === undefined) {
+          this.options.timeline.era.splice(i,1);
+        }
       }
     }
 
