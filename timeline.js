@@ -69,6 +69,26 @@
   };
 
   /**
+   * Check if data provided is valid.
+   * @method validate
+   * @return {boolean} Valid or not
+   */
+  C.prototype.validate = function () {
+    if (this.options.timeline.date === undefined || this.options.timeline.date.length === 0) {
+      return false;
+    }
+
+    for (var i = 0; i < this.options.timeline.date.length; i++) {
+      var element = this.options.timeline.date[i];
+      if (element.startDate === undefined || element.headline === undefined) {
+        return false;
+      }
+    }
+
+    return true;
+  };
+
+  /**
    * Attatch the Timeline HTML to a given target.
    **/
   C.prototype.attach = function ($container) {
@@ -79,19 +99,27 @@
     // Need to set this to make timeline behave correctly:
     window.jQuery = $;
 
-    createStoryJS({
-      type: 'timeline',
-      width: '100%',
-      height: '100%',
-      source: this.options,
-      lang: this.options.timeline.language,
-      start_zoom_adjust: this.options.timeline.defaultZoomLevel,
-      embed_id: 'h5p-timeline'
-    });
+    if (this.validate()) {
+      createStoryJS({
+        type: 'timeline',
+        width: '100%',
+        height: '100%',
+        source: this.options,
+        lang: this.options.timeline.language,
+        start_zoom_adjust: this.options.timeline.defaultZoomLevel,
+        embed_id: 'h5p-timeline'
+      });
 
-    // Add background image if any:
-    if (this.options.timeline.backgroundImage !== undefined) {
-      this.setBackgroundImage(this.options.timeline.backgroundImage);
+      // Add background image if any:
+      if (this.options.timeline.backgroundImage !== undefined) {
+        this.setBackgroundImage(this.options.timeline.backgroundImage);
+      }
+    }
+    else {
+      $container.append($('<div>', {
+        html: 'Missing mandatory data - not able to draw the timeline. Please open this H5P in the editor, and make the necessary changes.',
+        'class': 'h5p-timeline-data-not-valid'
+      }));
     }
   };
 
