@@ -21,6 +21,11 @@
       "path": "timeline.js"
     }
   ],
+  "preloadedCss": [
+    {
+      "path": "timeline.css"
+    }
+  ],
   "embedTypes": [
     "iframe"
   ]
