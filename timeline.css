@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .h5p-timeline .h5p-content-controls {
   z-index: 1000;
 }
@@ -54,7 +53,7 @@
   -moz-border-radius: 0;
   background-color: #333;
   background-color: rgba(0,0,0,0.65);
-=======
+}
 .h5p-timeline-data-not-valid {
   padding: 1em;
   color: #eee;
@@ -62,5 +61,4 @@
   font-size: 1.1em;
   margin: 2em;
   border-radius: .5em;
->>>>>>> empty-era-check
 }
