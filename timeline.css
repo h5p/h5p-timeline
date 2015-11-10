@@ -29,8 +29,9 @@
 }
 #h5p-timeline .vco-slider .slider-item .content .content-container {
   padding: .5em;
-  background: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.9);
   border-radius: .2em;
+  display: block !important;
 }
 #h5p-timeline .vco-slider .slider-item {
   overflow-x: hidden;
@@ -57,22 +58,34 @@
   background-color: #333;
   background-color: rgba(0,0,0,0.65);
 }
-#h5p-timeline .media-wrapper .media-container {
-  max-width: 200px !important;
+#h5p-timeline .media-wrapper,
+#h5p-timeline .media-wrapper .media-container,
+#h5p-timeline .media-wrapper .media-container .media-image {
+  max-width: 100% !important;
 }
 #h5p-timeline .media-image img {
   width: 100%;
 }
 #h5p-timeline .vco-slider .slider-item .content .pad-left .text .container {
   padding-left: 0;
+  display: inline !important;
+  width: auto !important;
+}
+#h5p-timeline .vco-slider .slider-item .content .pad-left .text .container * {
+  max-width: 100%;
+  width: 100%;
+  word-wrap: break-word;
 }
 #h5p-timeline .vco-timeline:not(.vco-skinny) .vco-slider .slider-item .content .content-container .text {
+  display: inline-block !important;
   width: 50% !important;
+  max-width: none;
 }
 #h5p-timeline .vco-timeline:not(.vco-skinny) .vco-slider .slider-item .content .content-container .media {
-  max-width: 200px;
-  position: relative;
-  left: -10px;
+  display: inline-block !important;
+  max-width: 40%;
+  min-width: inherit;
+  margin-right: 20px;
 }
 .h5p-timeline-data-not-valid {
   padding: 1em;
