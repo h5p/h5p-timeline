@@ -25,7 +25,7 @@
 }
 #h5p-timeline .vco-slider .slider-item .content .content-container .media .media-wrapper .media-container .credit {
   color: #333;
-  text-align: center;
+  text-align: left;
 }
 #h5p-timeline .vco-slider .slider-item .content .content-container {
   padding: .5em;
@@ -60,19 +60,37 @@
 }
 #h5p-timeline .media-wrapper,
 #h5p-timeline .media-wrapper .media-container,
-#h5p-timeline .media-wrapper .media-container .media-image {
+#h5p-timeline .media-wrapper .media-container .media-shadow {
   max-width: 100% !important;
   max-height: none !important;
-}
-#h5p-timeline .media-image img {
   width: 100%;
 }
-#h5p-timeline .vco-slider .slider-item .content .pad-left .text .container {
+#h5p-timeline .media-wrapper .media-container .media-shadow:not(.media-image) {
+  width: 100%;
+}
+#h5p-timeline .media-wrapper .media-container .media-shadow {
+  text-align: left;
+}
+#h5p-timeline .media-image img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+#h5p-timeline .media-image {
+  background: transparent !important;
+}
+#h5p-timeline .media-image:after,
+#h5p-timeline .media-image:before {
+  display: none;
+}
+#h5p-timeline .media-shadow .media-frame {
+  width: 100% !important;
+}
+#h5p-timeline .vco-slider .slider-item .content .text .container {
   padding-left: 0;
   display: inline !important;
   width: auto !important;
 }
-#h5p-timeline .vco-slider .slider-item .content .pad-left .text .container * {
+#h5p-timeline .vco-slider .slider-item .content .text .container * {
   max-width: 100%;
   width: 100%;
   word-wrap: break-word;
@@ -82,6 +100,10 @@
   width: 50% !important;
   max-width: none;
   vertical-align: top;
+}
+#h5p-timeline .vco-timeline:not(.vco-skinny) .vco-slider .slider-item .content .content-container .text h2,
+#h5p-timeline .vco-timeline:not(.vco-skinny) .vco-slider .slider-item .content .content-container .text h3 {
+  width: 100% !important;
 }
 #h5p-timeline .vco-timeline:not(.vco-skinny) .vco-slider .slider-item .content .content-container .media {
   display: inline-block !important;
