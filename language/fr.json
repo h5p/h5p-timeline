@@ -3,16 +3,16 @@
     {
       "fields": [
         {
-          "label": "Intestazione",
-          "description": "L'intestazione principale della timeline va qui (prima pagina)"
+          "label": "Titre",
+          "description": "Entête principale ici (première page)"
         },
         {
-          "label": "Testo del corpo",
-          "description": "Il corpo principale della timeline va qui (prima pagina)."
+          "label": "Corps du Texte",
+          "description": "The main timeline body goes here (première page)."
         },
         {
-          "label": "Livello di zoom predefinito",
-          "description": "Questo modifica il livello di zoom predefinito. Equivale a premere il tasto zoom-in o zoom-out il numero di volte specificato. I numeri negativi indicano i valori di zoom-out. Il valore di default è 0."
+          "label": "Niveau zoom par défaut",
+          "description": "Cela adaptera le niveau du zoom par défaut. revient à utiliser les boutons spécifiques aggrandir ou zoom arrière. Nombres négatifs zoom arrière. defaut est 0"
         },
         {
           "label": "Background image",
@@ -23,71 +23,71 @@
           "description": "The height in pixels"
         },
         {
-          "label": "Risorsa",
-          "description": "Qui è possibile aggiungere una risorsa alla tua timeline \"prima pagina\"",
+          "label": "Avantage",
+          "description": "Ici vous pouvez ajouter un avantage à votre chronologie \"Page de garde\"",
           "fields": [
             {
               "label": "Media",
-              "description": "URL media (Twitter, YouTube, Flickr, Vimeo, Google Maps e SoundCloud sono correttamente supportati)"
+              "description": "Liens vers les medias URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud sont autorisés)"
             },
             {
-              "label": "Reputazione",
-              "description": "Reputazione sui media"
+              "label": "Credits",
+              "description": "Credits aux medias"
             },
             {
-              "label": "Didascalia",
-              "description": "Qui descrizione didascalia"
+              "label": "Légende",
+              "description": "Légende ici"
             }
           ]
         },
         {
-          "label": "Date",
-          "description": "Aggiungi le tue date alla timeline!",
+          "label": "Dates",
+          "description": "Ajouter des dates à votre chronologie!",
           "field": {
             "label": "Date",
-            "description": "Data",
+            "description": "Date",
             "fields": [
               {
-                "label": "Inizio data",
-                "description": "YYYY,MM,DD (YYYY minimo richiesto)",
+                "label": "Date de début",
+                "description": "YYYY,MM,DD (Minimum YYYY obligatoire)",
                 "regexp": {}
               },
               {
-                "label": "Fine data",
-                "description": "YYYY,MM,DD (YYYY minimo richiesto)",
+                "label": "Date de fin",
+                "description": "YYYY,MM,DD (Minimum YYYY obligatoire)",
                 "regexp": {}
               },
               {
-                "label": "Titolo",
-                "description": "Titolo data d'ingresso"
+                "label": "Titre",
+                "description": "Titre pour la date début"
               },
               {
-                "label": "Testo del corpo",
-                "description": "Corpo della data d'ingresso"
+                "label": "corps du texte",
+                "description": "corps pour la date de début"
               },
               {
                 "label": "Tags",
-                "description": "Inserisci Tags (categorie)"
+                "description": "Enter Tags (categories)"
               },
               {
-                "label": "Risorsa",
+                "label": "Avantages",
                 "description": "",
                 "fields": [
                   {
                     "label": "Media",
-                    "description": "URL media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps e SoundCloud sono correttamente supportati)."
+                    "description": "URL vers les medias (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud sont autorisés )."
                   },
                   {
-                    "label": "immagine in miniatura",
-                    "description": "Aggiungere un'immagine in miniatura se necessario, 32x32 px"
+                    "label": "Miniature",
+                    "description": "ajouter une miniature si besoin, 32x32"
                   },
                   {
-                    "label": "Reputazione",
-                    "description": "Reputazione sui media"
+                    "label": "Credit",
+                    "description": "Credits to the media"
                   },
                   {
-                    "label": "Didascalia",
-                    "description": "Testo della didascalia"
+                    "label": "légende",
+                    "description": "Texte de légende"
                   }
                 ]
               }
@@ -95,76 +95,76 @@
           }
         },
         {
-          "label": "Epoche",
-          "description": "Aggiugni un'epoca alla tua timeline",
+          "label": "période",
+          "description": "ajouter une période à votre chronologie",
           "field": {
-            "label": "Epoca",
+            "label": "Période",
             "description": "",
             "fields": [
               {
-                "label": "Data inizio",
-                "description": "YYYY,MM,DD (YYYY minimo richiesto)",
+                "label": "Date de début",
+                "description": "YYYY,MM,DD (Minimum YYYY obligatoire)",
                 "regexp": {}
               },
               {
-                "label": "Data fine",
-                "description": "YYYY,MM,DD (YYYY minimo richiesto)",
+                "label": "Date de fin",
+                "description": "YYYY,MM,DD (Minimum YYYY obligatoire)",
                 "regexp": {}
               },
               {
-                "label": "Intstazione",
-                "description": "Intestazione epoca"
+                "label": "Titre",
+                "description": "Titre de la période"
               },
               {
-                "label": "Testo",
-                "description": "Corpo dell'epoca"
+                "label": "Texte",
+                "description": "corps de la période"
               },
               {
                 "label": "Tag",
-                "description": "Tags epoca (categorie)"
+                "description": "période tags (categories)"
               }
             ]
           }
         },
         {
-          "label": "Lingua",
-          "description": "Imposta la lingua dell'interfaccia utente",
+          "label": "Langues",
+          "description": "Choisissez votre langue",
           "options": [
             {
-              "label": "Afrikaans"
+              "label": "Africain"
             },
             {
-              "label": "Arabic"
+              "label": "Arabe"
             },
             {
-              "label": "Armenian"
+              "label": "Arménien"
             },
             {
               "label": "Basque"
             },
             {
-              "label": "Bulgarian"
+              "label": "Bulgare"
             },
             {
               "label": "Catalan"
             },
             {
-              "label": "Chinese"
+              "label": "Chinoix"
             },
             {
-              "label": "Croatian / Hrvatski"
+              "label": "Croate/ Hrvatski"
             },
             {
-              "label": "Czech"
+              "label": "Tchèque"
             },
             {
-              "label": "Danish"
+              "label": "Danois"
             },
             {
-              "label": "Dutch"
+              "label": "Allemand"
             },
             {
-              "label": "English"
+              "label": "Anglais"
             },
             {
               "label": "English (24-hour time)"
@@ -173,7 +173,7 @@
               "label": "Esperanto"
             },
             {
-              "label": "Estonian"
+              "label": "Estonien"
             },
             {
               "label": "Faroese"
@@ -182,13 +182,13 @@
               "label": "Farsi"
             },
             {
-              "label": "Finnish"
+              "label": "Finnois"
             },
             {
-              "label": "French"
+              "label": "Français"
             },
             {
-              "label": "Galician"
+              "label": "Galice"
             },
             {
               "label": "Georgian"
@@ -197,22 +197,22 @@
               "label": "German / Deutsch"
             },
             {
-              "label": "Greek"
+              "label": "Grecque"
             },
             {
-              "label": "Hebrew"
+              "label": "Hebreux"
             },
             {
-              "label": "Hungarian"
+              "label": "Hongrois"
             },
             {
-              "label": "Icelandic"
+              "label": "Icelandais"
             },
             {
-              "label": "Indonesian"
+              "label": "Indonesien"
             },
             {
-              "label": "Italian"
+              "label": "Italien"
             },
             {
               "label": "Japanese"
@@ -290,7 +290,7 @@
               "label": "Turkish"
             },
             {
-              "label": "Ukrainian"
+              "label": "Ukrainien"
             }
           ]
         }

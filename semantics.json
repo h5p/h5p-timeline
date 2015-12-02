@@ -2,6 +2,7 @@
   {
     "name": "timeline",
     "type": "group",
+    "expanded": true,
     "fields":
     [
       {
@@ -37,6 +38,20 @@
         "description": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
       },
       {
+        "name": "backgroundImage",
+        "type": "image",
+        "label": "Background image",
+        "optional": true,
+        "description": "An image to display as background."
+      },
+      {
+        "name": "height",
+        "type": "number",
+        "label": "Height",
+        "description": "The height in pixels",
+        "default": 600
+      },
+      {
         "name": "asset",
         "type": "group",
         "label": "Asset",
@@ -70,6 +85,7 @@
         "name": "date",
         "type": "list",
         "label": "Dates",
+        "min": 1,
         "description": "Add some dates to your timeline!",
         "field": {
           "name": "adate",
@@ -175,6 +191,7 @@
         "type": "list",
         "label": "Eras",
         "description": "Add an era to your timeline",
+        "min": 0,
         "optional": true,
         "field": {
           "name": "anera",

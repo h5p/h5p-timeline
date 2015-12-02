@@ -16,6 +16,14 @@
         "description": "Voit muuttaa zoomauksen oletustasoa. Arvo vastaa zoomausnapin painallusta. Negatiivinen arvo vastaa loitonnusta ja positiivinen lähennystä. Oletusarvo on 0."
       },
       {
+        "label": "Background image",
+        "description": "An image to display as background."
+      },
+      {
+        "label": "Height",
+        "description": "The height in pixels"
+      },
+      {
         "label": "Media",
         "description": "Voit laittaa \"etusivulle\" mediaa.",
         "fields": [
