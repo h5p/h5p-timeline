@@ -60,11 +60,12 @@
     };
 
     self.on('enterFullScreen', function () {
-      this.$container.css('height', '100%');
+      self.$container.css('height', '100%');
+      $(window).trigger('resize');
     });
 
     self.on('exitFullScreen', function () {
-      this.$container.css('height', self.options.timeline.height + 'px');
+      self.$container.css('height', self.options.timeline.height + 'px');
     });
   };
 
