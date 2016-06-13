@@ -1,0 +1,216 @@
+{
+  "semantics": [
+    {
+
+      "fields":
+      [
+        {
+
+          "label": "Überschrift",
+          "description": "Hauptüberschrift des Zeitstrahls wird hier platziert (erste Seite)"
+        },
+        {
+
+          "label": "Bodytext",
+
+          "description": "Der Haupttext des Zeitstrahls wird hier platziert (erste Seite).",
+
+          "tags":
+          [
+
+          ]
+        },
+        {
+
+          "label": "Standard Zoomlevel",
+          "default": "0",
+
+          "description": "Hier wird das Standrad-Zoomlevel angepasst. Über den Hinein- und Herauszoombutton werden die Zoom-Werte bestimmt. Negative Zahlen zoomen hinaus, der Standard ist 0"
+        },
+        {
+
+          "label": "Hintergrundbild",
+
+          "description": "Ein Bild, das als Hintergrundbild angezeigt wird."
+        },
+        {
+
+          "label": "Höhe",
+          "description": "Die Höhe in Pixeln",
+
+        },
+        {
+
+          "label": "Vorteil",
+          "description": "Hier kann ein Vorteil zum Zeitstrahl hinzugefügt werden \"Hauptseite\"",
+
+          "fields": [
+            {
+
+              "label": "Medien",
+              "description": "Link zur Medien URL (Twitter, YouTube, Flickr, Vimeo, Google Maps und SoundCloud werden momentan unterstützt)",
+
+            },
+            {
+
+              "label": "Credits",
+              "description": "Credits der Medien",
+
+            },
+            {
+
+              "label": "Bildunterschrift",
+              "description": "Hier die Bildunterschrift eintragen",
+
+            }
+          ]
+        },
+        {
+
+          "label": "Daten",
+
+          "description": "Ein paar Daten in die Zeitleiste einfügen!",
+          "field": {
+
+            "label": "Datum",
+            "description": "Datum",
+            "fields":
+            [
+              {
+
+                "label": "Startdatum",
+                "description": "YYYY,MM,DD (Minimum YYYY benötigt)",
+                "regexp": {
+                  "pattern": "^-?\\d{1,}(,(1[012]|[0]?[1-9])(,([12][0-9]|3[01]|[0]?[1-9]))?)?$"
+                }
+              },
+              {
+
+                "label": "Enddatum",
+                "description": "YYYY,MM,DD (Minimum YYYY benötigt)",
+
+                "regexp": {
+                  "pattern": "^-?\\d{1,}(,(1[012]|[0]?[1-9])(,([12][0-9]|3[01]|[0]?[1-9]))?)?$"
+                }
+              },
+              {
+
+                "label": "Überschrift",
+                "description": "Überschrift für das Eintragsdatum"
+              },
+              {
+
+                "label": "Bodytext",
+
+                "description": "Body für das Eintragungsdatum",
+                "tags":
+                [
+
+                ]
+              },
+              {
+
+                "label": "Tags",
+                "description": "Tags einfügen (Kategorien)",
+
+              },
+              {
+
+                "label": "Vorteil",
+                "description": "",
+
+                "fields": [
+                  {
+
+                    "label": "Medien",
+                    "description": "URL zu den Medien (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps und SoundCloud werden momentan unterstützt).",
+
+                  },
+                  {
+
+                    "label": "Vorschaubild",
+                    "description": "Ein Vorschaubild hinzufügen falls benötigt, 32x32",
+
+                  },
+                  {
+
+                    "label": "Credit",
+                    "description": "Credits der Medien",
+
+                  },
+                  {
+
+                    "label": "Bildunterschrift",
+                    "description": "Bildunterschriftstext",
+
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+
+          "label": "Epochen",
+          "description": "Eine Epoche zur Zeitleiste hinzufügen",
+
+          "field": {
+
+            "label": "Epoche",
+
+            "fields":
+            [
+              {
+
+                "label": "Startdatum",
+                "description": "YYYY,MM,DD (Minimum YYYY benötigt)",
+                "regexp": {
+                  "pattern": "^-?\\d{1,}(,(1[012]|[0]?[1-9])(,([12][0-9]|3[01]|[0]?[1-9]))?)?$"
+                }
+              },
+              {
+
+                "label": "Enddatum",
+                "description": "YYYY,MM,DD (Minimum YYYY benötigt)",
+
+                "regexp": {
+                  "pattern": "^-?\\d{1,}(,(1[012]|[0]?[1-9])(,([12][0-9]|3[01]|[0]?[1-9]))?)?$"
+                }
+              },
+              {
+
+                "label": "Überschrift",
+                "description": "Epochenüberschrift"
+              },
+              {
+
+                "label": "Text",
+
+                "description": "Epochentext",
+                "tags":
+                [
+
+                ]
+              },
+              {
+
+                "label": "Tag",
+                "description": "Epochen Tags (Kategorien)",
+
+              }
+            ]
+          }
+        },
+        {
+
+          "label": "Sprache",
+
+          "description": "Die Sprache des Benutzerinterfaces",
+          "options": [
+
+          ],
+
+        }
+      ]
+    }
+  ]
