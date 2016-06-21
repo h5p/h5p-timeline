@@ -2,8 +2,8 @@
   "title": "Timeline",
   "description": "Create good loking timelines",
   "majorVersion": 1,
-  "minorVersion": 0,
-  "patchVersion": 16,
+  "minorVersion": 1,
+  "patchVersion": 0,
   "runnable": 1,
   "fullscreen": 1,
   "machineName": "H5P.Timeline",
@@ -11,7 +11,7 @@
     {
       "machineName": "TimelineJS",
       "majorVersion": 1,
-      "minorVersion": 0
+      "minorVersion": 1
     }
   ],
   "author": "Thomas Knudsen",
