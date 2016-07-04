@@ -4,45 +4,45 @@
       "fields": [
         {
           "label": "Titre",
-          "description": "Entête principale ici (première page)"
+          "description": "Ecrivez ici le titre principal de la frise chronologique (première page)"
         },
         {
-          "label": "Corps du Texte",
-          "description": "The main timeline body goes here (première page)."
+          "label": "Texte d'introducion",
+          "description": "Ecrivez ici le contenu principal de la frise chronologique (première page)."
         },
         {
-          "label": "Niveau zoom par défaut",
-          "description": "Cela adaptera le niveau du zoom par défaut. revient à utiliser les boutons spécifiques aggrandir ou zoom arrière. Nombres négatifs zoom arrière. defaut est 0"
+          "label": "Niveau de zoom par défaut",
+          "description": "Cela altèrera le niveau de zoom par défaut. Cela revient à utiliser les boutons pour zoomer ou dézoomer. Un nombre négatif permet de dézoomer. Par défaut, la valeur est 0."
         },
         {
-          "label": "Background image",
-          "description": "An image to display as background."
+          "label": "Image d'arrière-plan'",
+          "description": "Affiche une image de fond."
         },
         {
-          "label": "Height",
-          "description": "The height in pixels"
+          "label": "Hauteur",
+          "description": "La hauteur en pixels"
         },
         {
-          "label": "Avantage",
-          "description": "Ici vous pouvez ajouter un avantage à votre chronologie \"Page de garde\"",
+          "label": "Média",
+          "description": "Ici vous pouvez ajouter un média à la \"page de garde\" de votre frise chronologique.",
           "fields": [
             {
-              "label": "Media",
-              "description": "Liens vers les medias URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud sont autorisés)"
+              "label": "Fichier média",
+              "description": "Lien vers l'URL du fichier média (Twitter, YouTube, Flickr, Vimeo, Google Maps et SoundCloud sont autorisés à l'heure actuelle)"
             },
             {
-              "label": "Credits",
-              "description": "Credits aux medias"
+              "label": "Crédits",
+              "description": "Crédits du fichier média"
             },
             {
               "label": "Légende",
-              "description": "Légende ici"
+              "description": "Saisissez ici la légende du fichier média"
             }
           ]
         },
         {
           "label": "Dates",
-          "description": "Ajouter des dates à votre chronologie!",
+          "description": "Ajoutez des dates à votre frise chronologique !",
           "field": {
             "label": "Date",
             "description": "Date",
@@ -59,35 +59,35 @@
               },
               {
                 "label": "Titre",
-                "description": "Titre pour la date début"
+                "description": "Titre de l'événement"
               },
               {
-                "label": "corps du texte",
-                "description": "corps pour la date de début"
+                "label": "Contenu",
+                "description": "Contenu de l'événement"
               },
               {
-                "label": "Tags",
-                "description": "Enter Tags (categories)"
+                "label": "Etiquettes",
+                "description": "Saisissez les étiquettes (catégories)"
               },
               {
-                "label": "Avantages",
+                "label": "Média",
                 "description": "",
                 "fields": [
                   {
-                    "label": "Media",
-                    "description": "URL vers les medias (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud sont autorisés )."
+                    "label": "Fichier média",
+                    "description": "Lien vers l'URL du fichier média (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps et SoundCloud sont autorisés à l'heure actuelle)."
                   },
                   {
-                    "label": "Miniature",
-                    "description": "ajouter une miniature si besoin, 32x32"
+                    "label": "Image miniature",
+                    "description": "Ajoutez au besoin une miniature 32x32"
                   },
                   {
-                    "label": "Credit",
-                    "description": "Credits to the media"
+                    "label": "Crédits",
+                    "description": "Crédits du fichier média"
                   },
                   {
-                    "label": "légende",
-                    "description": "Texte de légende"
+                    "label": "Légende",
+                    "description": "Légende du fichier média"
                   }
                 ]
               }
@@ -95,8 +95,8 @@
           }
         },
         {
-          "label": "période",
-          "description": "ajouter une période à votre chronologie",
+          "label": "Périodes",
+          "description": "Ajoutez une période à votre frise chronologique",
           "field": {
             "label": "Période",
             "description": "",
@@ -116,19 +116,19 @@
                 "description": "Titre de la période"
               },
               {
-                "label": "Texte",
-                "description": "corps de la période"
+                "label": "Contenu",
+                "description": "Contenu de la période"
               },
               {
-                "label": "Tag",
-                "description": "période tags (categories)"
+                "label": "Etiquette",
+                "description": "Etiquettes de la période (catégories)"
               }
             ]
           }
         },
         {
-          "label": "Langues",
-          "description": "Choisissez votre langue",
+          "label": "Langue",
+          "description": "Choisissez la langue de l'interface",
           "options": [
             {
               "label": "Africain"
@@ -149,7 +149,7 @@
               "label": "Catalan"
             },
             {
-              "label": "Chinoix"
+              "label": "Chinois"
             },
             {
               "label": "Croate/ Hrvatski"
@@ -191,16 +191,16 @@
               "label": "Galice"
             },
             {
-              "label": "Georgian"
+              "label": "Géorgien"
             },
             {
-              "label": "German / Deutsch"
+              "label": "Allemand / Deutsch"
             },
             {
-              "label": "Grecque"
+              "label": "Grec"
             },
             {
-              "label": "Hebreux"
+              "label": "Hébreu"
             },
             {
               "label": "Hongrois"
@@ -209,25 +209,25 @@
               "label": "Icelandais"
             },
             {
-              "label": "Indonesien"
+              "label": "Indonésien"
             },
             {
               "label": "Italien"
             },
             {
-              "label": "Japanese"
+              "label": "Japonais"
             },
             {
-              "label": "Korean"
+              "label": "Coréen"
             },
             {
               "label": "Latvian"
             },
             {
-              "label": "Lithuanian"
+              "label": "Lithuanien"
             },
             {
-              "label": "Luxembourgish"
+              "label": "Luxembourgeois"
             },
             {
               "label": "Malay"
@@ -236,58 +236,58 @@
               "label": "Nepali"
             },
             {
-              "label": "Norwegian"
+              "label": "Norvégien"
             },
             {
-              "label": "Polish"
+              "label": "Polonais"
             },
             {
-              "label": "Portuguese"
+              "label": "Portugais"
             },
             {
-              "label": "Portuguese (Brazilian)"
+              "label": "Portugais (Brésilien)"
             },
             {
-              "label": "Romansh"
+              "label": "Romanche"
             },
             {
-              "label": "Russian"
+              "label": "Russe"
             },
             {
-              "label": "Serbian - Cyrillic"
+              "label": "Serbe - Cyrillic"
             },
             {
-              "label": "Serbian - Latin"
+              "label": "Serbe - Latin"
             },
             {
               "label": "Sinhalese"
             },
             {
-              "label": "Slovak"
+              "label": "Slovaque"
             },
             {
-              "label": "Slovenian"
+              "label": "Slovénien"
             },
             {
-              "label": "Spanish"
+              "label": "Espagnol"
             },
             {
-              "label": "Swedish"
+              "label": "Suédois"
             },
             {
               "label": "Tagalog"
             },
             {
-              "label": "Tamil"
+              "label": "Tamoul"
             },
             {
-              "label": "Taiwanese"
+              "label": "Taiwanais"
             },
             {
               "label": "Telugu"
             },
             {
-              "label": "Turkish"
+              "label": "Turc"
             },
             {
               "label": "Ukrainien"
