@@ -66,6 +66,7 @@
 
     self.on('exitFullScreen', function () {
       self.$container.css('height', self.options.timeline.height + 'px');
+      $(window).trigger('resize');
     });
   };
 
