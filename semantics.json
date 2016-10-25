@@ -1,6 +1,7 @@
 [
   {
     "name": "timeline",
+    "label": "Timeline",
     "type": "group",
     "expanded": true,
     "fields":
