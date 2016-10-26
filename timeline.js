@@ -66,6 +66,7 @@
 
     self.on('exitFullScreen', function () {
       self.$container.css('height', self.options.timeline.height + 'px');
+      $(window).trigger('resize');
     });
   };
 
@@ -93,28 +94,33 @@
    * Attatch the Timeline HTML to a given target.
    **/
   C.prototype.attach = function ($container) {
-    this.$container = $container;
-    $container.addClass('h5p-timeline').css('height', this.options.timeline.height + 'px');
+    var self = this;
+
+    self.$container = $container;
+    $container.addClass('h5p-timeline').css('height', self.options.timeline.height + 'px');
     $container.append($('<div>', {id: 'h5p-timeline'}));
 
     // Need to set this to make timeline behave correctly:
     window.jQuery = $;
 
-    if (this.validate()) {
-      createStoryJS({
-        type: 'timeline',
-        width: '100%',
-        height: '100%',
-        source: this.options,
-        lang: this.options.timeline.language,
-        start_zoom_adjust: this.options.timeline.defaultZoomLevel,
-        embed_id: 'h5p-timeline'
-      });
+    if (self.validate()) {
+      // Load library.json - need to inform TimelineJS which version it is
+      $.getJSON(self.getLibraryFilePath('library.json'), function (data) {
+        new TimelineJS({
+          type: 'timeline',
+          width: '100%',
+          height: '100%',
+          source: self.options,
+          lang: self.options.timeline.language,
+          start_zoom_adjust: self.options.timeline.defaultZoomLevel,
+          embed_id: 'h5p-timeline'
+        }, data.preloadedDependencies[0].majorVersion, data.preloadedDependencies[0].minorVersion);
 
-      // Add background image if any:
-      if (this.options.timeline.backgroundImage !== undefined) {
-        this.setBackgroundImage(this.options.timeline.backgroundImage);
-      }
+        // Add background image if any:
+        if (self.options.timeline.backgroundImage !== undefined) {
+          self.setBackgroundImage(self.options.timeline.backgroundImage);
+        }
+      });
     }
     else {
       $container.append($('<div>', {
