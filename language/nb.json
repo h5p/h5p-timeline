@@ -1,0 +1,194 @@
+{
+  "semantics": [
+    {
+      "fields": [
+        {
+          "englishLabel": "Headline",
+          "label": "Overskrift",
+          "englishDescription": "Main timeline heading goes here (first page)",
+          "description": "Hoved-overskriften for tidslinjen"
+        },
+        {
+          "englishLabel": "Body Text",
+          "label": "Tekst",
+          "englishDescription": "The main timeline body goes here (first page).",
+          "description": "Utfyllende tekst"
+        },
+        {
+          "englishLabel": "Default zoom level",
+          "label": "Normal-verdi for forstørrelse",
+          "englishDefault": "0",
+          "default": "0",
+          "englishDescription": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0",
+          "description": "Sett normal-verdi for forstørrelse. Dette gir samme funksjonalitet som å forstørre eller forminske i verktøyet. Negative nummer forminsker tidslinjen."
+        },
+        {
+          "englishLabel": "Background image",
+          "label": "Bakgrunnsbilde",
+          "englishDescription": "An image to display as background.",
+          "description": "Bildet vil vises i bakgrunnen"
+        },
+        {
+          "englishLabel": "Height",
+          "label": "Høyde",
+          "englishDescription": "The height in pixels",
+          "description": "Høyden til tidslinjen i pixeler"
+        },
+        {
+          "englishLabel": "Asset",
+          "label": "Ressurser",
+          "englishDescription": "Here you can add an asset to your timeline \"front page\"",
+          "description": "Her kan du legge til ressurser for tidslinjen",
+          "fields": [
+            {
+              "englishLabel": "Media",
+              "label": "Media",
+              "englishDescription": "Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)",
+              "description": "Link til media URL (Twitter, Youtube, Flickr, Vimeo, Google Maps og SoundCloud støttes)"
+            },
+            {
+              "englishLabel": "Credits",
+              "label": "Opphavsrett",
+              "englishDescription": "Credits to the media",
+              "description": "Opphavsretten til media"
+            },
+            {
+              "englishLabel": "Caption",
+              "label": "Beskrivende tekst",
+              "englishDescription": "Caption description goes here",
+              "description": "Beskrivende tekst for media kan legges til her"
+            }
+          ]
+        },
+        {
+          "englishLabel": "Dates",
+          "label": "Datoer",
+          "englishDescription": "Add some dates to your timeline!",
+          "description": "Legg til datoer for tidslinjen",
+          "field": {
+            "englishLabel": "Date",
+            "label": "Dato",
+            "englishDescription": "Date",
+            "description": "Dato",
+            "fields": [
+              {
+                "englishLabel": "Start date",
+                "label": "Startdato",
+                "englishDescription": "YYYY,MM,DD (Minimum YYYY required)",
+                "description": "YYYY,MM,DD (YYYY er påkrevd)"
+              },
+              {
+                "englishLabel": "End date",
+                "label": "Sluttdato",
+                "englishDescription": "YYYY,MM,DD (Minimum YYYY required)",
+                "description": "YYYY,MM,DD (YYYY er påkrevd)"
+              },
+              {
+                "englishLabel": "Headline",
+                "label": "Overskrift",
+                "englishDescription": "Headline for the date entry",
+                "description": "Overskrift for dato"
+              },
+              {
+                "englishLabel": "Body text",
+                "label": "Utfyllende text",
+                "englishDescription": "Body for the date entry",
+                "description": "Utfyllende tekst for datoen"
+              },
+              {
+                "englishLabel": "Tags",
+                "label": "Stikkord",
+                "englishDescription": "Enter Tags (categories)",
+                "description": "Stikkord (kategorier)"
+              },
+              {
+                "englishLabel": "Asset",
+                "label": "Ressurs",
+                "englishDescription": "",
+                "description": "",
+                "fields": [
+                  {
+                    "englishLabel": "Media",
+                    "label": "Media",
+                    "englishDescription": "URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported).",
+                    "description": "URL til media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud støttes)."
+                  },
+                  {
+                    "englishLabel": "Thumbnail",
+                    "label": "Miniatyrbilde",
+                    "englishDescription": "Add a thumbnail if needed, 32x32",
+                    "description": "Legg til et miniatyrbilde, 32x32"
+                  },
+                  {
+                    "englishLabel": "Credit",
+                    "label": "Opphavsrett",
+                    "englishDescription": "Credits to the media",
+                    "description": "Opphavsrett for media"
+                  },
+                  {
+                    "englishLabel": "Caption",
+                    "label": "Tekstlig beskrivelse",
+                    "englishDescription": "Caption text",
+                    "description": "Tekstlig beskrivelse av media"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "englishLabel": "Eras",
+          "label": "Periode",
+          "englishDescription": "Add an era to your timeline",
+          "description": "Legg til en periode til tidslinjen",
+          "field": {
+            "englishLabel": "Era",
+            "label": "Periode",
+            "englishDescription": "",
+            "description": "",
+            "fields": [
+              {
+                "englishLabel": "Start date",
+                "label": "Startdato",
+                "englishDescription": "YYYY,MM,DD (Minimum YYYY required)",
+                "description": "YYYY,MM,DD (YYYY er påkrevd)"
+              },
+              {
+                "englishLabel": "End date",
+                "label": "Sluttdato",
+                "englishDescription": "YYYY,MM,DD (Minimum YYYY required)",
+                "description": "YYYY,MM,DD (YYYY er påkrevd)"
+              },
+              {
+                "englishLabel": "Headline",
+                "label": "Overskrift",
+                "englishDescription": "Era headline",
+                "description": "Periodens overskrift"
+              },
+              {
+                "englishLabel": "Text",
+                "label": "Utfyllende tekst",
+                "englishDescription": "Era body",
+                "description": "Utfyllende tekst for perioden"
+              },
+              {
+                "englishLabel": "Tag",
+                "label": "Stikkord",
+                "englishDescription": "Era tags (categories)",
+                "description": "Stikkord for perioden (kategorier)"
+              }
+            ]
+          }
+        },
+        {
+          "englishLabel": "Language",
+          "label": "Språk",
+          "englishDescription": "The language of the user interface",
+          "description": "Språk for grensesnittet",
+          "options": [
+          ]
+        }
+      ]
+    }
+  ]
+}
