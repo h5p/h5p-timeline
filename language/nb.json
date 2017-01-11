@@ -185,8 +185,7 @@
           "label": "Språk",
           "englishDescription": "The language of the user interface",
           "description": "Språk for grensesnittet",
-          "options": [
-          ]
+          "options": []
         }
       ]
     }
