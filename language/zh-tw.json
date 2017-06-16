@@ -1,0 +1,301 @@
+{
+  "semantics": [
+    {
+      "label": "時間軸",
+      "fields": [
+        {
+          "label": "標題",
+          "description": "主時間軸標題在這裡 (首頁)"
+        },
+        {
+          "label": "內文",
+          "description": "主時間軸內文在這裡 (首頁)."
+        },
+        {
+          "label": "預設的縮放層級",
+          "description": "這將調整預設的縮放層級. 等同於按放大或縮小按鈕指定的次數. 負數代表縮小. 預設值為0."
+        },
+        {
+          "label": "背景圖",
+          "description": "一張圖片以背景圖的方式顯示."
+        },
+        {
+          "label": "高度",
+          "description": "以像素為單位的高度"
+        },
+        {
+          "label": "資產",
+          "description": "在這裡您可以將資產添加到時間軸 \"首頁\"",
+          "fields": [
+            {
+              "label": "媒體",
+              "description": "媒體網址的連結 (Twitter, YouTube, Flickr, Vimeo, Google Maps 和 SoundCloud 是目前支援的)"
+            },
+            {
+              "label": "信賴",
+              "description": "信賴的媒體"
+            },
+            {
+              "label": "標題",
+              "description": "標題描述在這裡"
+            }
+          ]
+        },
+        {
+          "label": "日期",
+          "description": "將日期加入到您的時間軸!",
+          "field": {
+            "label": "日期",
+            "description": "日期",
+            "fields": [
+              {
+                "label": "開始日期",
+                "description": "YYYY,MM,DD (要求最小年份 YYYY)",
+                "regexp": {}
+              },
+              {
+                "label": "結束日期",
+                "description": "YYYY,MM,DD (要求最小年份 YYYY)",
+                "regexp": {}
+              },
+              {
+                "label": "標題",
+                "description": "日期條目的標題"
+              },
+              {
+                "label": "內文文本",
+                "description": "日期條目的內文"
+              },
+              {
+                "label": "標籤",
+                "description": "輸入標籤 (類別)"
+              },
+              {
+                "label": "資產",
+                "description": "",
+                "fields": [
+                  {
+                    "label": "媒體",
+                    "description": "媒體網址 (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps 和 SoundCloud 是目前支援的)."
+                  },
+                  {
+                    "label": "縮圖",
+                    "description": "如果需要, 新增縮圖, 32x32"
+                  },
+                  {
+                    "label": "信賴",
+                    "description": "信賴的媒體"
+                  },
+                  {
+                    "label": "標題",
+                    "description": "標題文本"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "年代",
+          "description": "將年代加入到您的時間軸",
+          "field": {
+            "label": "年代",
+            "description": "",
+            "fields": [
+              {
+                "label": "開始日期",
+                "description": "YYYY,MM,DD (要求最小年份 YYYY )",
+                "regexp": {}
+              },
+              {
+                "label": "結束日期",
+                "description": "YYYY,MM,DD (要求最小年份 YYYY )",
+                "regexp": {}
+              },
+              {
+                "label": "標題",
+                "description": "年代標題"
+              },
+              {
+                "label": "文本",
+                "description": "年代文本"
+              },
+              {
+                "label": "標籤",
+                "description": "年代標籤 (類別)"
+              }
+            ]
+          }
+        },
+        {
+          "label": "語系",
+          "description": "使用者界面的語系",
+          "options": [
+            {
+              "label": "南非荷蘭語"
+            },
+            {
+              "label": "阿拉伯語"
+            },
+            {
+              "label": "亞美尼亞語"
+            },
+            {
+              "label": "巴斯克語"
+            },
+            {
+              "label": "保加利亞語"
+            },
+            {
+              "label": "加泰羅尼亞語"
+            },
+            {
+              "label": "中文"
+            },
+            {
+              "label": "克羅地亞語 / Hrvatski"
+            },
+            {
+              "label": "捷克語"
+            },
+            {
+              "label": "丹麥語"
+            },
+            {
+              "label": "荷蘭語"
+            },
+            {
+              "label": "英語"
+            },
+            {
+              "label": "英語 (24小時制)"
+            },
+            {
+              "label": "世界語"
+            },
+            {
+              "label": "愛沙尼亞語"
+            },
+            {
+              "label": "法羅語"
+            },
+            {
+              "label": "波斯語"
+            },
+            {
+              "label": "芬蘭語"
+            },
+            {
+              "label": "法語"
+            },
+            {
+              "label": "加利西亞語"
+            },
+            {
+              "label": "格魯吉亞語"
+            },
+            {
+              "label": "德語"
+            },
+            {
+              "label": "希臘語"
+            },
+            {
+              "label": "希伯來語"
+            },
+            {
+              "label": "匈牙利語"
+            },
+            {
+              "label": "冰島語"
+            },
+            {
+              "label": "印度尼西亞語"
+            },
+            {
+              "label": "義大利語"
+            },
+            {
+              "label": "日語"
+            },
+            {
+              "label": "韓語"
+            },
+            {
+              "label": "拉脫維亞語"
+            },
+            {
+              "label": "立陶宛語"
+            },
+            {
+              "label": "盧森堡語"
+            },
+            {
+              "label": "馬來語"
+            },
+            {
+              "label": "尼泊爾語"
+            },
+            {
+              "label": "挪威語"
+            },
+            {
+              "label": "波蘭語"
+            },
+            {
+              "label": "葡萄牙語"
+            },
+            {
+              "label": "葡萄牙語 (巴西)"
+            },
+            {
+              "label": "列支羅曼語"
+            },
+            {
+              "label": "俄語"
+            },
+            {
+              "label": "塞爾維亞語 - 西里爾語"
+            },
+            {
+              "label": "塞爾維亞語 - 拉丁語"
+            },
+            {
+              "label": "僧伽羅語"
+            },
+            {
+              "label": "斯洛伐克語"
+            },
+            {
+              "label": "斯洛文尼亞語"
+            },
+            {
+              "label": "西班牙語"
+            },
+            {
+              "label": "瑞典語"
+            },
+            {
+              "label": "他加祿語"
+            },
+            {
+              "label": "泰米爾語"
+            },
+            {
+              "label": "正體中文"
+            },
+            {
+              "label": "泰盧固語"
+            },
+            {
+              "label": "土耳其語"
+            },
+            {
+              "label": "烏克蘭語"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
