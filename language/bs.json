@@ -13,7 +13,6 @@
         },
         {
           "label":"Zadani stepen zumiranja",
-          "default":"0",
           "description":"Ovdje se unosi vrijednost stepena zumiranja. Svaki broj predstavlja broj klikova za uvećanje ili umanjenje. Negativni brojevi označavaju umanjenje. Zadani stepen zumiranja je 0"
         },
         {
@@ -302,8 +301,7 @@
             {
               "label":"Ukrajinski"
             }
-          ],
-          "default":"en"
+          ]
         }
       ]
     }
