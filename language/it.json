@@ -13,6 +13,7 @@
         },
         {
           "label":"Livello di zoom predefinito",
+          "default":"0",
           "description":"Questo modifica il livello di zoom predefinito. Equivale a premere il tasto zoom-in o zoom-out il numero di volte specificato. I numeri negativi indicano i valori di zoom-out. Il valore di default è 0."
         },
         {
@@ -301,7 +302,8 @@
             {
               "label":"Ukrainian"
             }
-          ]
+          ],
+          "default":"en"
         }
       ]
     }
