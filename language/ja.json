@@ -4,7 +4,7 @@
       "label":"タイムライン",
       "fields":[
         {
-          "label":"Headline",
+          "label":"見出し",
           "description":"Main timeline heading goes here (first page)"
         },
         {
