@@ -13,6 +13,7 @@
         },
         {
           "label":"Vorgabe-Zoomstufe",
+          "default":"0",
           "description":"Hier wird der Vorgabewert für die Zoomstufe eingestellt. Entspricht dem entsprechend mehrmaligen Drücken des Buttons zum Hinein- oder Herauszoomen. Negative Zahlen zoomenen heraus. Vorgabe ist 0."
         },
         {
@@ -301,7 +302,8 @@
             {
               "label":"Ukrainisch"
             }
-          ]
+          ],
+          "default":"en"
         }
       ]
     }
