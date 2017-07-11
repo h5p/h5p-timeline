@@ -5,7 +5,7 @@
       "fields":[
         {
           "label":"見出し",
-          "description":"Main timeline heading goes here (first page)"
+          "description":"メインのタイムライン上の見出しはここ (最初のページ)"
         },
         {
           "label":"Body Text",
