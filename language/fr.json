@@ -13,6 +13,7 @@
         },
         {
           "label":"Niveau de zoom par défaut",
+          "default":"0",
           "description":"Cela altèrera le niveau de zoom par défaut. Cela revient à utiliser les boutons pour zoomer ou dézoomer. Un nombre négatif permet de dézoomer. Par défaut, la valeur est 0."
         },
         {
@@ -301,7 +302,8 @@
             {
               "label":"Ukrainien"
             }
-          ]
+          ],
+          "default":"en"
         }
       ]
     }
