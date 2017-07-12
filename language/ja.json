@@ -26,11 +26,11 @@
         },
         {
           "label":"アセット",
-          "description":"Here you can add an asset to your timeline \"front page\"",
+          "description":"タイムラインの「フロントページ」にアセットを追加できます。",
           "fields":[
             {
               "label":"メディア",
-              "description":"Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)"
+              "description":"メディアの URL へのリンク（Twitter、YouTube、Flickr、Vimeo、Google マップ、SoundCloud が現在サポートされています）"
             },
             {
               "label":"クレジット",
@@ -38,13 +38,13 @@
             },
             {
               "label":"見出し",
-              "description":"Caption description goes here"
+              "description":"見出しの説明がここに入ります"
             }
           ]
         },
         {
           "label":"日付",
-          "description":"Add some dates to your timeline!",
+          "description":"タイムラインにいくつかの日付を追加 !",
           "field":{
             "label":"日付",
             "description":"日付",
@@ -81,11 +81,11 @@
                 "fields":[
                   {
                     "label":"メディア",
-                    "description":"URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported)."
+                    "description":"メディアの URL へのリンク（Twitter、YouTube、Vimeo、Wikipedia、Google マップ、SoundCloud が現在サポートされています）"
                   },
                   {
                     "label":"サムネイル",
-                    "description":"Add a thumbnail if needed, 32x32"
+                    "description":"必要なら32x32のサムネイルを追加してください。"
                   },
                   {
                     "label":"クレジット",
