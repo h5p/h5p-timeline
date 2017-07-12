@@ -17,11 +17,11 @@
           "description":"This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
         },
         {
-          "label":"Background image",
+          "label":"背景画像",
           "description":"An image to display as background."
         },
         {
-          "label":"Height",
+          "label":"高さ",
           "description":"The height in pixels"
         },
         {
@@ -29,12 +29,12 @@
           "description":"Here you can add an asset to your timeline \"front page\"",
           "fields":[
             {
-              "label":"Media",
+              "label":"メディア",
               "description":"Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)"
             },
             {
-              "label":"Credits",
-              "description":"Credits to the media"
+              "label":"クレジット",
+              "description":"メディアのクレジット"
             },
             {
               "label":"Caption",
@@ -43,32 +43,32 @@
           ]
         },
         {
-          "label":"Dates",
+          "label":"日付",
           "description":"Add some dates to your timeline!",
           "field":{
-            "label":"Date",
-            "description":"Date",
+            "label":"日付",
+            "description":"日付",
             "fields":[
               {
-                "label":"Start date",
-                "description":"YYYY,MM,DD (Minimum YYYY required)",
+                "label":"開始日",
+                "description":"YYYY.MM.DD (YYYYは必須)",
                 "regexp":{
                   
                 }
               },
               {
-                "label":"End date",
-                "description":"YYYY,MM,DD (Minimum YYYY required)",
+                "label":"終了日",
+                "description":"YYYY.MM.DD (YYYYは必須)",
                 "regexp":{
                   
                 }
               },
               {
-                "label":"Headline",
-                "description":"Headline for the date entry"
+                "label":"見出し",
+                "description":"日付エントリの見出し"
               },
               {
-                "label":"Body text",
+                "label":"本文テキスト",
                 "description":"Body for the date entry"
               },
               {
