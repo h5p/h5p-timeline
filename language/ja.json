@@ -25,7 +25,7 @@
           "description":"The height in pixels"
         },
         {
-          "label":"Asset",
+          "label":"アセット",
           "description":"Here you can add an asset to your timeline \"front page\"",
           "fields":[
             {
@@ -37,7 +37,7 @@
               "description":"メディアのクレジット"
             },
             {
-              "label":"Caption",
+              "label":"見出し",
               "description":"Caption description goes here"
             }
           ]
@@ -69,31 +69,31 @@
               },
               {
                 "label":"本文テキスト",
-                "description":"Body for the date entry"
+                "description":"日付エントリの本文"
               },
               {
-                "label":"Tags",
-                "description":"Enter Tags (categories)"
+                "label":"タグ",
+                "description":"タグを入力（カテゴリ）"
               },
               {
-                "label":"Asset",
+                "label":"アセット",
                 "description":"",
                 "fields":[
                   {
-                    "label":"Media",
+                    "label":"メディア",
                     "description":"URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported)."
                   },
                   {
-                    "label":"Thumbnail",
+                    "label":"サムネイル",
                     "description":"Add a thumbnail if needed, 32x32"
                   },
                   {
-                    "label":"Credit",
-                    "description":"Credits to the media"
+                    "label":"クレジット",
+                    "description":"メディアのクレジット"
                   },
                   {
-                    "label":"Caption",
-                    "description":"Caption text"
+                    "label":"見出し",
+                    "description":"見出しテキスト"
                   }
                 ]
               }
@@ -109,24 +109,24 @@
             "fields":[
               {
                 "label":"Start date",
-                "description":"YYYY,MM,DD (Minimum YYYY required)",
+                "description":"YYYY.MM.DD (YYYYは必須)",
                 "regexp":{
                   
                 }
               },
               {
-                "label":"End date",
-                "description":"YYYY,MM,DD (Minimum YYYY required)",
+                "label":"終了日",
+                "description":"YYYY.MM.DD (YYYYは必須)",
                 "regexp":{
                   
                 }
               },
               {
-                "label":"Headline",
+                "label":"見出し",
                 "description":"Era headline"
               },
               {
-                "label":"Text",
+                "label":"テキスト",
                 "description":"Era body"
               },
               {
@@ -137,56 +137,56 @@
           }
         },
         {
-          "label":"Language",
+          "label":"言語",
           "description":"The language of the user interface",
           "options":[
             {
               "label":"Afrikaans"
             },
             {
-              "label":"Arabic"
+              "label":"アラビア語"
             },
             {
-              "label":"Armenian"
+              "label":"アルメニア語"
             },
             {
-              "label":"Basque"
+              "label":"バスク語"
             },
             {
-              "label":"Bulgarian"
+              "label":"ブルガリア語"
             },
             {
-              "label":"Catalan"
+              "label":"カタロニア語"
             },
             {
-              "label":"Chinese"
+              "label":"中国語"
             },
             {
-              "label":"Croatian / Hrvatski"
+              "label":"クロアチア語 / ウルグアイアン"
             },
             {
-              "label":"Czech"
+              "label":"チェコ語"
             },
             {
-              "label":"Danish"
+              "label":"デンマーク語"
             },
             {
-              "label":"Dutch"
+              "label":"オランダ語"
             },
             {
-              "label":"English"
+              "label":"英語"
             },
             {
-              "label":"English (24-hour time)"
+              "label":"英語（24 時間）"
             },
             {
-              "label":"Esperanto"
+              "label":"エスペラント語"
             },
             {
-              "label":"Estonian"
+              "label":"エストニア語"
             },
             {
-              "label":"Faroese"
+              "label":"フェロー語"
             },
             {
               "label":"Farsi"
@@ -231,76 +231,76 @@
               "label":"Korean"
             },
             {
-              "label":"Latvian"
+              "label":"ラトビア語"
             },
             {
-              "label":"Lithuanian"
+              "label":"リトアニア語"
             },
             {
-              "label":"Luxembourgish"
+              "label":"ルクセンブルク語"
             },
             {
-              "label":"Malay"
+              "label":"マレーシア語"
             },
             {
-              "label":"Nepali"
+              "label":"ネパール語"
             },
             {
-              "label":"Norwegian"
+              "label":"ノルウェー語"
             },
             {
-              "label":"Polish"
+              "label":"ポーランド語"
             },
             {
-              "label":"Portuguese"
+              "label":"ポルトガル語"
             },
             {
-              "label":"Portuguese (Brazilian)"
+              "label":"ポルトガル語 (ブラジル語)"
             },
             {
-              "label":"Romansh"
+              "label":"ロマンシュ語"
             },
             {
-              "label":"Russian"
+              "label":"ロシア語"
             },
             {
-              "label":"Serbian - Cyrillic"
+              "label":"セルビア語 (キリル文字)"
             },
             {
-              "label":"Serbian - Latin"
+              "label":"セルビア語（ラテン）"
             },
             {
-              "label":"Sinhalese"
+              "label":"シンハラ語"
             },
             {
-              "label":"Slovak"
+              "label":"スロバキア語"
             },
             {
-              "label":"Slovenian"
+              "label":"スロベニア語"
             },
             {
-              "label":"Spanish"
+              "label":"スペイン語"
             },
             {
-              "label":"Swedish"
+              "label":"スウェーデン語"
             },
             {
-              "label":"Tagalog"
+              "label":"タガログ語"
             },
             {
-              "label":"Tamil"
+              "label":"タミール語"
             },
             {
-              "label":"Taiwanese"
+              "label":"台湾語"
             },
             {
-              "label":"Telugu"
+              "label":"テルグ語"
             },
             {
-              "label":"Turkish"
+              "label":"トルコ語"
             },
             {
-              "label":"Ukrainian"
+              "label":"ウクライナ語"
             }
           ],
           "default":"en"
