@@ -37,8 +37,8 @@
               "description":"メディアのクレジット"
             },
             {
-              "label":"見出し",
-              "description":"見出しの説明がここに入ります"
+              "label":"キャプション",
+              "description":"キャプションの説明がここに入ります"
             }
           ]
         },
@@ -92,8 +92,8 @@
                     "description":"メディアのクレジット"
                   },
                   {
-                    "label":"見出し",
-                    "description":"見出しテキスト"
+                    "label":"キャプション",
+                    "description":"キャプションテキスト"
                   }
                 ]
               }
