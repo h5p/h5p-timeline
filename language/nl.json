@@ -3,132 +3,89 @@
     {
       "fields": [
         {
-          "englishLabel": "Headline",
           "label": "Opschrift",
-          "englishDescription": "Main timeline heading goes here (first page)",
           "description": "Hoofdopschrift van de tijdlijn komt hier (eerste pagina)"
         },
         {
-          "englishLabel": "Body Text",
           "label": "Bodytekst",
-          "englishDescription": "The main timeline body goes here (first page).",
           "description": "Hoofdbodytekst van de tijdlijn komt hier (eerste pagina)"
         },
         {
-          "englishLabel": "Default zoom level",
           "label": "Standaar zoomniveau",
-          "englishDefault": "0",
           "default": "0",
-          "englishDescription": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0",
           "description": "Dit zal het standaard zoomniveau optimaliseren. Gelijk aan het indrukken van in- of uitzoom knop verandert het beeld. Een negatief getal zoom uit. Standaard is 0"
         },
         {
-          "englishLabel": "Background image",
           "label": "Achtergrondafbeelding",
-          "englishDescription": "An image to display as background.",
           "description": "Toon een afbeelding als achtergrond"
         },
         {
-          "englishLabel": "Height",
           "label": "Hoogte",
-          "englishDescription": "The height in pixels",
           "description": "De hoogte in pixels"
         },
         {
-          "englishLabel": "Asset",
           "label": "Middel",
-          "englishDescription": "Here you can add an asset to your timeline \"front page\"",
           "description": "Hier kan je middelen aan je tijdlijn toevoegen \"voorpagina\"",
           "fields": [
             {
-              "englishLabel": "Media",
               "label": "Media",
-              "englishDescription": "Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)",
               "description": "Link naar media URL (Twitter, Youtube, Flickr, Vimeo, Google Maps and SoundCloud worden ondersteund)"
             },
             {
-              "englishLabel": "Credits",
               "label": "Auteursrechten",
-              "englishDescription": "Credits to the media",
               "description": "Auteursrechten van de media"
             },
             {
-              "englishLabel": "Caption",
               "label": "Onderschrift",
-              "englishDescription": "Caption description goes here",
               "description": "Het onderschrift van de media komt hier"
             }
           ]
         },
         {
-          "englishLabel": "Dates",
           "label": "Datums",
-          "englishDescription": "Add some dates to your timeline!",
           "description": "Voeg datums toe aan je tijdlijn",
           "field": {
-            "englishLabel": "Date",
             "label": "Datum",
-            "englishDescription": "Date",
             "description": "Datum",
             "fields": [
               {
-                "englishLabel": "Start date",
                 "label": "Startdatum",
-                "englishDescription": "YYYY,MM,DD (Minimum YYYY required)",
                 "description": "YYYY,MM,DD (YYYY is minimaal vereist)"
               },
               {
-                "englishLabel": "End date",
                 "label": "Einddatum",
-                "englishDescription": "YYYY,MM,DD (Minimum YYYY required)",
                 "description": "YYYY,MM,DD (YYYY is minimaal vereist)"
               },
               {
-                "englishLabel": "Headline",
                 "label": "Opschrift",
-                "englishDescription": "Headline for the date entry",
                 "description": "Opschrift voor de startdatum"
               },
               {
-                "englishLabel": "Body text",
                 "label": "Bodytekst",
-                "englishDescription": "Body for the date entry",
                 "description": "Bodytekst voor de startdatum"
               },
               {
-                "englishLabel": "Tags",
                 "label": "Labels",
-                "englishDescription": "Enter Tags (categories)",
                 "description": "Voeg labels in (categorieën)"
               },
               {
-                "englishLabel": "Asset",
                 "label": "Middel",
-                "englishDescription": "",
                 "description": "",
                 "fields": [
                   {
-                    "englishLabel": "Media",
                     "label": "Media",
-                    "englishDescription": "URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported).",
                     "description": "URL naar de media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps en SoundCloud worden ondersteund)."
                   },
                   {
-                    "englishLabel": "Thumbnail",
                     "label": "Miniatuurafbeelding",
-                    "englishDescription": "Add a thumbnail if needed, 32x32",
                     "description": "Voeg een miniatuurafbeelding toe indien nodig, 32x32"
                   },
                   {
-                    "englishLabel": "Credit",
                     "label": "Auteursrecht",
-                    "englishDescription": "Credits to the media",
                     "description": "Auteursrechten voor de media"
                   },
                   {
-                    "englishLabel": "Caption",
                     "label": "Onderschrift",
-                    "englishDescription": "Caption text",
                     "description": "Onderschrift bij de media"
                   }
                 ]
@@ -137,53 +94,37 @@
           }
         },
         {
-          "englishLabel": "Eras",
           "label": "Periode",
-          "englishDescription": "Add an era to your timeline",
           "description": "Voeg een periode toe aan je tijdlijn",
           "field": {
-            "englishLabel": "Era",
             "label": "Periode",
-            "englishDescription": "",
             "description": "",
             "fields": [
               {
-                "englishLabel": "Start date",
                 "label": "Startdatum",
-                "englishDescription": "YYYY,MM,DD (Minimum YYYY required)",
                 "description": "YYYY,MM,DD (YYYY is minimaal vereist)"
               },
               {
-                "englishLabel": "End date",
                 "label": "Einddatum",
-                "englishDescription": "YYYY,MM,DD (Minimum YYYY required)",
                 "description": "YYYY,MM,DD (YYYY is minimaal vereist)"
               },
               {
-                "englishLabel": "Headline",
                 "label": "Opschrift",
-                "englishDescription": "Era headline",
                 "description": "Periode opschrift"
               },
               {
-                "englishLabel": "Text",
                 "label": "tekst",
-                "englishDescription": "Era body",
                 "description": "Bodytekst voor de periode"
               },
               {
-                "englishLabel": "Tag",
                 "label": "Label",
-                "englishDescription": "Era tags (categories)",
                 "description": "Labels voor de perioden (categorieën)"
               }
             ]
           }
         },
         {
-          "englishLabel": "Language",
           "label": "Taal",
-          "englishDescription": "The language of the user interface",
           "description": "Taal van de gebruikersinterface",
           "options": []
         }
