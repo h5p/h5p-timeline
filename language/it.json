@@ -1,7 +1,7 @@
 {
   "semantics":[
     {
-      "label":"Timeline",
+      "label":"Linea temporale",
       "fields":[
         {
           "label":"Intestazione",
@@ -17,12 +17,12 @@
           "description":"Questo modifica il livello di zoom predefinito. Equivale a premere il tasto zoom-in o zoom-out il numero di volte specificato. I numeri negativi indicano i valori di zoom-out. Il valore di default è 0."
         },
         {
-          "label":"Background image",
-          "description":"An image to display as background."
+          "label":"Immagine di sfondo",
+          "description":"Un'immagine da visualizzare come sfondo."
         },
         {
-          "label":"Height",
-          "description":"The height in pixels"
+          "label":"Altezza",
+          "description":"Altezza in pixel"
         },
         {
           "label":"Risorsa",
@@ -46,7 +46,7 @@
           "label":"Date",
           "description":"Aggiungi le tue date alla timeline!",
           "field":{
-            "label":"Date",
+            "label":"Data",
             "description":"Data",
             "fields":[
               {
@@ -72,7 +72,7 @@
                 "description":"Corpo della data d'ingresso"
               },
               {
-                "label":"Tags",
+                "label":"Tag",
                 "description":"Inserisci Tags (categorie)"
               },
               {
@@ -144,10 +144,10 @@
               "label":"Afrikaans"
             },
             {
-              "label":"Arabic"
+              "label":"Arabo"
             },
             {
-              "label":"Armenian"
+              "label":"Armeno"
             },
             {
               "label":"Basque"
