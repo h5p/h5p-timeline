@@ -81,15 +81,15 @@
                 "fields":[
                   {
                     "label":"Media",
-                    "description":"URL media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps e SoundCloud sono correttamente supportati)."
+                    "description":"URL ai media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps e SoundCloud sono correttamente supportati)."
                   },
                   {
-                    "label":"immagine in miniatura",
-                    "description":"Aggiungere un'immagine in miniatura se necessario, 32x32 px"
+                    "label":"Miniatura",
+                    "description":"Aggiungere una miniatura, se necessario, 32 x 32"
                   },
                   {
-                    "label":"Reputazione",
-                    "description":"Reputazione sui media"
+                    "label":"Credito",
+                    "description":"Crediti per i media"
                   },
                   {
                     "label":"Didascalia",
@@ -102,28 +102,28 @@
         },
         {
           "label":"Epoche",
-          "description":"Aggiugni un'epoca alla tua timeline",
+          "description":"Aggiungi un'epoca alla tua timeline",
           "field":{
             "label":"Epoca",
             "description":"",
             "fields":[
               {
-                "label":"Data inizio",
-                "description":"YYYY,MM,DD (YYYY minimo richiesto)",
+                "label":"Data di inizio",
+                "description":"AAAA, MM, GG (AAAA minimo richiesto)",
                 "regexp":{
                   
                 }
               },
               {
-                "label":"Data fine",
-                "description":"YYYY,MM,DD (YYYY minimo richiesto)",
+                "label":"Data di fine",
+                "description":"AAAA, MM, GG (AAAA minimo richiesto)",
                 "regexp":{
                   
                 }
               },
               {
-                "label":"Intstazione",
-                "description":"Intestazione epoca"
+                "label":"Intestazione",
+                "description":"Intestazione dell'epoca"
               },
               {
                 "label":"Testo",
@@ -131,14 +131,14 @@
               },
               {
                 "label":"Tag",
-                "description":"Tags epoca (categorie)"
+                "description":"Tag dell'epoca (categorie)"
               }
             ]
           }
         },
         {
           "label":"Lingua",
-          "description":"Imposta la lingua dell'interfaccia utente",
+          "description":"La lingua dell'interfaccia utente",
           "options":[
             {
               "label":"Afrikaans"
@@ -192,70 +192,70 @@
               "label":"Farsi"
             },
             {
-              "label":"Finnish"
+              "label":"Finlandese"
             },
             {
-              "label":"French"
+              "label":"Francese"
             },
             {
-              "label":"Galician"
+              "label":"Galiziano"
             },
             {
-              "label":"Georgian"
+              "label":"Georgiano"
             },
             {
-              "label":"German / Deutsch"
+              "label":"Tedesco / Deutsch"
             },
             {
-              "label":"Greek"
+              "label":"Greco"
             },
             {
-              "label":"Hebrew"
+              "label":"Ebraico"
             },
             {
-              "label":"Hungarian"
+              "label":"Ungherese"
             },
             {
-              "label":"Icelandic"
+              "label":"Islandese"
             },
             {
-              "label":"Indonesian"
+              "label":"Indonesiano"
             },
             {
-              "label":"Italian"
+              "label":"Italiano"
             },
             {
-              "label":"Japanese"
+              "label":"Giapponese"
             },
             {
-              "label":"Korean"
+              "label":"Coreano"
             },
             {
-              "label":"Latvian"
+              "label":"Lettone"
             },
             {
-              "label":"Lithuanian"
+              "label":"Lituano"
             },
             {
-              "label":"Luxembourgish"
+              "label":"Lussemburghese"
             },
             {
-              "label":"Malay"
+              "label":"Malese"
             },
             {
-              "label":"Nepali"
+              "label":"Nepalese"
             },
             {
-              "label":"Norwegian"
+              "label":"Norvegese"
             },
             {
-              "label":"Polish"
+              "label":"Polacco"
             },
             {
-              "label":"Portuguese"
+              "label":"Portoghese"
             },
             {
-              "label":"Portuguese (Brazilian)"
+              "label":"Portoghese (Brasiliano)"
             },
             {
               "label":"Romansh"
