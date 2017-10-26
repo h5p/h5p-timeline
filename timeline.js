@@ -1,3 +1,4 @@
+/* global TimelineJS */
 /**
  * Init a H5P object.
  **/
@@ -13,6 +14,7 @@
 
   function C(options, contentId) {
     var self = this;
+    var i;
     this.options = $.extend(true, {}, {
       timeline: {
         type: 'default',
@@ -25,7 +27,7 @@
     // Need to create the URL for all H5P.Images
     if (this.options.timeline.date !== undefined) {
       var dates = this.options.timeline.date;
-      for(var i=0; i<dates.length; i++) {
+      for(i=0; i<dates.length; i++) {
         if (dates[i].asset.thumbnail !== undefined) {
           dates[i].asset.thumbnail = H5P.getPath(dates[i].asset.thumbnail.path, contentId);
         }
@@ -34,7 +36,7 @@
 
     // Check if eras are legal - if not, remove them!
     if (this.options.timeline.era !== undefined) {
-      for (var i=this.options.timeline.era.length-1; i >= 0; i--) {
+      for (i=this.options.timeline.era.length-1; i >= 0; i--) {
         if(this.options.timeline.era[i].startDate === undefined || this.options.timeline.era[i].endDate === undefined) {
           this.options.timeline.era.splice(i,1);
         }
@@ -68,7 +70,7 @@
       self.$container.css('height', self.options.timeline.height + 'px');
       $(window).trigger('resize');
     });
-  };
+  }
 
   /**
    * Check if data provided is valid.
