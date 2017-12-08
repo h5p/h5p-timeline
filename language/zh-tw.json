@@ -5,70 +5,70 @@
       "fields": [
         {
           "label": "標題",
-          "description": "主時間軸標題在這裡 (首頁)"
+          "description": "主要時間軸標題(首頁)"
         },
         {
-          "label": "內文",
-          "description": "主時間軸內文在這裡 (首頁)."
+          "label": "內容文字",
+          "description": "主要時間軸內文(首頁)."
         },
         {
-          "label": "預設的縮放層級",
-          "description": "這將調整預設的縮放層級. 等同於按放大或縮小按鈕指定的次數. 負數代表縮小. 預設值為0."
+          "label": "預設縮放層級",
+          "description": "這將調整預設縮放層級。等同點擊放大或縮小按鈕所指定的層級。負數代表縮小。預設值為0."
         },
         {
-          "label": "背景圖",
-          "description": "一張圖片以背景圖的方式顯示."
+          "label": "背景圖示",
+          "description": "選擇一張圖示做為畫面背景."
         },
         {
           "label": "高度",
-          "description": "以像素為單位的高度"
+          "description": "高度單位為像素"
         },
         {
           "label": "資產",
-          "description": "在這裡您可以將資產添加到時間軸 \"首頁\"",
+          "description": "在這裡您可以將資產添加到時間軸─首頁",
           "fields": [
             {
               "label": "媒體",
-              "description": "媒體網址的連結 (Twitter, YouTube, Flickr, Vimeo, Google Maps 和 SoundCloud 是目前支援的)"
+              "description": "媒體連結網址(支援Twitter, YouTube, Flickr, Vimeo, Google Maps 和 SoundCloud)"
             },
             {
-              "label": "信賴",
-              "description": "信賴的媒體"
+              "label": "著作權",
+              "description": "編輯媒體之著作權資訊"
             },
             {
               "label": "標題",
-              "description": "標題描述在這裡"
+              "description": "標題說明"
             }
           ]
         },
         {
           "label": "日期",
-          "description": "將日期加入到您的時間軸!",
+          "description": "在時間軸中新增新的日期!",
           "field": {
             "label": "日期",
             "description": "日期",
             "fields": [
               {
-                "label": "開始日期",
-                "description": "YYYY,MM,DD (要求最小年份 YYYY)",
+                "label": "起始日期",
+                "description": "YYYY 年,MM 月,DD 日 (至少輸入年份 YYYY)",
                 "regexp": {}
               },
               {
                 "label": "結束日期",
-                "description": "YYYY,MM,DD (要求最小年份 YYYY)",
+                "description": "YYYY 年,MM 月,DD 日 (至少輸入年份 YYYY)",
                 "regexp": {}
               },
               {
                 "label": "標題",
-                "description": "日期條目的標題"
+                "description": "此日期條目標題"
               },
               {
-                "label": "內文文本",
-                "description": "日期條目的內文"
+                "label": "內容文字",
+                "description": "此日期條目內文"
               },
               {
                 "label": "標籤",
-                "description": "輸入標籤 (類別)"
+                "description": "請輸入標籤(類別)"
               },
               {
                 "label": "資產",
@@ -76,19 +76,19 @@
                 "fields": [
                   {
                     "label": "媒體",
-                    "description": "媒體網址 (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps 和 SoundCloud 是目前支援的)."
+                    "description": "媒體連結網址(支援Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps 和 SoundCloud)."
                   },
                   {
                     "label": "縮圖",
-                    "description": "如果需要, 新增縮圖, 32x32"
+                    "description": "視需求新增縮圖, 32x32"
                   },
                   {
-                    "label": "信賴",
-                    "description": "信賴的媒體"
+                    "label": "著作權",
+                    "description": "編輯媒體之著作權資訊"
                   },
                   {
                     "label": "標題",
-                    "description": "標題文本"
+                    "description": "標題文字"
                   }
                 ]
               }
@@ -97,39 +97,39 @@
         },
         {
           "label": "年代",
-          "description": "將年代加入到您的時間軸",
+          "description": "在時間軸中新增新的年代",
           "field": {
             "label": "年代",
             "description": "",
             "fields": [
               {
-                "label": "開始日期",
-                "description": "YYYY,MM,DD (要求最小年份 YYYY )",
+                "label": "起始日期",
+                "description": "YYYY 年,MM 月,DD 日 (至少輸入年份 YYYY)",
                 "regexp": {}
               },
               {
                 "label": "結束日期",
-                "description": "YYYY,MM,DD (要求最小年份 YYYY )",
+                "description": "YYYY 年,MM 月,DD 日 (至少輸入年份 YYYY)",
                 "regexp": {}
               },
               {
                 "label": "標題",
-                "description": "年代標題"
+                "description": "此年代之條目標題"
               },
               {
-                "label": "文本",
-                "description": "年代文本"
+                "label": "內容文字",
+                "description": "此年代之內容描述資訊"
               },
               {
                 "label": "標籤",
-                "description": "年代標籤 (類別)"
+                "description": "請輸入年代標籤(類別)"
               }
             ]
           }
         },
         {
-          "label": "語系",
-          "description": "使用者界面的語系",
+          "label": "語言",
+          "description": "使用者介面語系",
           "options": [
             {
               "label": "南非荷蘭語"
