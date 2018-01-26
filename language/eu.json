@@ -53,14 +53,14 @@
                 "label":"Hasiera-data",
                 "description":"UUUU,HH,EE (Gutxienez UUUU gehitu behar da)",
                 "regexp":{
-                  
+
                 }
               },
               {
                 "label":"Amaiera-data",
                 "description":"UUUU,HH,EE (Gutxienez UUUU gehitu behar da)",
                 "regexp":{
-                  
+
                 }
               },
               {
@@ -101,7 +101,7 @@
           }
         },
         {
-          "label":"Garaiak,
+          "label":"Garaiak",
           "description":"Gehitu garaia zure denbora-lerrora",
           "field":{
             "label":"Garaia",
@@ -111,18 +111,18 @@
                 "label":"Hasiera-data",
                 "description":"UUUU,HH,EE (Gutxienez UUUU gehitu behar da)",
                 "regexp":{
-                  
+
                 }
               },
               {
                 "label":"Amaiera-data",
                 "description":"UUUU,HH,EE (Gutxienez UUUU gehitu behar da)",
                 "regexp":{
-                  
+
                 }
               },
               {
-                "label":"Izenburua,
+                "label":"Izenburua",
                 "description":"Garaiaren izenburua"
               },
               {
