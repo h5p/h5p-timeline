@@ -1,0 +1,311 @@
+{
+  "semantics":[
+    {
+      "label":"Denbora-lerroa",
+      "fields":[
+        {
+          "label":"Goialdea",
+          "description":"Hemen denbora-lerroaren goialdea doa (lehen orria)"
+        },
+        {
+          "label":"Gorputz-testua",
+          "description":"Hemen denbora-lerroaren gorputza doa (lehen orria)."
+        },
+        {
+          "label":"Lehenetsitako zoom maila",
+          "default":"0",
+          "description":"Honek lehenetsitako zoom maila aldatuko du. Zooma hurbildu edo urruntzearen botoia zehaztutako alditan sakatzearen baliokidea. Erabili zenbaki negatiboak urruntzeko. 0 lehenetsita dago."
+        },
+        {
+          "label":"Hondoko irudia",
+          "description":"Hondo gisa erakusteko irudia."
+        },
+        {
+          "label":"Altuera",
+          "description":"Altuera pixeletan"
+        },
+        {
+          "label":"Balorea",
+          "description":"Hemen zure denbora-lerrorako balore bat gehi dezakezu \"azala\"",
+          "fields":[
+            {
+              "label":"Media",
+              "description":"Mediako URLra esteka (Twitter, YouTube, Flickr, Vimeo, Google Maps eta SoundCloud ohiko mediak izaten dira)"
+            },
+            {
+              "label":"Kredituak",
+              "description":"Medien kredituak"
+            },
+            {
+              "label":"Oina",
+              "description":"Hemen oineko deskribapena doa"
+            }
+          ]
+        },
+        {
+          "label":"Datak",
+          "description":"Gehitu data batzuk zure denbora-lerrora!",
+          "field":{
+            "label":"Data",
+            "description":"Data",
+            "fields":[
+              {
+                "label":"Hasiera-data",
+                "description":"UUUU,HH,EE (Gutxienez UUUU gehitu behar da)",
+                "regexp":{
+
+                }
+              },
+              {
+                "label":"Amaiera-data",
+                "description":"UUUU,HH,EE (Gutxienez UUUU gehitu behar da)",
+                "regexp":{
+
+                }
+              },
+              {
+                "label":"Izenburua",
+                "description":"Datak sartzeko izenburua"
+              },
+              {
+                "label":"Gorputzaren testua",
+                "description":"Datak sartzeko gorputzak"
+              },
+              {
+                "label":"Etiketak",
+                "description":"Sartu etiketak (kategoriak)"
+              },
+              {
+                "label":"Balorea",
+                "description":"",
+                "fields":[
+                  {
+                    "label":"Media",
+                    "description":"Mediako URLra esteka (Twitter, YouTube, Flickr, Vimeo, Google Maps eta SoundCloud ohiko mediak izaten dira)."
+                  },
+                  {
+                    "label":"Irudi txikia",
+                    "description":"Gehitu irudi txikia beharrezkoa bada, 32x32"
+                  },
+                  {
+                    "label":"Kredituak",
+                    "description":"Medien kredituak"
+                  },
+                  {
+                    "label":"Oina",
+                    "description":"Oineko testua"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label":"Garaiak",
+          "description":"Gehitu garaia zure denbora-lerrora",
+          "field":{
+            "label":"Garaia",
+            "description":"",
+            "fields":[
+              {
+                "label":"Hasiera-data",
+                "description":"UUUU,HH,EE (Gutxienez UUUU gehitu behar da)",
+                "regexp":{
+
+                }
+              },
+              {
+                "label":"Amaiera-data",
+                "description":"UUUU,HH,EE (Gutxienez UUUU gehitu behar da)",
+                "regexp":{
+
+                }
+              },
+              {
+                "label":"Izenburua",
+                "description":"Garaiaren izenburua"
+              },
+              {
+                "label":"Testua",
+                "description":"Garaiaren gorputza"
+              },
+              {
+                "label":"Tag",
+                "description":"Era tags (categories)"
+              }
+            ]
+          }
+        },
+        {
+          "label":"Hizkuntza",
+          "description":"Erabiltzailearen interfazearen hizkuntza",
+          "options":[
+            {
+              "label":"Afrikaans"
+            },
+            {
+              "label":"Arabiera"
+            },
+            {
+              "label":"Armeniera"
+            },
+            {
+              "label":"Euskara"
+            },
+            {
+              "label":"Bulgariera"
+            },
+            {
+              "label":"Catalana"
+            },
+            {
+              "label":"Txinera"
+            },
+            {
+              "label":"Kroaziera"
+            },
+            {
+              "label":"Txekiera"
+            },
+            {
+              "label":"Daniera"
+            },
+            {
+              "label":"Holandera"
+            },
+            {
+              "label":"Ingelesa"
+            },
+            {
+              "label":"Ingelesa (24 orduko denbora)"
+            },
+            {
+              "label":"Esperanto"
+            },
+            {
+              "label":"Estoniera"
+            },
+            {
+              "label":"Faroesera"
+            },
+            {
+              "label":"Farsiera"
+            },
+            {
+              "label":"Suomiera"
+            },
+            {
+              "label":"Frantsesa"
+            },
+            {
+              "label":"Galiziera"
+            },
+            {
+              "label":"Georgiera"
+            },
+            {
+              "label":"Alemana"
+            },
+            {
+              "label":"Grekera"
+            },
+            {
+              "label":"Hebraiera"
+            },
+            {
+              "label":"Hungariera"
+            },
+            {
+              "label":"Islandiera"
+            },
+            {
+              "label":"Indonesiera"
+            },
+            {
+              "label":"Italiera"
+            },
+            {
+              "label":"Japanosea"
+            },
+            {
+              "label":"Koreena"
+            },
+            {
+              "label":"Letoniera"
+            },
+            {
+              "label":"Lituaniera"
+            },
+            {
+              "label":"Luxemburgera"
+            },
+            {
+              "label":"Malayera"
+            },
+            {
+              "label":"Nepalera"
+            },
+            {
+              "label":"Norvegiera"
+            },
+            {
+              "label":"Poloniera"
+            },
+            {
+              "label":"Portugesa"
+            },
+            {
+              "label":"Portugesa (Brasiliera)"
+            },
+            {
+              "label":"Erromantxera"
+            },
+            {
+              "label":"Errusiera"
+            },
+            {
+              "label":"Serbiera - Zirilikoa"
+            },
+            {
+              "label":"Serbiera - Latino"
+            },
+            {
+              "label":"Sinhala"
+            },
+            {
+              "label":"Eslovakiera"
+            },
+            {
+              "label":"Sloveniera"
+            },
+            {
+              "label":"Gaztelera"
+            },
+            {
+              "label":"Swedish"
+            },
+            {
+              "label":"Suediera"
+            },
+            {
+              "label":"Tamilera"
+            },
+            {
+              "label":"Taiwanera"
+            },
+            {
+              "label":"Teluguera"
+            },
+            {
+              "label":"Turkiera"
+            },
+            {
+              "label":"Ukrainera"
+            }
+          ],
+          "default":"eu"
+        }
+      ]
+    }
+  ]
+}
