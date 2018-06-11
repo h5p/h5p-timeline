@@ -51,13 +51,11 @@
             "fields": [
               {
                 "label": "תאריך התחלה",
-                "description": "YYYY,MM,DD (הכרחי לפחות YYYY)",
-                "regexp": {}
+                "description": "YYYY,MM,DD (הכרחי לפחות YYYY)"
               },
               {
                 "label": "תאריך סיום",
-                "description": "YYYY,MM,DD (הכרחי לפחות YYYY)",
-                "regexp": {}
+                "description": "YYYY,MM,DD (הכרחי לפחות YYYY)"
               },
               {
                 "label": "כותרת ראשית",
@@ -105,13 +103,11 @@
             "fields": [
               {
                 "label": "תאריך התחלה",
-                "description": "YYYY,MM,DD (הכרחי לפחות YYYY)",
-                "regexp": {}
+                "description": "YYYY,MM,DD (הכרחי לפחות YYYY)"
               },
               {
                 "label": "תאריך סיום",
-                "description": "YYYY,MM,DD (הכרחי לפחות YYYY)",
-                "regexp": {}
+                "description": "YYYY,MM,DD (הכרחי לפחות YYYY)"
               },
               {
                 "label": "כותרת ראשית",
@@ -294,8 +290,7 @@
             {
               "label": "אוקראינית"
             }
-          ],
-          "default": "en"
+          ]
         }
       ]
     }

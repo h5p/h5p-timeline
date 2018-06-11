@@ -1,99 +1,93 @@
 {
-  "semantics":[
+  "semantics": [
     {
-      "label":"Timeline",
-      "fields":[
+      "label": "Timeline",
+      "fields": [
         {
-          "label":"Headline",
-          "description":"Main timeline heading goes here (first page)"
+          "label": "Headline",
+          "description": "Main timeline heading goes here (first page)"
         },
         {
-          "label":"Body Text",
-          "description":"The main timeline body goes here (first page)."
+          "label": "Body Text",
+          "description": "The main timeline body goes here (first page)."
         },
         {
-          "label":"Default zoom level",
-          "default":"0",
-          "description":"This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
+          "label": "Default zoom level",
+          "default": "0",
+          "description": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
         },
         {
-          "label":"Background image",
-          "description":"An image to display as background."
+          "label": "Background image",
+          "description": "An image to display as background."
         },
         {
-          "label":"Height",
-          "description":"The height in pixels"
+          "label": "Height",
+          "description": "The height in pixels"
         },
         {
-          "label":"Asset",
-          "description":"Here you can add an asset to your timeline \"front page\"",
-          "fields":[
+          "label": "Asset",
+          "description": "Here you can add an asset to your timeline \"front page\"",
+          "fields": [
             {
-              "label":"Media",
-              "description":"Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)"
+              "label": "Media",
+              "description": "Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)"
             },
             {
-              "label":"Credits",
-              "description":"Credits to the media"
+              "label": "Credits",
+              "description": "Credits to the media"
             },
             {
-              "label":"Caption",
-              "description":"Caption description goes here"
+              "label": "Caption",
+              "description": "Caption description goes here"
             }
           ]
         },
         {
-          "label":"Dates",
-          "description":"Add some dates to your timeline!",
-          "field":{
-            "label":"Date",
-            "description":"Date",
-            "fields":[
+          "label": "Dates",
+          "description": "Add some dates to your timeline!",
+          "field": {
+            "label": "Date",
+            "description": "Date",
+            "fields": [
               {
-                "label":"Start date",
-                "description":"YYYY,MM,DD (Minimum YYYY required)",
-                "regexp":{
-                  
-                }
+                "label": "Start date",
+                "description": "YYYY,MM,DD (Minimum YYYY required)"
               },
               {
-                "label":"End date",
-                "description":"YYYY,MM,DD (Minimum YYYY required)",
-                "regexp":{
-                  
-                }
+                "label": "End date",
+                "description": "YYYY,MM,DD (Minimum YYYY required)"
               },
               {
-                "label":"Headline",
-                "description":"Headline for the date entry"
+                "label": "Headline",
+                "description": "Headline for the date entry"
               },
               {
-                "label":"Body text",
-                "description":"Body for the date entry"
+                "label": "Body text",
+                "description": "Body for the date entry"
               },
               {
-                "label":"Tags",
-                "description":"Enter Tags (categories)"
+                "label": "Tags",
+                "description": "Enter Tags (categories)"
               },
               {
-                "label":"Asset",
-                "description":"",
-                "fields":[
+                "label": "Asset",
+                "description": "",
+                "fields": [
                   {
-                    "label":"Media",
-                    "description":"URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported)."
+                    "label": "Media",
+                    "description": "URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported)."
                   },
                   {
-                    "label":"Thumbnail",
-                    "description":"Add a thumbnail if needed, 32x32"
+                    "label": "Thumbnail",
+                    "description": "Add a thumbnail if needed, 32x32"
                   },
                   {
-                    "label":"Credit",
-                    "description":"Credits to the media"
+                    "label": "Credit",
+                    "description": "Credits to the media"
                   },
                   {
-                    "label":"Caption",
-                    "description":"Caption text"
+                    "label": "Caption",
+                    "description": "Caption text"
                   }
                 ]
               }
@@ -101,209 +95,202 @@
           }
         },
         {
-          "label":"Eras",
-          "description":"Add an era to your timeline",
-          "field":{
-            "label":"Era",
-            "description":"",
-            "fields":[
+          "label": "Eras",
+          "description": "Add an era to your timeline",
+          "field": {
+            "label": "Era",
+            "description": "",
+            "fields": [
               {
-                "label":"Start date",
-                "description":"YYYY,MM,DD (Minimum YYYY required)",
-                "regexp":{
-                  
-                }
+                "label": "Start date",
+                "description": "YYYY,MM,DD (Minimum YYYY required)"
               },
               {
-                "label":"End date",
-                "description":"YYYY,MM,DD (Minimum YYYY required)",
-                "regexp":{
-                  
-                }
+                "label": "End date",
+                "description": "YYYY,MM,DD (Minimum YYYY required)"
               },
               {
-                "label":"Headline",
-                "description":"Era headline"
+                "label": "Headline",
+                "description": "Era headline"
               },
               {
-                "label":"Text",
-                "description":"Era body"
+                "label": "Text",
+                "description": "Era body"
               },
               {
-                "label":"Tag",
-                "description":"Era tags (categories)"
+                "label": "Tag",
+                "description": "Era tags (categories)"
               }
             ]
           }
         },
         {
-          "label":"Language",
-          "description":"The language of the user interface",
-          "options":[
+          "label": "Language",
+          "description": "The language of the user interface",
+          "options": [
             {
-              "label":"Afrikaans"
+              "label": "Afrikaans"
             },
             {
-              "label":"Arabic"
+              "label": "Arabic"
             },
             {
-              "label":"Armenian"
+              "label": "Armenian"
             },
             {
-              "label":"Basque"
+              "label": "Basque"
             },
             {
-              "label":"Bulgarian"
+              "label": "Bulgarian"
             },
             {
-              "label":"Catalan"
+              "label": "Catalan"
             },
             {
-              "label":"Chinese"
+              "label": "Chinese"
             },
             {
-              "label":"Croatian / Hrvatski"
+              "label": "Croatian / Hrvatski"
             },
             {
-              "label":"Czech"
+              "label": "Czech"
             },
             {
-              "label":"Danish"
+              "label": "Danish"
             },
             {
-              "label":"Dutch"
+              "label": "Dutch"
             },
             {
-              "label":"English"
+              "label": "English"
             },
             {
-              "label":"English (24-hour time)"
+              "label": "English (24-hour time)"
             },
             {
-              "label":"Esperanto"
+              "label": "Esperanto"
             },
             {
-              "label":"Estonian"
+              "label": "Estonian"
             },
             {
-              "label":"Faroese"
+              "label": "Faroese"
             },
             {
-              "label":"Farsi"
+              "label": "Farsi"
             },
             {
-              "label":"Finnish"
+              "label": "Finnish"
             },
             {
-              "label":"French"
+              "label": "French"
             },
             {
-              "label":"Galician"
+              "label": "Galician"
             },
             {
-              "label":"Georgian"
+              "label": "Georgian"
             },
             {
-              "label":"German / Deutsch"
+              "label": "German / Deutsch"
             },
             {
-              "label":"Greek"
+              "label": "Greek"
             },
             {
-              "label":"Hebrew"
+              "label": "Hebrew"
             },
             {
-              "label":"Hungarian"
+              "label": "Hungarian"
             },
             {
-              "label":"Icelandic"
+              "label": "Icelandic"
             },
             {
-              "label":"Indonesian"
+              "label": "Indonesian"
             },
             {
-              "label":"Italian"
+              "label": "Italian"
             },
             {
-              "label":"Japanese"
+              "label": "Japanese"
             },
             {
-              "label":"Korean"
+              "label": "Korean"
             },
             {
-              "label":"Latvian"
+              "label": "Latvian"
             },
             {
-              "label":"Lithuanian"
+              "label": "Lithuanian"
             },
             {
-              "label":"Luxembourgish"
+              "label": "Luxembourgish"
             },
             {
-              "label":"Malay"
+              "label": "Malay"
             },
             {
-              "label":"Nepali"
+              "label": "Nepali"
             },
             {
-              "label":"Norwegian"
+              "label": "Norwegian"
             },
             {
-              "label":"Polish"
+              "label": "Polish"
             },
             {
-              "label":"Portuguese"
+              "label": "Portuguese"
             },
             {
-              "label":"Portuguese (Brazilian)"
+              "label": "Portuguese (Brazilian)"
             },
             {
-              "label":"Romansh"
+              "label": "Romansh"
             },
             {
-              "label":"Russian"
+              "label": "Russian"
             },
             {
-              "label":"Serbian - Cyrillic"
+              "label": "Serbian - Cyrillic"
             },
             {
-              "label":"Serbian - Latin"
+              "label": "Serbian - Latin"
             },
             {
-              "label":"Sinhalese"
+              "label": "Sinhalese"
             },
             {
-              "label":"Slovak"
+              "label": "Slovak"
             },
             {
-              "label":"Slovenian"
+              "label": "Slovenian"
             },
             {
-              "label":"Spanish"
+              "label": "Spanish"
             },
             {
-              "label":"Swedish"
+              "label": "Swedish"
             },
             {
-              "label":"Tagalog"
+              "label": "Tagalog"
             },
             {
-              "label":"Tamil"
+              "label": "Tamil"
             },
             {
-              "label":"Taiwanese"
+              "label": "Taiwanese"
             },
             {
-              "label":"Telugu"
+              "label": "Telugu"
             },
             {
-              "label":"Turkish"
+              "label": "Turkish"
             },
             {
-              "label":"Ukrainian"
+              "label": "Ukrainian"
             }
-          ],
-          "default":"en"
+          ]
         }
       ]
     }

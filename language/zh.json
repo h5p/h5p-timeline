@@ -51,13 +51,11 @@
             "fields": [
               {
                 "label": "開始日期",
-                "description": "年月日格式為 YYYY,MM,DD，至少要有年，可用負數表示西元前。",
-                "regexp": {}
+                "description": "年月日格式為 YYYY,MM,DD，至少要有年，可用負數表示西元前。"
               },
               {
                 "label": "結束日期",
-                "description": "年月日格式為 YYYY,MM,DD，至少要有年，可用負數表示西元前。",
-                "regexp": {}
+                "description": "年月日格式為 YYYY,MM,DD，至少要有年，可用負數表示西元前。"
               },
               {
                 "label": "標題文字",
@@ -105,13 +103,11 @@
             "fields": [
               {
                 "label": "開始日期",
-                "description": "年月日格式為 YYYY,MM,DD，至少要有年，可用負數表示西元前。",
-                "regexp": {}
+                "description": "年月日格式為 YYYY,MM,DD，至少要有年，可用負數表示西元前。"
               },
               {
                 "label": "結束日期",
-                "description": "年月日格式為 YYYY,MM,DD，至少要有年，可用負數表示西元前。",
-                "regexp": {}
+                "description": "年月日格式為 YYYY,MM,DD，至少要有年，可用負數表示西元前。"
               },
               {
                 "label": "標題文字",
@@ -294,8 +290,7 @@
             {
               "label": "Ukrainian"
             }
-          ],
-          "default": "zh-tw"
+          ]
         }
       ]
     }

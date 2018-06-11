@@ -51,13 +51,11 @@
             "fields": [
               {
                 "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)",
-                "regexp": {}
+                "description": "YYYY,MM,DD (Minimum YYYY required)"
               },
               {
                 "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)",
-                "regexp": {}
+                "description": "YYYY,MM,DD (Minimum YYYY required)"
               },
               {
                 "label": "Headline",
@@ -105,13 +103,11 @@
             "fields": [
               {
                 "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)",
-                "regexp": {}
+                "description": "YYYY,MM,DD (Minimum YYYY required)"
               },
               {
                 "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)",
-                "regexp": {}
+                "description": "YYYY,MM,DD (Minimum YYYY required)"
               },
               {
                 "label": "Headline",
@@ -294,8 +290,7 @@
             {
               "label": "Ukrainian"
             }
-          ],
-          "default": "en"
+          ]
         }
       ]
     }

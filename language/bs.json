@@ -1,99 +1,93 @@
 {
-  "semantics":[
+  "semantics": [
     {
-      "label":"Vremenski tok",
-      "fields":[
+      "label": "Vremenski tok",
+      "fields": [
         {
-          "label":"Naslov",
-          "description":"Naslov za vremenski tok ide ovdje (prva stranica)."
+          "label": "Naslov",
+          "description": "Naslov za vremenski tok ide ovdje (prva stranica)."
         },
         {
-          "label":"Tekst sadržaja",
-          "description":"Glavni tekst sadržaja Vremenskog toga ide ovdje (prva stranica)."
+          "label": "Tekst sadržaja",
+          "description": "Glavni tekst sadržaja Vremenskog toga ide ovdje (prva stranica)."
         },
         {
-          "label":"Zadani stepen zumiranja",
-          "default":"0",
-          "description":"Ovdje se unosi vrijednost stepena zumiranja. Svaki broj predstavlja broj klikova za uvećanje ili umanjenje. Negativni brojevi označavaju umanjenje. Zadani stepen zumiranja je 0"
+          "label": "Zadani stepen zumiranja",
+          "default": "0",
+          "description": "Ovdje se unosi vrijednost stepena zumiranja. Svaki broj predstavlja broj klikova za uvećanje ili umanjenje. Negativni brojevi označavaju umanjenje. Zadani stepen zumiranja je 0"
         },
         {
-          "label":"Pozadinska slika",
-          "description":"Slika koja se nalazi u pozadini"
+          "label": "Pozadinska slika",
+          "description": "Slika koja se nalazi u pozadini"
         },
         {
-          "label":"Visina",
-          "description":"Visina u pikselima"
+          "label": "Visina",
+          "description": "Visina u pikselima"
         },
         {
-          "label":"Sadržaj",
-          "description":"Ovdje možete unijeti sadržaj za \"Početna strana\" zadatka Vremenski tok.",
-          "fields":[
+          "label": "Sadržaj",
+          "description": "Ovdje možete unijeti sadržaj za \"Početna strana\" zadatka Vremenski tok.",
+          "fields": [
             {
-              "label":"Mediji",
-              "description":"Link medija URL (Twitter, YouTube, Flickr, Vimeo, Google Maps i SoundCloud su podržani)"
+              "label": "Mediji",
+              "description": "Link medija URL (Twitter, YouTube, Flickr, Vimeo, Google Maps i SoundCloud su podržani)"
             },
             {
-              "label":"Izvor",
-              "description":"Informacije o izvoru - vlasniku medija"
+              "label": "Izvor",
+              "description": "Informacije o izvoru - vlasniku medija"
             },
             {
-              "label":"Opis",
-              "description":"Opis medija."
+              "label": "Opis",
+              "description": "Opis medija."
             }
           ]
         },
         {
-          "label":"Datumi",
-          "description":"Unesite nekoliko datuma u vaš Vremenski tok!",
-          "field":{
-            "label":"Datum",
-            "description":"Datum",
-            "fields":[
+          "label": "Datumi",
+          "description": "Unesite nekoliko datuma u vaš Vremenski tok!",
+          "field": {
+            "label": "Datum",
+            "description": "Datum",
+            "fields": [
               {
-                "label":"Početni datum",
-                "description":"GGGG,MM,DD (Obavezno je bar GGGG)",
-                "regexp":{
-                  
-                }
+                "label": "Početni datum",
+                "description": "GGGG,MM,DD (Obavezno je bar GGGG)"
               },
               {
-                "label":"Krajnji datum",
-                "description":"GGGG,MM,DD (Obavezno je bar GGGG)",
-                "regexp":{
-                  
-                }
+                "label": "Krajnji datum",
+                "description": "GGGG,MM,DD (Obavezno je bar GGGG)"
               },
               {
-                "label":"Naziv",
-                "description":"Naziv za uneseni datum"
+                "label": "Naziv",
+                "description": "Naziv za uneseni datum"
               },
               {
-                "label":"Tekst sadržaja",
-                "description":"Tekst o unesenom datumu"
+                "label": "Tekst sadržaja",
+                "description": "Tekst o unesenom datumu"
               },
               {
-                "label":"Tagovi",
-                "description":"Unesite tagove (Kategorije)."
+                "label": "Tagovi",
+                "description": "Unesite tagove (Kategorije)."
               },
               {
-                "label":"Dodatak",
-                "description":"",
-                "fields":[
+                "label": "Dodatak",
+                "description": "",
+                "fields": [
                   {
-                    "label":"Mediji",
-                    "description":"Linkovi za medije (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps i SoundCloud su podržani)."
+                    "label": "Mediji",
+                    "description": "Linkovi za medije (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps i SoundCloud su podržani)."
                   },
                   {
-                    "label":"Sličica",
-                    "description":"Unesite sličicu koja mora biti minimalno dimenzija (32px x 32px)"
+                    "label": "Sličica",
+                    "description": "Unesite sličicu koja mora biti minimalno dimenzija (32px x 32px)"
                   },
                   {
-                    "label":"Izvor",
-                    "description":"Informacije o izvoru - vlasniku medija"
+                    "label": "Izvor",
+                    "description": "Informacije o izvoru - vlasniku medija"
                   },
                   {
-                    "label":"Opis",
-                    "description":"Opis medija"
+                    "label": "Opis",
+                    "description": "Opis medija"
                   }
                 ]
               }
@@ -101,209 +95,202 @@
           }
         },
         {
-          "label":"Era",
-          "description":"Unesite eru za vaš Vremenski tok.",
-          "field":{
-            "label":"Era",
-            "description":"",
-            "fields":[
+          "label": "Era",
+          "description": "Unesite eru za vaš Vremenski tok.",
+          "field": {
+            "label": "Era",
+            "description": "",
+            "fields": [
               {
-                "label":"Početni datum",
-                "description":"GGGG,MM,DD (Obavezno je bar GGGG)",
-                "regexp":{
-                  
-                }
+                "label": "Početni datum",
+                "description": "GGGG,MM,DD (Obavezno je bar GGGG)"
               },
               {
-                "label":"Krajnji datum",
-                "description":"GGGG,MM,DD (Obavezno je bar GGGG)",
-                "regexp":{
-                  
-                }
+                "label": "Krajnji datum",
+                "description": "GGGG,MM,DD (Obavezno je bar GGGG)"
               },
               {
-                "label":"Naziv",
-                "description":"Naziv ere"
+                "label": "Naziv",
+                "description": "Naziv ere"
               },
               {
-                "label":"Tekst sadržaja",
-                "description":"Tekst sadržaja"
+                "label": "Tekst sadržaja",
+                "description": "Tekst sadržaja"
               },
               {
-                "label":"Tagovi",
-                "description":"Tagovi za eru"
+                "label": "Tagovi",
+                "description": "Tagovi za eru"
               }
             ]
           }
         },
         {
-          "label":"Jezik",
-          "description":"Jezik korisničkog interfejsa",
-          "options":[
+          "label": "Jezik",
+          "description": "Jezik korisničkog interfejsa",
+          "options": [
             {
-              "label":"Afrički"
+              "label": "Afrički"
             },
             {
-              "label":"Arapski"
+              "label": "Arapski"
             },
             {
-              "label":"Armenski"
+              "label": "Armenski"
             },
             {
-              "label":"Bosanski"
+              "label": "Bosanski"
             },
             {
-              "label":"Bugarski"
+              "label": "Bugarski"
             },
             {
-              "label":"Katalonski"
+              "label": "Katalonski"
             },
             {
-              "label":"Kineski"
+              "label": "Kineski"
             },
             {
-              "label":"Hrvatski"
+              "label": "Hrvatski"
             },
             {
-              "label":"Češki"
+              "label": "Češki"
             },
             {
-              "label":"Danski"
+              "label": "Danski"
             },
             {
-              "label":"Holandski"
+              "label": "Holandski"
             },
             {
-              "label":"Engleski"
+              "label": "Engleski"
             },
             {
-              "label":"Engleski (24-atni format)"
+              "label": "Engleski (24-atni format)"
             },
             {
-              "label":"Esperanto"
+              "label": "Esperanto"
             },
             {
-              "label":"Estonijski"
+              "label": "Estonijski"
             },
             {
-              "label":"Färöisch"
+              "label": "Färöisch"
             },
             {
-              "label":"Perzijski"
+              "label": "Perzijski"
             },
             {
-              "label":"Finski"
+              "label": "Finski"
             },
             {
-              "label":"Francuski"
+              "label": "Francuski"
             },
             {
-              "label":"Gälisch"
+              "label": "Gälisch"
             },
             {
-              "label":"Georgisch"
+              "label": "Georgisch"
             },
             {
-              "label":"Njemački"
+              "label": "Njemački"
             },
             {
-              "label":"Grčki"
+              "label": "Grčki"
             },
             {
-              "label":"Hebrejski"
+              "label": "Hebrejski"
             },
             {
-              "label":"Mađarski"
+              "label": "Mađarski"
             },
             {
-              "label":"Islandski"
+              "label": "Islandski"
             },
             {
-              "label":"Indonežanski"
+              "label": "Indonežanski"
             },
             {
-              "label":"Italijanski"
+              "label": "Italijanski"
             },
             {
-              "label":"Japaniski"
+              "label": "Japaniski"
             },
             {
-              "label":"Korejski"
+              "label": "Korejski"
             },
             {
-              "label":"Lettisch"
+              "label": "Lettisch"
             },
             {
-              "label":"Litauisch"
+              "label": "Litauisch"
             },
             {
-              "label":"Luxembourgisch"
+              "label": "Luxembourgisch"
             },
             {
-              "label":"Malayisch"
+              "label": "Malayisch"
             },
             {
-              "label":"Nepalesisch"
+              "label": "Nepalesisch"
             },
             {
-              "label":"Norveški"
+              "label": "Norveški"
             },
             {
-              "label":"Poljski"
+              "label": "Poljski"
             },
             {
-              "label":"Portugalski"
+              "label": "Portugalski"
             },
             {
-              "label":"Portugalski (Brazil)"
+              "label": "Portugalski (Brazil)"
             },
             {
-              "label":"Rumunjski"
+              "label": "Rumunjski"
             },
             {
-              "label":"Ruski"
+              "label": "Ruski"
             },
             {
-              "label":"Srpski - ćirilica"
+              "label": "Srpski - ćirilica"
             },
             {
-              "label":"Srpski - latinica"
+              "label": "Srpski - latinica"
             },
             {
-              "label":"Singhalesisch"
+              "label": "Singhalesisch"
             },
             {
-              "label":"Slovački"
+              "label": "Slovački"
             },
             {
-              "label":"Slovenski"
+              "label": "Slovenski"
             },
             {
-              "label":"Španski"
+              "label": "Španski"
             },
             {
-              "label":"Švadski"
+              "label": "Švadski"
             },
             {
-              "label":"Tagalog"
+              "label": "Tagalog"
             },
             {
-              "label":"Tamilski"
+              "label": "Tamilski"
             },
             {
-              "label":"Tajvanski"
+              "label": "Tajvanski"
             },
             {
-              "label":"Telugu"
+              "label": "Telugu"
             },
             {
-              "label":"Turski"
+              "label": "Turski"
             },
             {
-              "label":"Ukrajinski"
+              "label": "Ukrajinski"
             }
-          ],
-          "default":"en"
+          ]
         }
       ]
     }
