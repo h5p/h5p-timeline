@@ -1,20 +1,20 @@
 {
   "semantics":[
     {
-      "label":"Timeline",
+      "label":"Chronologie",
       "fields":[
         {
           "label":"Titre",
-          "description":"Ecrivez ici le titre principal de la frise chronologique (première page)"
+          "description":"Entrez ici le titre principal de la chronologie (première page)"
         },
         {
-          "label":"Texte d'introducion",
-          "description":"Ecrivez ici le contenu principal de la frise chronologique (première page)."
+          "label":"Corps du texte",
+          "description":"Entrez ici le corps de texte principal de la chronologie (première page)."
         },
         {
           "label":"Niveau de zoom par défaut",
           "default":"0",
-          "description":"Cela altèrera le niveau de zoom par défaut. Cela revient à utiliser les boutons pour zoomer ou dézoomer. Un nombre négatif permet de dézoomer. Par défaut, la valeur est 0."
+          "description":"Cela va modifier le niveau de zoom par défaut. Equivalent à appuyer sur le bouton zoom avant ou zoom arrière le nombre de fois spécifié. Les nombres négatifs effectuent un zoom arrière. La valeur par défaut est 0."
         },
         {
           "label":"Image d'arrière-plan'",
@@ -26,10 +26,9 @@
         },
         {
           "label":"Média",
-          "description":"Ici vous pouvez ajouter un média à la \"page de garde\" de votre frise chronologique.",
           "fields":[
             {
-              "label":"Fichier média",
+              "label":"Adresse URL du média",
               "description":"Lien vers l'URL du fichier média (Twitter, YouTube, Flickr, Vimeo, Google Maps et SoundCloud sont autorisés à l'heure actuelle)"
             },
             {
@@ -44,21 +43,21 @@
         },
         {
           "label":"Dates",
-          "description":"Ajoutez des dates à votre frise chronologique !",
+          "description":"Ajoutez des dates à votre chronologie !",
           "field":{
             "label":"Date",
             "description":"Date",
             "fields":[
               {
                 "label":"Date de début",
-                "description":"YYYY,MM,DD (Minimum YYYY obligatoire)",
+                "description":"AAAA,MM,JJ (AAAA est un minimum obligatoire)",
                 "regexp":{
                   
                 }
               },
               {
                 "label":"Date de fin",
-                "description":"YYYY,MM,DD (Minimum YYYY obligatoire)",
+                "description":"AAAA,MM,JJ (AAAA est un minimum obligatoire)",
                 "regexp":{
                   
                 }
@@ -68,8 +67,8 @@
                 "description":"Titre de l'événement"
               },
               {
-                "label":"Contenu",
-                "description":"Contenu de l'événement"
+                "label":"Texte",
+                "description":"Texte associé à l'événement"
               },
               {
                 "label":"Etiquettes",
@@ -80,7 +79,7 @@
                 "description":"",
                 "fields":[
                   {
-                    "label":"Fichier média",
+                    "label":"Adresse URL du média",
                     "description":"Lien vers l'URL du fichier média (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps et SoundCloud sont autorisés à l'heure actuelle)."
                   },
                   {
@@ -102,21 +101,21 @@
         },
         {
           "label":"Périodes",
-          "description":"Ajoutez une période à votre frise chronologique",
+          "description":"Ajoutez une période à votre chronologie",
           "field":{
             "label":"Période",
             "description":"",
             "fields":[
               {
                 "label":"Date de début",
-                "description":"YYYY,MM,DD (Minimum YYYY obligatoire)",
+                "description":"AAAA,MM,JJ (AAAA est un minimum obligatoire)",
                 "regexp":{
                   
                 }
               },
               {
                 "label":"Date de fin",
-                "description":"YYYY,MM,DD (Minimum YYYY obligatoire)",
+                "description":"AAAA,MM,JJ (AAAA est un minimum obligatoire)",
                 "regexp":{
                   
                 }
@@ -141,7 +140,7 @@
           "description":"Choisissez la langue de l'interface",
           "options":[
             {
-              "label":"Africain"
+              "label":"Afrikaans"
             },
             {
               "label":"Arabe"
@@ -177,7 +176,7 @@
               "label":"Anglais"
             },
             {
-              "label":"English (24-hour time)"
+              "label":"Anglais (24 heures)"
             },
             {
               "label":"Esperanto"
@@ -198,7 +197,7 @@
               "label":"Français"
             },
             {
-              "label":"Galice"
+              "label":"Galicien"
             },
             {
               "label":"Géorgien"
@@ -216,7 +215,7 @@
               "label":"Hongrois"
             },
             {
-              "label":"Icelandais"
+              "label":"Islandais"
             },
             {
               "label":"Indonésien"
@@ -231,10 +230,10 @@
               "label":"Coréen"
             },
             {
-              "label":"Latvian"
+              "label":"Letton"
             },
             {
-              "label":"Lithuanien"
+              "label":"Lituanien"
             },
             {
               "label":"Luxembourgeois"
@@ -258,7 +257,7 @@
               "label":"Portugais (Brésilien)"
             },
             {
-              "label":"Romanche"
+              "label":"Roumain"
             },
             {
               "label":"Russe"
@@ -270,13 +269,13 @@
               "label":"Serbe - Latin"
             },
             {
-              "label":"Sinhalese"
+              "label":"Cinghalese"
             },
             {
               "label":"Slovaque"
             },
             {
-              "label":"Slovénien"
+              "label":"Slovène"
             },
             {
               "label":"Espagnol"
