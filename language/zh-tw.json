@@ -51,13 +51,11 @@
             "fields": [
               {
                 "label": "起始日期",
-                "description": "YYYY 年,MM 月,DD 日 (至少輸入年份 YYYY)",
-                "regexp": {}
+                "description": "YYYY 年,MM 月,DD 日 (至少輸入年份 YYYY)"
               },
               {
                 "label": "結束日期",
-                "description": "YYYY 年,MM 月,DD 日 (至少輸入年份 YYYY)",
-                "regexp": {}
+                "description": "YYYY 年,MM 月,DD 日 (至少輸入年份 YYYY)"
               },
               {
                 "label": "標題",
@@ -105,13 +103,11 @@
             "fields": [
               {
                 "label": "起始日期",
-                "description": "YYYY 年,MM 月,DD 日 (至少輸入年份 YYYY)",
-                "regexp": {}
+                "description": "YYYY 年,MM 月,DD 日 (至少輸入年份 YYYY)"
               },
               {
                 "label": "結束日期",
-                "description": "YYYY 年,MM 月,DD 日 (至少輸入年份 YYYY)",
-                "regexp": {}
+                "description": "YYYY 年,MM 月,DD 日 (至少輸入年份 YYYY)"
               },
               {
                 "label": "標題",
@@ -294,8 +290,7 @@
             {
               "label": "烏克蘭語"
             }
-          ],
-          "default": "en"
+          ]
         }
       ]
     }

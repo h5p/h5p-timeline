@@ -1,99 +1,93 @@
 {
-  "semantics":[
+  "semantics": [
     {
-      "label":"Timeline",
-      "fields":[
+      "label": "Chronologie",
+      "fields": [
         {
-          "label":"Titre",
-          "description":"Ecrivez ici le titre principal de la frise chronologique (première page)"
+          "label": "Titre",
+          "description": "Entrez ici le titre principal de la chronologie (première page)"
         },
         {
-          "label":"Texte d'introducion",
-          "description":"Ecrivez ici le contenu principal de la frise chronologique (première page)."
+          "label": "Corps du texte",
+          "description": "Entrez ici le corps de texte principal de la chronologie (première page)."
         },
         {
-          "label":"Niveau de zoom par défaut",
-          "default":"0",
-          "description":"Cela altèrera le niveau de zoom par défaut. Cela revient à utiliser les boutons pour zoomer ou dézoomer. Un nombre négatif permet de dézoomer. Par défaut, la valeur est 0."
+          "label": "Niveau de zoom par défaut",
+          "default": "0",
+          "description": "Cela va modifier le niveau de zoom par défaut. Equivalent à appuyer sur le bouton zoom avant ou zoom arrière le nombre de fois spécifié. Les nombres négatifs effectuent un zoom arrière. La valeur par défaut est 0."
         },
         {
-          "label":"Image d'arrière-plan'",
-          "description":"Affiche une image de fond."
+          "label": "Image d'arrière-plan'",
+          "description": "Affiche une image de fond."
         },
         {
-          "label":"Hauteur",
-          "description":"La hauteur en pixels"
+          "label": "Hauteur",
+          "description": "La hauteur en pixels"
         },
         {
-          "label":"Média",
-          "description":"Ici vous pouvez ajouter un média à la \"page de garde\" de votre frise chronologique.",
-          "fields":[
+          "label": "Média",
+          "description": "Here you can add an asset to your timeline \"front page\"",
+          "fields": [
             {
-              "label":"Fichier média",
-              "description":"Lien vers l'URL du fichier média (Twitter, YouTube, Flickr, Vimeo, Google Maps et SoundCloud sont autorisés à l'heure actuelle)"
+              "label": "Adresse URL du média",
+              "description": "Lien vers l'URL du fichier média (Twitter, YouTube, Flickr, Vimeo, Google Maps et SoundCloud sont autorisés à l'heure actuelle)"
             },
             {
-              "label":"Crédits",
-              "description":"Crédits du fichier média"
+              "label": "Crédits",
+              "description": "Crédits du fichier média"
             },
             {
-              "label":"Légende",
-              "description":"Saisissez ici la légende du fichier média"
+              "label": "Légende",
+              "description": "Saisissez ici la légende du fichier média"
             }
           ]
         },
         {
-          "label":"Dates",
-          "description":"Ajoutez des dates à votre frise chronologique !",
-          "field":{
-            "label":"Date",
-            "description":"Date",
-            "fields":[
+          "label": "Dates",
+          "description": "Ajoutez des dates à votre chronologie !",
+          "field": {
+            "label": "Date",
+            "description": "Date",
+            "fields": [
               {
-                "label":"Date de début",
-                "description":"YYYY,MM,DD (Minimum YYYY obligatoire)",
-                "regexp":{
-                  
-                }
+                "label": "Date de début",
+                "description": "AAAA,MM,JJ (AAAA est un minimum obligatoire)"
               },
               {
-                "label":"Date de fin",
-                "description":"YYYY,MM,DD (Minimum YYYY obligatoire)",
-                "regexp":{
-                  
-                }
+                "label": "Date de fin",
+                "description": "AAAA,MM,JJ (AAAA est un minimum obligatoire)"
               },
               {
-                "label":"Titre",
-                "description":"Titre de l'événement"
+                "label": "Titre",
+                "description": "Titre de l'événement"
               },
               {
-                "label":"Contenu",
-                "description":"Contenu de l'événement"
+                "label": "Texte",
+                "description": "Texte associé à l'événement"
               },
               {
-                "label":"Etiquettes",
-                "description":"Saisissez les étiquettes (catégories)"
+                "label": "Etiquettes",
+                "description": "Saisissez les étiquettes (catégories)"
               },
               {
-                "label":"Média",
-                "description":"",
-                "fields":[
+                "label": "Média",
+                "description": "",
+                "fields": [
                   {
-                    "label":"Fichier média",
-                    "description":"Lien vers l'URL du fichier média (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps et SoundCloud sont autorisés à l'heure actuelle)."
+                    "label": "Adresse URL du média",
+                    "description": "Lien vers l'URL du fichier média (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps et SoundCloud sont autorisés à l'heure actuelle)."
                   },
                   {
-                    "label":"Image miniature",
-                    "description":"Ajoutez au besoin une miniature 32x32"
+                    "label": "Image miniature",
+                    "description": "Ajoutez au besoin une miniature 32x32"
                   },
                   {
-                    "label":"Crédits",
-                    "description":"Crédits du fichier média"
+                    "label": "Crédits",
+                    "description": "Crédits du fichier média"
                   },
                   {
-                    "label":"Légende",
-                    "description":"Légende du fichier média"
+                    "label": "Légende",
+                    "description": "Légende du fichier média"
                   }
                 ]
               }
@@ -101,209 +95,202 @@
           }
         },
         {
-          "label":"Périodes",
-          "description":"Ajoutez une période à votre frise chronologique",
-          "field":{
-            "label":"Période",
-            "description":"",
-            "fields":[
+          "label": "Périodes",
+          "description": "Ajoutez une période à votre chronologie",
+          "field": {
+            "label": "Période",
+            "description": "",
+            "fields": [
               {
-                "label":"Date de début",
-                "description":"YYYY,MM,DD (Minimum YYYY obligatoire)",
-                "regexp":{
-                  
-                }
+                "label": "Date de début",
+                "description": "AAAA,MM,JJ (AAAA est un minimum obligatoire)"
               },
               {
-                "label":"Date de fin",
-                "description":"YYYY,MM,DD (Minimum YYYY obligatoire)",
-                "regexp":{
-                  
-                }
+                "label": "Date de fin",
+                "description": "AAAA,MM,JJ (AAAA est un minimum obligatoire)"
               },
               {
-                "label":"Titre",
-                "description":"Titre de la période"
+                "label": "Titre",
+                "description": "Titre de la période"
               },
               {
-                "label":"Contenu",
-                "description":"Contenu de la période"
+                "label": "Contenu",
+                "description": "Contenu de la période"
               },
               {
-                "label":"Etiquette",
-                "description":"Etiquettes de la période (catégories)"
+                "label": "Etiquette",
+                "description": "Etiquettes de la période (catégories)"
               }
             ]
           }
         },
         {
-          "label":"Langue",
-          "description":"Choisissez la langue de l'interface",
-          "options":[
+          "label": "Langue",
+          "description": "Choisissez la langue de l'interface",
+          "options": [
             {
-              "label":"Africain"
+              "label": "Afrikaans"
             },
             {
-              "label":"Arabe"
+              "label": "Arabe"
             },
             {
-              "label":"Arménien"
+              "label": "Arménien"
             },
             {
-              "label":"Basque"
+              "label": "Basque"
             },
             {
-              "label":"Bulgare"
+              "label": "Bulgare"
             },
             {
-              "label":"Catalan"
+              "label": "Catalan"
             },
             {
-              "label":"Chinois"
+              "label": "Chinois"
             },
             {
-              "label":"Croate/ Hrvatski"
+              "label": "Croate/ Hrvatski"
             },
             {
-              "label":"Tchèque"
+              "label": "Tchèque"
             },
             {
-              "label":"Danois"
+              "label": "Danois"
             },
             {
-              "label":"Allemand"
+              "label": "Allemand"
             },
             {
-              "label":"Anglais"
+              "label": "Anglais"
             },
             {
-              "label":"English (24-hour time)"
+              "label": "Anglais (24 heures)"
             },
             {
-              "label":"Esperanto"
+              "label": "Esperanto"
             },
             {
-              "label":"Estonien"
+              "label": "Estonien"
             },
             {
-              "label":"Faroese"
+              "label": "Faroese"
             },
             {
-              "label":"Farsi"
+              "label": "Farsi"
             },
             {
-              "label":"Finnois"
+              "label": "Finnois"
             },
             {
-              "label":"Français"
+              "label": "Français"
             },
             {
-              "label":"Galice"
+              "label": "Galicien"
             },
             {
-              "label":"Géorgien"
+              "label": "Géorgien"
             },
             {
-              "label":"Allemand / Deutsch"
+              "label": "Allemand / Deutsch"
             },
             {
-              "label":"Grec"
+              "label": "Grec"
             },
             {
-              "label":"Hébreu"
+              "label": "Hébreu"
             },
             {
-              "label":"Hongrois"
+              "label": "Hongrois"
             },
             {
-              "label":"Icelandais"
+              "label": "Islandais"
             },
             {
-              "label":"Indonésien"
+              "label": "Indonésien"
             },
             {
-              "label":"Italien"
+              "label": "Italien"
             },
             {
-              "label":"Japonais"
+              "label": "Japonais"
             },
             {
-              "label":"Coréen"
+              "label": "Coréen"
             },
             {
-              "label":"Latvian"
+              "label": "Letton"
             },
             {
-              "label":"Lithuanien"
+              "label": "Lituanien"
             },
             {
-              "label":"Luxembourgeois"
+              "label": "Luxembourgeois"
             },
             {
-              "label":"Malay"
+              "label": "Malay"
             },
             {
-              "label":"Nepali"
+              "label": "Nepali"
             },
             {
-              "label":"Norvégien"
+              "label": "Norvégien"
             },
             {
-              "label":"Polonais"
+              "label": "Polonais"
             },
             {
-              "label":"Portugais"
+              "label": "Portugais"
             },
             {
-              "label":"Portugais (Brésilien)"
+              "label": "Portugais (Brésilien)"
             },
             {
-              "label":"Romanche"
+              "label": "Roumain"
             },
             {
-              "label":"Russe"
+              "label": "Russe"
             },
             {
-              "label":"Serbe - Cyrillic"
+              "label": "Serbe - Cyrillic"
             },
             {
-              "label":"Serbe - Latin"
+              "label": "Serbe - Latin"
             },
             {
-              "label":"Sinhalese"
+              "label": "Cinghalese"
             },
             {
-              "label":"Slovaque"
+              "label": "Slovaque"
             },
             {
-              "label":"Slovénien"
+              "label": "Slovène"
             },
             {
-              "label":"Espagnol"
+              "label": "Espagnol"
             },
             {
-              "label":"Suédois"
+              "label": "Suédois"
             },
             {
-              "label":"Tagalog"
+              "label": "Tagalog"
             },
             {
-              "label":"Tamoul"
+              "label": "Tamoul"
             },
             {
-              "label":"Taiwanais"
+              "label": "Taiwanais"
             },
             {
-              "label":"Telugu"
+              "label": "Telugu"
             },
             {
-              "label":"Turc"
+              "label": "Turc"
             },
             {
-              "label":"Ukrainien"
+              "label": "Ukrainien"
             }
-          ],
-          "default":"en"
+          ]
         }
       ]
     }

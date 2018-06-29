@@ -1,93 +1,93 @@
 {
   "semantics": [
     {
-      "label": "Timeline",
+      "label": "時間軸",
       "fields": [
         {
-          "label": "Opschrift",
-          "description": "Hoofdopschrift van de tijdlijn komt hier (eerste pagina)"
+          "label": "標題文字",
+          "description": "主要時間軸的標題（顯示在第一頁）。"
         },
         {
-          "label": "Bodytekst",
-          "description": "Hoofdbodytekst van de tijdlijn komt hier (eerste pagina)"
+          "label": "內文文字",
+          "description": "主要時間軸的內文（顯示在第一頁）。"
         },
         {
-          "label": "Standaar zoomniveau",
+          "label": "預設縮放等級",
           "default": "0",
-          "description": "Dit zal het standaard zoomniveau optimaliseren. Gelijk aan het indrukken van in- of uitzoom knop verandert het beeld. Een negatief getal zoom uit. Standaard is 0"
+          "description": "這將調整預設縮放等級，等同點擊放大或縮小按鈕所指定的層級。負數代表縮小，初始值為 0。"
         },
         {
-          "label": "Achtergrondafbeelding",
-          "description": "Toon een afbeelding als achtergrond"
+          "label": "背景圖片",
+          "description": "用來當作時間軸背景的圖片。"
         },
         {
-          "label": "Hoogte",
-          "description": "De hoogte in pixels"
+          "label": "高度",
+          "description": "時間軸的顯示高度，單位為像素（px）"
         },
         {
-          "label": "Middel",
-          "description": "Hier kan je middelen aan je tijdlijn toevoegen \"voorpagina\"",
+          "label": "資料來源",
+          "description": "你可以添加一個資料來源說明，這會在時間軸主頁上顯示。",
           "fields": [
             {
-              "label": "Media",
-              "description": "Link naar media URL (Twitter, Youtube, Flickr, Vimeo, Google Maps and SoundCloud worden ondersteund)"
+              "label": "媒體",
+              "description": "來源位址連結（目前支援 Twitter、YouTube、Flickr、Vimeo、Google Maps、SoundCloud）。"
             },
             {
-              "label": "Auteursrechten",
-              "description": "Auteursrechten van de media"
+              "label": "誌謝",
+              "description": "感謝此媒體的製作，或是版權的提供。"
             },
             {
-              "label": "Onderschrift",
-              "description": "Het onderschrift van de media komt hier"
+              "label": "說明",
+              "description": "關於媒體的說明文字。"
             }
           ]
         },
         {
-          "label": "Datums",
-          "description": "Voeg datums toe aan je tijdlijn",
+          "label": "時間軸內容",
+          "description": "添加要在時間軸上顯示的日期還有文字等內容。",
           "field": {
-            "label": "Datum",
-            "description": "Datum",
+            "label": "日期",
+            "description": "日期",
             "fields": [
               {
-                "label": "Startdatum",
-                "description": "YYYY,MM,DD (YYYY is minimaal vereist)"
+                "label": "開始日期",
+                "description": "年月日格式為 YYYY,MM,DD，至少要有年，可用負數表示西元前。"
               },
               {
-                "label": "Einddatum",
-                "description": "YYYY,MM,DD (YYYY is minimaal vereist)"
+                "label": "結束日期",
+                "description": "年月日格式為 YYYY,MM,DD，至少要有年，可用負數表示西元前。"
               },
               {
-                "label": "Opschrift",
-                "description": "Opschrift voor de startdatum"
+                "label": "標題文字",
+                "description": "這段期間要顯示的標題。"
               },
               {
-                "label": "Bodytekst",
-                "description": "Bodytekst voor de startdatum"
+                "label": "內文文字",
+                "description": "這段期間要顯示的內文。"
               },
               {
-                "label": "Labels",
-                "description": "Voeg labels in (categorieën)"
+                "label": "分類標籤",
+                "description": "非必要項，可輸入標籤作為分類。"
               },
               {
-                "label": "Middel",
+                "label": "資料來源",
                 "description": "",
                 "fields": [
                   {
-                    "label": "Media",
-                    "description": "URL naar de media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps en SoundCloud worden ondersteund)."
+                    "label": "媒體",
+                    "description": "來源位址連結（目前支援 Twitter、YouTube、Flickr、Vimeo、Google Maps、SoundCloud）。"
                   },
                   {
-                    "label": "Miniatuurafbeelding",
-                    "description": "Voeg een miniatuurafbeelding toe indien nodig, 32x32"
+                    "label": "縮圖",
+                    "description": "如果需要的話，可以添加一個尺寸為 32x32 的縮圖。"
                   },
                   {
-                    "label": "Auteursrecht",
-                    "description": "Auteursrechten voor de media"
+                    "label": "誌謝",
+                    "description": "感謝此媒體的製作，或是版權的提供。"
                   },
                   {
-                    "label": "Onderschrift",
-                    "description": "Onderschrift bij de media"
+                    "label": "說明",
+                    "description": "關於媒體的說明文字。"
                   }
                 ]
               }
@@ -95,38 +95,38 @@
           }
         },
         {
-          "label": "Periode",
-          "description": "Voeg een periode toe aan je tijdlijn",
+          "label": "時代",
+          "description": "額外為時間軸添加劃時代的分隔線，可以有很多的分類形式，例如 宋朝、羅馬帝國、19 世紀、工業時代、90後…等等。",
           "field": {
-            "label": "Periode",
+            "label": "時代",
             "description": "",
             "fields": [
               {
-                "label": "Startdatum",
-                "description": "YYYY,MM,DD (YYYY is minimaal vereist)"
+                "label": "開始日期",
+                "description": "年月日格式為 YYYY,MM,DD，至少要有年，可用負數表示西元前。"
               },
               {
-                "label": "Einddatum",
-                "description": "YYYY,MM,DD (YYYY is minimaal vereist)"
+                "label": "結束日期",
+                "description": "年月日格式為 YYYY,MM,DD，至少要有年，可用負數表示西元前。"
               },
               {
-                "label": "Opschrift",
-                "description": "Periode opschrift"
+                "label": "標題文字",
+                "description": "這個時代要顯示的標題。"
               },
               {
-                "label": "tekst",
-                "description": "Bodytekst voor de periode"
+                "label": "內文文字",
+                "description": "這個期間要顯示的內文。"
               },
               {
-                "label": "Label",
-                "description": "Labels voor de perioden (categorieën)"
+                "label": "分類標籤",
+                "description": "非必要項，可輸入標籤作為分類。"
               }
             ]
           }
         },
         {
-          "label": "Taal",
-          "description": "Taal van de gebruikersinterface",
+          "label": "語言",
+          "description": "時間軸介面顯示的語言。",
           "options": [
             {
               "label": "Afrikaans"
