@@ -1,7 +1,7 @@
 {
   "semantics": [
     {
-      "label": "Timeline",
+      "label": "Tijdlijn",
       "fields": [
         {
           "label": "Opschrift",
@@ -132,145 +132,145 @@
               "label": "Afrikaans"
             },
             {
-              "label": "Arabic"
+                "label": "Arabisch"
             },
             {
-              "label": "Armenian"
+              "label": "Armeens"
             },
             {
-              "label": "Basque"
+              "label": "Baskisch"
             },
             {
-              "label": "Bulgarian"
+              "label": "Bulgaars"
             },
             {
-              "label": "Catalan"
+              "label": "Catalaans"
             },
             {
-              "label": "Chinese"
+              "label": "Chinees"
             },
             {
-              "label": "Croatian / Hrvatski"
+              "label": "Kroatisch / Hrvatski"
             },
             {
-              "label": "Czech"
+              "label": "Tsjechisch"
             },
             {
-              "label": "Danish"
+              "label": "Deens"
             },
             {
-              "label": "Dutch"
+              "label": "Nederlands"
             },
             {
-              "label": "English"
+              "label": "Engels"
             },
             {
-              "label": "English (24-hour time)"
+              "label": "Engels (24-uur klok)"
             },
             {
               "label": "Esperanto"
             },
             {
-              "label": "Estonian"
+              "label": "Ests"
             },
             {
-              "label": "Faroese"
+              "label": "Faeröer"
             },
             {
               "label": "Farsi"
             },
             {
-              "label": "Finnish"
+              "label": "Fins"
             },
             {
-              "label": "French"
+              "label": "Frans"
             },
             {
-              "label": "Galician"
+              "label": "Galicisch"
             },
             {
-              "label": "Georgian"
+              "label": "Georgisch"
             },
             {
-              "label": "German / Deutsch"
+              "label": "Duits"
             },
             {
-              "label": "Greek"
+              "label": "Grieks"
             },
             {
-              "label": "Hebrew"
+              "label": "Hebreeuws"
             },
             {
-              "label": "Hungarian"
+              "label": "Hongaars"
             },
             {
-              "label": "Icelandic"
+              "label": "IJslands"
             },
             {
-              "label": "Indonesian"
+              "label": "Indonesisch"
             },
             {
-              "label": "Italian"
+              "label": "Italiaans"
             },
             {
-              "label": "Japanese"
+              "label": "Japans"
             },
             {
-              "label": "Korean"
+              "label": "Koreaans"
             },
             {
-              "label": "Latvian"
+              "label": "Lets"
             },
             {
-              "label": "Lithuanian"
+              "label": "Litouws"
             },
             {
-              "label": "Luxembourgish"
+              "label": "Luxemburgs"
             },
             {
-              "label": "Malay"
+              "label": "Maleis"
             },
             {
-              "label": "Nepali"
+              "label": "Nepalees"
             },
             {
-              "label": "Norwegian"
+              "label": "Noors"
             },
             {
-              "label": "Polish"
+              "label": "Pools"
             },
             {
-              "label": "Portuguese"
+              "label": "Portugees"
             },
             {
-              "label": "Portuguese (Brazilian)"
+              "label": "Portugees (Brazilië)"
             },
             {
-              "label": "Romansh"
+              "label": "Romaans"
             },
             {
-              "label": "Russian"
+              "label": "Russisch"
             },
             {
-              "label": "Serbian - Cyrillic"
+              "label": "Servisch - Cyrillisch"
             },
             {
-              "label": "Serbian - Latin"
+              "label": "Servisch - Latijn"
             },
             {
-              "label": "Sinhalese"
+              "label": "Singalees"
             },
             {
-              "label": "Slovak"
+              "label": "Slowaaks"
             },
             {
-              "label": "Slovenian"
+              "label": "Sloveens"
             },
             {
-              "label": "Spanish"
+              "label": "Spaans"
             },
             {
-              "label": "Swedish"
+              "label": "Zweeds"
             },
             {
               "label": "Tagalog"
@@ -279,16 +279,16 @@
               "label": "Tamil"
             },
             {
-              "label": "Taiwanese"
+              "label": "Taiwanees"
             },
             {
               "label": "Telugu"
             },
             {
-              "label": "Turkish"
+              "label": "Turks"
             },
             {
-              "label": "Ukrainian"
+              "label": "Oekraïens"
             }
           ]
         }
