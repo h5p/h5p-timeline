@@ -5,8 +5,7 @@
       "fields": [
         {
           "label": "Título",
-          "description": "El título principal de la línea de tiempo va aquí (primera página)
-"
+          "description": "El título principal de la línea de tiempo va aquí (primera página)"
         },
         {
           "label": "Cuerpo de texto",
