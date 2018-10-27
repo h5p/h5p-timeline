@@ -4,11 +4,11 @@
       "label": "Denbora-lerroa",
       "fields": [
         {
-          "label": "Goialdea",
+          "label": "Izenburua",
           "description": "Hemen denbora-lerroaren goialdea doa (lehen orria)"
         },
         {
-          "label": "Gorputz-testua",
+          "label": "Gorputzaren testua",
           "description": "Hemen denbora-lerroaren gorputza doa (lehen orria)."
         },
         {
@@ -17,27 +17,27 @@
           "description": "Honek lehenetsitako zoom maila aldatuko du. Zooma hurbildu edo urruntzearen botoia zehaztutako alditan sakatzearen baliokidea. Erabili zenbaki negatiboak urruntzeko. 0 lehenetsita dago."
         },
         {
-          "label": "Hondoko irudia",
-          "description": "Hondo gisa erakusteko irudia."
+          "label": "Atzeko planoko irudia",
+          "description": "Atzeko plano gisa erakusteko irudia."
         },
         {
           "label": "Altuera",
           "description": "Altuera pixeletan"
         },
         {
-          "label": "Balorea",
-          "description": "Hemen zure denbora-lerrorako balore bat gehi dezakezu \"azala\"",
+          "label": "Atributuak",
+          "description": "Hemen zure denbora-lerrorako atributu bat gehi dezakezu \"azala\"",
           "fields": [
             {
-              "label": "Media",
-              "description": "Mediako URLra esteka (Twitter, YouTube, Flickr, Vimeo, Google Maps eta SoundCloud ohiko mediak izaten dira)"
+              "label": "Multimedia",
+              "description": "Multimediaren URLaara esteka (Twitter, YouTube, Flickr, Vimeo, Google Maps eta SoundCloud ohiko multimediak izaten dira)"
             },
             {
-              "label": "Kredituak",
-              "description": "Medien kredituak"
+              "label": "Kreditua",
+              "description": "Multimediaren kredituak"
             },
             {
-              "label": "Oina",
+              "label": "Azpitituluak",
               "description": "Hemen oineko deskribapena doa"
             }
           ]
@@ -59,7 +59,7 @@
               },
               {
                 "label": "Izenburua",
-                "description": "Datak sartzeko izenburua"
+                "description": "Datak sartzeko goiburua"
               },
               {
                 "label": "Gorputzaren testua",
@@ -70,24 +70,24 @@
                 "description": "Sartu etiketak (kategoriak)"
               },
               {
-                "label": "Balorea",
+                "label": "Atributuak",
                 "description": "",
                 "fields": [
                   {
-                    "label": "Media",
-                    "description": "Mediako URLra esteka (Twitter, YouTube, Flickr, Vimeo, Google Maps eta SoundCloud ohiko mediak izaten dira)."
+                    "label": "Multimedia",
+                    "description": "Media fitxategiaren URLaara esteka (Twitter, YouTube, Flickr, Vimeo, Google Maps eta SoundCloud ohikoak izaten dira)."
                   },
                   {
                     "label": "Irudi txikia",
                     "description": "Gehitu irudi txikia beharrezkoa bada, 32x32"
                   },
                   {
-                    "label": "Kredituak",
-                    "description": "Medien kredituak"
+                    "label": "Kreditua",
+                    "description": "Multimediaren kredituak"
                   },
                   {
-                    "label": "Oina",
-                    "description": "Oineko testua"
+                    "label": "Azpitituluak",
+                    "description": "Azpitituluen testua"
                   }
                 ]
               }
@@ -95,10 +95,10 @@
           }
         },
         {
-          "label": "Garaiak",
-          "description": "Gehitu garaia zure denbora-lerrora",
+          "label": "Aroak",
+          "description": "Gehitu aroa zure denbora-lerrora",
           "field": {
-            "label": "Garaia",
+            "label": "Aroak",
             "description": "",
             "fields": [
               {
@@ -111,15 +111,15 @@
               },
               {
                 "label": "Izenburua",
-                "description": "Garaiaren izenburua"
+                "description": "Aroakren titulua"
               },
               {
                 "label": "Testua",
-                "description": "Garaiaren gorputza"
+                "description": "Aroakren gorputza"
               },
               {
-                "label": "Tag",
-                "description": "Era tags (categories)"
+                "label": "Etiketa",
+                "description": "Aroakren etiketak(kategoriak)"
               }
             ]
           }
@@ -144,7 +144,7 @@
               "label": "Bulgariera"
             },
             {
-              "label": "Catalana"
+              "label": "Katalana"
             },
             {
               "label": "Txinera"
@@ -159,7 +159,7 @@
               "label": "Daniera"
             },
             {
-              "label": "Holandera"
+              "label": "Nederlandera"
             },
             {
               "label": "Ingelesa"
@@ -174,10 +174,10 @@
               "label": "Estoniera"
             },
             {
-              "label": "Faroesera"
+              "label": "Faroera"
             },
             {
-              "label": "Farsiera"
+              "label": "Persiera"
             },
             {
               "label": "Suomiera"
@@ -186,7 +186,7 @@
               "label": "Frantsesa"
             },
             {
-              "label": "Galiziera"
+              "label": "Galego"
             },
             {
               "label": "Georgiera"
@@ -213,10 +213,10 @@
               "label": "Italiera"
             },
             {
-              "label": "Japanosea"
+              "label": "Japoniera"
             },
             {
-              "label": "Koreena"
+              "label": "Koreera"
             },
             {
               "label": "Letoniera"
@@ -264,16 +264,16 @@
               "label": "Eslovakiera"
             },
             {
-              "label": "Sloveniera"
+              "label": "Esloveniera"
             },
             {
               "label": "Gaztelera"
             },
             {
-              "label": "Swedish"
+              "label": "Suediera"
             },
             {
-              "label": "Suediera"
+              "label": "Etiketaaloa"
             },
             {
               "label": "Tamilera"
@@ -282,7 +282,7 @@
               "label": "Taiwanera"
             },
             {
-              "label": "Teluguera"
+              "label": "Telugu"
             },
             {
               "label": "Turkiera"
