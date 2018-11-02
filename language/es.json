@@ -1,73 +1,73 @@
 {
   "semantics": [
     {
-      "label": "Timeline",
+      "label": "Línea de Tiempo",
       "fields": [
         {
-          "label": "Headline",
-          "description": "Main timeline heading goes here (first page)"
+          "label": "Título",
+          "description": "El título principal de la línea de tiempo va aquí (primera página)"
         },
         {
-          "label": "Body Text",
-          "description": "The main timeline body goes here (first page)."
+          "label": "Cuerpo de texto",
+          "description": "El cuerpo principal de la línea de tiempo va aquí (primera página)."
         },
         {
-          "label": "Default zoom level",
+          "label": "Nivel de zoom predeterminado",
           "default": "0",
-          "description": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
+          "description": "Esto modificará el nivel de zoom predeterminado. Equivale a presionar el botón acercar o alejar el número especificado de veces. Los números negativos se alejan. el valor predeterminado es 0"
         },
         {
-          "label": "Background image",
-          "description": "An image to display as background."
+          "label": "Imagen de fondo",
+          "description": "Una imagen para mostrar como fondo."
         },
         {
-          "label": "Height",
-          "description": "The height in pixels"
+          "label": "Altura",
+          "description": "La altura en píxeles"
         },
         {
-          "label": "Asset",
-          "description": "Here you can add an asset to your timeline \"front page\"",
+          "label": "Activo",
+          "description": "Aquí puede agregar un activo a su línea de tiempo \"portada\"",
           "fields": [
             {
               "label": "Media",
-              "description": "Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)"
+              "description": "Enlace URL a los medios (Twitter, YouTube, Flickr, Vimeo, Google Maps y SoundCloud son actualmente compatibles)"
             },
             {
-              "label": "Credits",
-              "description": "Credits to the media"
+              "label": "Créditos",
+              "description": "Créditos de los medios"
             },
             {
-              "label": "Caption",
-              "description": "Caption description goes here"
+              "label": "Subtítulo",
+              "description": "La descripción del subtítulo va aquí"
             }
           ]
         },
         {
-          "label": "Dates",
-          "description": "Add some dates to your timeline!",
+          "label": "Fechas",
+          "description": "Agrega algunas fechas a tu línea de tiempo!",
           "field": {
-            "label": "Date",
-            "description": "Date",
+            "label": "Fecha",
+            "description": "Fecha",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Fecha de inicio",
+                "description": "YYYY,MM,DD (Mínimo necesario YYYY)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Fecha final",
+                "description": "YYYY,MM,DD (Mínimo necesario YYYY)"
               },
               {
-                "label": "Headline",
-                "description": "Headline for the date entry"
+                "label": "Titular",
+                "description": "Título para la fecha"
               },
               {
-                "label": "Body text",
-                "description": "Body for the date entry"
+                "label": "Cuerpo de texto",
+                "description": "Cuerpo para la entrada de la fecha"
               },
               {
-                "label": "Tags",
-                "description": "Enter Tags (categories)"
+                "label": "Etiquetas",
+                "description": "Ingrese las etiquetas (categorías)"
               },
               {
                 "label": "Asset",
@@ -75,19 +75,19 @@
                 "fields": [
                   {
                     "label": "Media",
-                    "description": "URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported)."
+                    "description": "URL a los medios (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps y SoundCloud son actualmente compatibles)."
                   },
                   {
-                    "label": "Thumbnail",
-                    "description": "Add a thumbnail if needed, 32x32"
+                    "label": "Miniatura",
+                    "description": "Agrega una miniatura si es necesario, 32x32"
                   },
                   {
-                    "label": "Credit",
-                    "description": "Credits to the media"
+                    "label": "Crédito",
+                    "description": "Créditos a los medios"
                   },
                   {
-                    "label": "Caption",
-                    "description": "Caption text"
+                    "label": "Subtítulo",
+                    "description": "Texto del subtítulo"
                   }
                 ]
               }
@@ -96,37 +96,37 @@
         },
         {
           "label": "Eras",
-          "description": "Add an era to your timeline",
+          "description": "Agrega una era a tu línea de tiempo",
           "field": {
             "label": "Era",
             "description": "",
             "fields": [
               {
-                "label": "Start date",
+                "label": "Fecha de inicio",
                 "description": "YYYY,MM,DD (Minimum YYYY required)"
               },
               {
-                "label": "End date",
+                "label": "Fecha final",
                 "description": "YYYY,MM,DD (Minimum YYYY required)"
               },
               {
-                "label": "Headline",
-                "description": "Era headline"
+                "label": "Titular",
+                "description": "Titular de la Era"
               },
               {
-                "label": "Text",
-                "description": "Era body"
+                "label": "Texto",
+                "description": "Cuerpo de la Era"
               },
               {
-                "label": "Tag",
-                "description": "Era tags (categories)"
+                "label": "Etiqueta",
+                "description": "Etiquetas de la Era (categorías)"
               }
             ]
           }
         },
         {
-          "label": "Language",
-          "description": "The language of the user interface",
+          "label": "Idioma",
+          "description": "Lenguaje de la interfaz de usuario",
           "options": [
             {
               "label": "Afrikaans"
