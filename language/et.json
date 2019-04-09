@@ -1,93 +1,93 @@
 {
   "semantics": [
     {
-      "label": "Timeline",
+      "label": "Ajajoon",
       "fields": [
         {
-          "label": "Headline",
-          "description": "Main timeline heading goes here (first page)"
+          "label": "Pealkiri",
+          "description": "Põhiajajoone päis käib siia (esimene lehekülg)"
         },
         {
-          "label": "Body Text",
-          "description": "The main timeline body goes here (first page)."
+          "label": "Sisu tekst",
+          "description": "Põhiajajoone sisu käib siia (esimene lehekülg)."
         },
         {
-          "label": "Default zoom level",
+          "label": "Vaikesuumi suurus",
           "default": "0",
-          "description": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
+          "description": "See muudab vaikesuumi suurust. Võrdne sissesuumimise või väljasuumimise nupu vajutamisega määratud arv kordi. Negatiivne arv suumib välja. Vaikesuurus on 0."
         },
         {
-          "label": "Background image",
-          "description": "An image to display as background."
+          "label": "Taustapilt",
+          "description": "Pilt, mida näidatakse taustana."
         },
         {
-          "label": "Height",
-          "description": "The height in pixels"
+          "label": "Kõrgus",
+          "description": "Kõrgus punktides"
         },
         {
-          "label": "Asset",
-          "description": "Here you can add an asset to your timeline \"front page\"",
+          "label": "Objekt",
+          "description": "Siin saad ajajoone \"esilehele\" objekte lisada",
           "fields": [
             {
-              "label": "Media",
-              "description": "Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)"
+              "label": "Meedia",
+              "description": "Link meediale (toetatud on Twitter, YouTube, Flickr, Vimeo, Google Maps ja SoundCloud)"
             },
             {
-              "label": "Credits",
-              "description": "Credits to the media"
+              "label": "Viide",
+              "description": "Viide meediale"
             },
             {
-              "label": "Caption",
-              "description": "Caption description goes here"
+              "label": "Tiiter",
+              "description": "Tiitri kirjeldus paigutada siia"
             }
           ]
         },
         {
-          "label": "Dates",
-          "description": "Add some dates to your timeline!",
+          "label": "Kuupäevad",
+          "description": "Lisa mõned kuupäevad ajajoonele!",
           "field": {
-            "label": "Date",
-            "description": "Date",
+            "label": "Kuupäev",
+            "description": "Kuupäev",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Alguskuupäev",
+                "description": "AAAA,KK,PP (nõutud on vähemalt AAAA)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "lõppkuupäev",
+                "description": "AAAA,KK,PP (nõutud on vähemalt AAAA)"
               },
               {
-                "label": "Headline",
-                "description": "Headline for the date entry"
+                "label": "Pealkiri",
+                "description": "Kuupäeva sissekande pealkiri"
               },
               {
-                "label": "Body text",
-                "description": "Body for the date entry"
+                "label": "Sisutekst",
+                "description": "Kuupäeva sissekande sisutekst"
               },
               {
-                "label": "Tags",
-                "description": "Enter Tags (categories)"
+                "label": "Sildid",
+                "description": "Sisesta sildid (kategooriad)"
               },
               {
-                "label": "Asset",
+                "label": "Objekt",
                 "description": "",
                 "fields": [
                   {
-                    "label": "Media",
-                    "description": "URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported)."
+                    "label": "Meedia",
+                    "description": "Link meediale (toetatud on Twitter, YouTube, Flickr, Vimeo, Google Maps ja SoundCloud)."
                   },
                   {
-                    "label": "Thumbnail",
-                    "description": "Add a thumbnail if needed, 32x32"
+                    "label": "Pisipilt",
+                    "description": "Lisa vajadusel pisipilt, 32x32"
                   },
                   {
-                    "label": "Credit",
-                    "description": "Credits to the media"
+                    "label": "Viide",
+                    "description": "Viide meediale"
                   },
                   {
-                    "label": "Caption",
-                    "description": "Caption text"
+                    "label": "Tiiter",
+                    "description": "Tiitri kirjeldus paigutada siia"
                   }
                 ]
               }
@@ -95,38 +95,38 @@
           }
         },
         {
-          "label": "Eras",
-          "description": "Add an era to your timeline",
+          "label": "Vahemikud",
+          "description": "Lisa ajajoonele vahemik",
           "field": {
-            "label": "Era",
+            "label": "Vahemik",
             "description": "",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Alguskuupäev",
+                "description": "AAAA,KK,PP (nõutud on vähemalt AAAA)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Lõppkuupäev",
+                "description": "AAAA,KK,PP (nõutud on vähemalt AAAA)"
               },
               {
-                "label": "Headline",
-                "description": "Era headline"
+                "label": "Pealkiri",
+                "description": "Vahemiku pealkiri"
               },
               {
-                "label": "Text",
-                "description": "Era body"
+                "label": "Tekst",
+                "description": "Vahemiku sisutekst"
               },
               {
-                "label": "Tag",
-                "description": "Era tags (categories)"
+                "label": "Silt",
+                "description": "Vahemiku sildid (kategooriad)"
               }
             ]
           }
         },
         {
-          "label": "Language",
-          "description": "The language of the user interface",
+          "label": "Keel",
+          "description": "Kasutajaliidese keel",
           "options": [
             {
               "label": "Afrikaans"
