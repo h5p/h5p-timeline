@@ -66,8 +66,8 @@
                 "description": "Основен текст за датата"
               },
               {
-                "label": "Тагове",
-                "description": "Въведете тагове (категории)"
+                "label": "Етикети",
+                "description": "Въведете етикети (категории)"
               },
               {
                 "label": "Asset",
@@ -95,10 +95,10 @@
           }
         },
         {
-          "label": "Eras",
-          "description": "Add an era to your timeline",
+          "label": "Ери",
+          "description": "Добавяне на ера във времевата линия",
           "field": {
-            "label": "Era",
+            "label": "Ера",
             "description": "",
             "fields": [
               {
@@ -111,15 +111,15 @@
               },
               {
                 "label": "Заглавие",
-                "description": "Era headline"
+                "description": "Заглавие на ера"
               },
               {
                 "label": "Текст",
-                "description": "Era body"
+                "description": "Основен текст за ера"
               },
               {
-                "label": "Таг",
-                "description": "Era tags (categories)"
+                "label": "етикет",
+                "description": "Етикети на ера (категории)"
               }
             ]
           }
