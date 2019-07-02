@@ -1,7 +1,7 @@
 {
   "semantics": [
     {
-      "label": "Timeline",
+      "label": "Aikajana",
       "fields": [
         {
           "label": "Otsikko",
@@ -17,12 +17,12 @@
           "description": "Voit muuttaa zoomauksen oletustasoa. Arvo vastaa zoomausnapin painallusta. Negatiivinen arvo vastaa loitonnusta ja positiivinen lähennystä. Oletusarvo on 0."
         },
         {
-          "label": "Background image",
-          "description": "An image to display as background."
+          "label": "Taustakuva",
+          "description": "Taustakuva"
         },
         {
-          "label": "Height",
-          "description": "The height in pixels"
+          "label": "Korkeus",
+          "description": "Korkeus pikseleinä"
         },
         {
           "label": "Media",
@@ -129,166 +129,166 @@
           "description": "Käyttöliittymän kieli.",
           "options": [
             {
-              "label": "Afrikaans"
+              "label": "Afrikaansin kieli"
             },
             {
-              "label": "Arabic"
+              "label": "Arabia"
             },
             {
-              "label": "Armenian"
+              "label": "Armenian kieli"
             },
             {
-              "label": "Basque"
+              "label": "Baskin kieli"
             },
             {
-              "label": "Bulgarian"
+              "label": "Bulgarian kieli"
             },
             {
-              "label": "Catalan"
+              "label": "Katalaanin kieli"
             },
             {
-              "label": "Chinese"
+              "label": "Kiina"
             },
             {
-              "label": "Croatian / Hrvatski"
+              "label": "Kroatia / Hrvatski"
             },
             {
-              "label": "Czech"
+              "label": "Tšekin kieli"
             },
             {
-              "label": "Danish"
+              "label": "Tanska"
             },
             {
-              "label": "Dutch"
+              "label": "Hollanti"
             },
             {
-              "label": "English"
+              "label": "Englanti"
             },
             {
-              "label": "English (24-hour time)"
+              "label": "Englanti (24-tuntia aikaformaatti)"
             },
             {
-              "label": "Esperanto"
+              "label": "Esperanton kieli"
             },
             {
-              "label": "Estonian"
+              "label": "Viron kieli"
             },
             {
-              "label": "Faroese"
+              "label": "Fäärin kieli"
             },
             {
-              "label": "Farsi"
+              "label": "Farsin kieli"
             },
             {
-              "label": "Finnish"
+              "label": "Suomi"
             },
             {
-              "label": "French"
+              "label": "Ranska"
             },
             {
-              "label": "Galician"
+              "label": "Galicial"
             },
             {
-              "label": "Georgian"
+              "label": "Georgian kieli"
             },
             {
-              "label": "German / Deutsch"
+              "label": "Saksa / Saksan kieli"
             },
             {
-              "label": "Greek"
+              "label": "Kreikka"
             },
             {
-              "label": "Hebrew"
+              "label": "Heprea"
             },
             {
-              "label": "Hungarian"
+              "label": "Unkarin kieli"
             },
             {
-              "label": "Icelandic"
+              "label": "Islanti"
             },
             {
-              "label": "Indonesian"
+              "label": "Indonesian kieli"
             },
             {
-              "label": "Italian"
+              "label": "Italian kieli"
             },
             {
-              "label": "Japanese"
+              "label": "Japani"
             },
             {
-              "label": "Korean"
+              "label": "Korean kieli"
             },
             {
-              "label": "Latvian"
+              "label": "Latvian kieli"
             },
             {
-              "label": "Lithuanian"
+              "label": "Liettuan kieli"
             },
             {
-              "label": "Luxembourgish"
+              "label": "Luxemburin kieli"
             },
             {
-              "label": "Malay"
+              "label": "Malaijin kieli"
             },
             {
-              "label": "Nepali"
+              "label": "Nepalin kieli"
             },
             {
-              "label": "Norwegian"
+              "label": "Norja"
             },
             {
-              "label": "Polish"
+              "label": "Puola"
             },
             {
-              "label": "Portuguese"
+              "label": "Portugalin kieli"
             },
             {
-              "label": "Portuguese (Brazilian)"
+              "label": "Portugali (Brasilia)"
             },
             {
-              "label": "Romansh"
+              "label": "Retoromaanin kieli"
             },
             {
-              "label": "Russian"
+              "label": "Venäjä"
             },
             {
-              "label": "Serbian - Cyrillic"
+              "label": "Serbian kieli - Kyrillinen"
             },
             {
-              "label": "Serbian - Latin"
+              "label": "Serbian kieli - Latina"
             },
             {
-              "label": "Sinhalese"
+              "label": "Singaleesin kieli"
             },
             {
-              "label": "Slovak"
+              "label": "Slovakian kieli"
             },
             {
-              "label": "Slovenian"
+              "label": "Slovenian kieli"
             },
             {
-              "label": "Spanish"
+              "label": "Espanja"
             },
             {
-              "label": "Swedish"
+              "label": "Ruotsi"
             },
             {
-              "label": "Tagalog"
+              "label": "Tagalogin kieli"
             },
             {
-              "label": "Tamil"
+              "label": "Tamilin kieli"
             },
             {
-              "label": "Taiwanese"
+              "label": "Taiwanin kieli"
             },
             {
-              "label": "Telugu"
+              "label": "Telugun kieli"
             },
             {
-              "label": "Turkish"
+              "label": "Turkki"
             },
             {
-              "label": "Ukrainian"
+              "label": "Ukrainan kieli"
             }
           ]
         }
