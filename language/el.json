@@ -1,93 +1,93 @@
 {
-  "semantics": [
+  "semantics":[
     {
-      "label": "Timeline",
-      "fields": [
+      "label":"Χρονογραμμή",
+      "fields":[
         {
-          "label": "Headline",
-          "description": "Main timeline heading goes here (first page)"
+          "label":"Επικεφαλίδα",
+          "description":"Εδώ συμπληρώνετε τη βασική επικεφαλίδα (τίτλο) της χρονογραμμής (αρχική σελίδα)."
         },
         {
-          "label": "Body Text",
-          "description": "The main timeline body goes here (first page)."
+          "label":"Κυρίως κείμενο",
+          "description":"Εδώ συμπληρώνετε το κυρίως κείμενο της χρονογραμμής (αρχική σελίδα)."
         },
         {
-          "label": "Default zoom level",
-          "default": "0",
-          "description": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
+          "label":"Προεπιλεγμένο επίπεδο zoom",
+          "default":"0",
+          "description":"Αυτό θα ταιριάζει με το προεπιλεγμένο επίπεδο zoom. Ισοδυναμεί με το πάτημα του κουμπιού μεγέθυνσης ή σμίκρυνσης σύμφωνα με τον καθορισμένο αριθμό φορών. Οι αρνητικοί αριθμοί σμικρύνουν. Η προεπιλογή είναι \"0\"."
         },
         {
-          "label": "Background image",
-          "description": "An image to display as background."
+          "label":"Εικόνα φόντου",
+          "description":"Εικόνα η οποία θα εμφανίζεται στο φόντο (background)."
         },
         {
-          "label": "Height",
-          "description": "The height in pixels"
+          "label":"Ύψος",
+          "description":"Το ύψος σε pixels"
         },
         {
-          "label": "Asset",
-          "description": "Here you can add an asset to your timeline \"front page\"",
-          "fields": [
+          "label":"Στοιχείο",
+          "description":"Εδώ μπορείτε να προσθέσετε ένα στοιχείο στην αρχική σελίδα της χρονογραμμής σας",
+          "fields":[
             {
-              "label": "Media",
-              "description": "Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)"
+              "label":"Μέσο",
+              "description":"Σύνδεσμος προς τη διεύθυνση URL του μέσου (Υποστηρίζονται: Twitter, YouTube, Flickr, Vimeo, Google Maps και SoundCloud)"
             },
             {
-              "label": "Credits",
-              "description": "Credits to the media"
+              "label":"Συντελεστές",
+              "description":"Συντελεστές (credits) του μέσου"
             },
             {
-              "label": "Caption",
-              "description": "Caption description goes here"
+              "label":"Λεζάντα",
+              "description":"Εδώ συμπληρώνετε την περιγραφή της λεζάντας"
             }
           ]
         },
         {
-          "label": "Dates",
-          "description": "Add some dates to your timeline!",
-          "field": {
-            "label": "Date",
-            "description": "Date",
-            "fields": [
+          "label":"Ημερομηνίες",
+          "description":"Προσθέστε ημερομηνίες στη χρονογραμμή σας!",
+          "field":{
+            "label":"Ημερομηνία",
+            "description":"Ημερομηνία",
+            "fields":[
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label":"Ημερομηνία έναρξης",
+                "description":"ΕΕΕΕ,ΜΜ,ΗΗ (απαιτείται τουλάχιστον το έτος)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label":"Ημερομηνία λήξης",
+                "description":"ΕΕΕΕ,ΜΜ,ΗΗ (απαιτείται τουλάχιστον το έτος)"
               },
               {
-                "label": "Headline",
-                "description": "Headline for the date entry"
+                "label":"Επικεφαλίδα",
+                "description":"Επικεφαλίδα για την καταχώριση ημερομηνίας"
               },
               {
-                "label": "Body text",
-                "description": "Body for the date entry"
+                "label":"Κυρίως κείμενο",
+                "description":"Κυρίως κείμενο για την καταχώριση ημερομηνίας"
               },
               {
-                "label": "Tags",
-                "description": "Enter Tags (categories)"
+                "label":"Ετικέτες",
+                "description":"Εισάγετε ετικέτες (κατηγορίες)"
               },
               {
-                "label": "Asset",
-                "description": "",
-                "fields": [
+                "label":"Στοιχείο",
+                "description":"",
+                "fields":[
                   {
-                    "label": "Media",
-                    "description": "URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported)."
+                    "label":"Μέσο",
+                    "description":"Η διεύθυνση URL του μέσου (Υποστηρίζονται: Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps και SoundCloud)."
                   },
                   {
-                    "label": "Thumbnail",
-                    "description": "Add a thumbnail if needed, 32x32"
+                    "label":"Μικρογραφία",
+                    "description":"Μπορείτε να προσθέσετε μια μικρογραφία (thumbnail) αν χρειάζεται, 32x32"
                   },
                   {
-                    "label": "Credit",
-                    "description": "Credits to the media"
+                    "label":"Συντελεστές",
+                    "description":"Συντελεστές (credits) του μέσου "
                   },
                   {
-                    "label": "Caption",
-                    "description": "Caption text"
+                    "label":"Λεζάντα",
+                    "description":"Κείμενο λεζάντας"
                   }
                 ]
               }
@@ -95,200 +95,200 @@
           }
         },
         {
-          "label": "Eras",
-          "description": "Add an era to your timeline",
-          "field": {
-            "label": "Era",
-            "description": "",
-            "fields": [
+          "label":"Χρονικές περίοδοι",
+          "description":"Προσθέστε χρονικές περιόδους στη χρονογραμμή σας",
+          "field":{
+            "label":"Χρονική περίοδος",
+            "description":"",
+            "fields":[
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label":"Ημερομηνία έναρξης",
+                "description":"ΕΕΕΕ,ΜΜ,ΗΗ (απαιτείται τουλάχιστον το έτος)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label":"Ημερομηνία λήξης",
+                "description":"ΕΕΕΕ,ΜΜ,ΗΗ (απαιτείται τουλάχιστον το έτος)"
               },
               {
-                "label": "Headline",
-                "description": "Era headline"
+                "label":"Επικεφαλίδα",
+                "description":"Επικεφαλίδα χρονικής περιόδου"
               },
               {
-                "label": "Text",
-                "description": "Era body"
+                "label":"Κείμενο",
+                "description":"Κυρίως κείμενο χρονικής περιόδου"
               },
               {
-                "label": "Tag",
-                "description": "Era tags (categories)"
+                "label":"Ετικέτα",
+                "description":"Ετικέτα χρονικής περιόδου (κατηγορίες)"
               }
             ]
           }
         },
         {
-          "label": "Language",
-          "description": "The language of the user interface",
-          "options": [
+          "label":"Γλώσσα",
+          "description":"Η γλώσσα της διεπαφής χρήστη",
+          "options":[
             {
-              "label": "Afrikaans"
+              "label":"Αφρικάανς"
             },
             {
-              "label": "Arabic"
+              "label":"Αραβικά"
             },
             {
-              "label": "Armenian"
+              "label":"Αρμένικα"
             },
             {
-              "label": "Basque"
+              "label":"Βασκικά"
             },
             {
-              "label": "Bulgarian"
+              "label":"Βουλγαρικά"
             },
             {
-              "label": "Catalan"
+              "label":"Καταλανικά"
             },
             {
-              "label": "Chinese"
+              "label":"Κινέζικα"
             },
             {
-              "label": "Croatian / Hrvatski"
+              "label":"Κροατικά"
             },
             {
-              "label": "Czech"
+              "label":"Τσέχικα"
             },
             {
-              "label": "Danish"
+              "label":"Δανικά"
             },
             {
-              "label": "Dutch"
+              "label":"Ολλανδικά"
             },
             {
-              "label": "English"
+              "label":"Αγγλικά"
             },
             {
-              "label": "English (24-hour time)"
+              "label":"Αγγλικά (24ωρο)"
             },
             {
-              "label": "Esperanto"
+              "label":"Εσπεράντο"
             },
             {
-              "label": "Estonian"
+              "label":"Εσθονικά"
             },
             {
-              "label": "Faroese"
+              "label":"Φεροϊκά"
             },
             {
-              "label": "Farsi"
+              "label":"Φαρσί"
             },
             {
-              "label": "Finnish"
+              "label":"Φινλανδικά"
             },
             {
-              "label": "French"
+              "label":"Γαλλικά"
             },
             {
-              "label": "Galician"
+              "label":"Γαλικιανά"
             },
             {
-              "label": "Georgian"
+              "label":"Γεωργιανά"
             },
             {
-              "label": "German / Deutsch"
+              "label":"Γερμανικά"
             },
             {
-              "label": "Greek"
+              "label":"Ελληνικά"
             },
             {
-              "label": "Hebrew"
+              "label":"Εβραϊκά"
             },
             {
-              "label": "Hungarian"
+              "label":"Ουγγρικά"
             },
             {
-              "label": "Icelandic"
+              "label":"Ισλανδικά"
             },
             {
-              "label": "Indonesian"
+              "label":"Ινδονησιακά"
             },
             {
-              "label": "Italian"
+              "label":"Ιταλικά"
             },
             {
-              "label": "Japanese"
+              "label":"Γιαπωνέζικα"
             },
             {
-              "label": "Korean"
+              "label":"Κορεάτικα"
             },
             {
-              "label": "Latvian"
+              "label":"Λετονικά"
             },
             {
-              "label": "Lithuanian"
+              "label":"Λιθουανικά"
             },
             {
-              "label": "Luxembourgish"
+              "label":"Λουξεμβουργιανά"
             },
             {
-              "label": "Malay"
+              "label":"Μαλαϊκά"
             },
             {
-              "label": "Nepali"
+              "label":"Νεπαλικά"
             },
             {
-              "label": "Norwegian"
+              "label":"Νορβηγικά"
             },
             {
-              "label": "Polish"
+              "label":"Πολωνικά"
             },
             {
-              "label": "Portuguese"
+              "label":"Πορτογαλικά"
             },
             {
-              "label": "Portuguese (Brazilian)"
+              "label":"Πορτογαλικά (Βραζιλίας)"
             },
             {
-              "label": "Romansh"
+              "label":"Ρουμανικά"
             },
             {
-              "label": "Russian"
+              "label":"Ρώσικα"
             },
             {
-              "label": "Serbian - Cyrillic"
+              "label":"Σέρβικα – Κυριλλική γραφή"
             },
             {
-              "label": "Serbian - Latin"
+              "label":"Σέρβικα – Λατινική γραφή"
             },
             {
-              "label": "Sinhalese"
+              "label":"Σινχαλικά"
             },
             {
-              "label": "Slovak"
+              "label":"Σλοβάκικα"
             },
             {
-              "label": "Slovenian"
+              "label":"Σλοβένικα"
             },
             {
-              "label": "Spanish"
+              "label":"Ισπανικά"
             },
             {
-              "label": "Swedish"
+              "label":"Σουηδικά"
             },
             {
-              "label": "Tagalog"
+              "label":"Φιλιππινικά"
             },
             {
-              "label": "Tamil"
+              "label":"Ταμιλικά "
             },
             {
-              "label": "Taiwanese"
+              "label":"Ταϊβανέζικα"
             },
             {
-              "label": "Telugu"
+              "label":"Τελούγκου"
             },
             {
-              "label": "Turkish"
+              "label":"Τούρκικα"
             },
             {
-              "label": "Ukrainian"
+              "label":"Ουκρανικά"
             }
           ]
         }
