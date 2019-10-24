@@ -125,7 +125,7 @@
           }
         },
         {
-          "label": "Jazik",
+          "label": "Jezik",
           "description": "Izbira jezika uporabniškega vmesnika za udeležence.",
           "options": [
             {
