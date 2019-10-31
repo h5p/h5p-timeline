@@ -13,7 +13,6 @@
         },
         {
           "label": "Nível de zoom padrão",
-          "default": "0",
           "description": "Isso mudará o nível de zoom padrão. Equivalente a pressionar o botão de zoom o número especificado de vezes. Números negativos reduzem o zoom. O padrão é 0"
         },
         {

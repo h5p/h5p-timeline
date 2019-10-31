@@ -13,7 +13,6 @@
         },
         {
           "label": "Privzeta raven povečave",
-          "default": "0",
           "description": "Nastavitev spremeni privzeto stopnjo povečave in je enakovredna številu klikov gumba za povečavo ali pomanjšanje časovnice. Privzeta vrednost je 0."
         },
         {

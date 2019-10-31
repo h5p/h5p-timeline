@@ -13,7 +13,6 @@
         },
         {
           "label": "Lehenetsitako zoom maila",
-          "default": "0",
           "description": "Honek lehenetsitako zoom maila aldatuko du. Zooma hurbildu edo urruntzearen botoia zehaztutako alditan sakatzearen baliokidea. Erabili zenbaki negatiboak urruntzeko. 0 lehenetsita dago."
         },
         {

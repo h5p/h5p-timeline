@@ -13,7 +13,6 @@
         },
         {
           "label": "Nivel de zoom predeterminado",
-          "default": "0",
           "description": "Esto modificará el nivel de zoom predeterminado. Equivale a presionar el botón acercar o alejar el número especificado de veces. Los números negativos se alejan. el valor predeterminado es 0"
         },
         {
