@@ -13,7 +13,6 @@
         },
         {
           "label": "Zoomin alkutaso",
-          "default": "0",
           "description": "Voit muuttaa zoomauksen oletustasoa. Arvo vastaa zoomausnapin painallusta. Negatiivinen arvo vastaa loitonnusta ja positiivinen lähennystä. Oletusarvo on 0."
         },
         {
