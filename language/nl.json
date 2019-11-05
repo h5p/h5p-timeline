@@ -13,7 +13,6 @@
         },
         {
           "label": "Standaar zoomniveau",
-          "default": "0",
           "description": "Dit zal het standaard zoomniveau optimaliseren. Gelijk aan het indrukken van in- of uitzoom knop verandert het beeld. Een negatief getal zoom uit. Standaard is 0"
         },
         {

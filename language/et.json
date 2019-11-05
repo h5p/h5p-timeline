@@ -13,7 +13,6 @@
         },
         {
           "label": "Vaikesuumi suurus",
-          "default": "0",
           "description": "See muudab vaikesuumi suurust. Võrdne sissesuumimise või väljasuumimise nupu vajutamisega määratud arv kordi. Negatiivne arv suumib välja. Vaikesuurus on 0."
         },
         {

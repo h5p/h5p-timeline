@@ -13,7 +13,6 @@
         },
         {
           "label": "Normal-verdi for forstørrelse",
-          "default": "0",
           "description": "Sett normal-verdi for forstørrelse. Dette gir samme funksjonalitet som å forstørre eller forminske i verktøyet. Negative nummer forminsker tidslinjen."
         },
         {

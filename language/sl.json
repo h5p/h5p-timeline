@@ -1,92 +1,92 @@
 {
   "semantics": [
     {
-      "label": "Timeline",
+      "label": "Časovnica",
       "fields": [
         {
-          "label": "Intestazione",
-          "description": "L'intestazione principale della timeline va qui (prima pagina)"
+          "label": "Naslov časovnice",
+          "description": "Naslov bo zapisan na prvi strani časovnice."
         },
         {
-          "label": "Testo del corpo",
-          "description": "Il corpo principale della timeline va qui (prima pagina)."
+          "label": "Vsebina časovnice",
+          "description": "Besedilo bo zapisano na prvi strani časovnice."
         },
         {
-          "label": "Livello di zoom predefinito",
-          "description": "Questo modifica il livello di zoom predefinito. Equivale a premere il tasto zoom-in o zoom-out il numero di volte specificato. I numeri negativi indicano i valori di zoom-out. Il valore di default è 0."
+          "label": "Privzeta raven povečave",
+          "description": "Nastavitev spremeni privzeto stopnjo povečave in je enakovredna številu klikov gumba za povečavo ali pomanjšanje časovnice. Privzeta vrednost je 0."
         },
         {
-          "label": "Background image",
-          "description": "An image to display as background."
+          "label": "Slika ozadja",
+          "description": "Slika je prikazana v ozadju nad časovnico."
         },
         {
-          "label": "Height",
-          "description": "The height in pixels"
+          "label": "Višina",
+          "description": "Vrednost v slikovnih pikah (pikslih)."
         },
         {
-          "label": "Risorsa",
-          "description": "Qui è possibile aggiungere una risorsa alla tua timeline \"prima pagina\"",
+          "label": "Sredstva",
+          "description": "Besedilo bo zapisano na prvi strani časovnice.",
           "fields": [
             {
-              "label": "Media",
-              "description": "URL media (Twitter, YouTube, Flickr, Vimeo, Google Maps e SoundCloud sono correttamente supportati)"
+              "label": "Medij",
+              "description": "Spletna povezava (URL). Podprte so povezave za Twitter, YouTube, Flickr, Vimeo, Google Maps in SoundCloud."
             },
             {
-              "label": "Reputazione",
-              "description": "Reputazione sui media"
+              "label": "Zasluge",
+              "description": "Zasluge za medij"
             },
             {
-              "label": "Didascalia",
-              "description": "Qui descrizione didascalia"
+              "label": "Napis",
+              "description": "Napis za medij"
             }
           ]
         },
         {
-          "label": "Date",
-          "description": "Aggiungi le tue date alla timeline!",
+          "label": "Datumi",
+          "description": "Dodajanje datumov z dogodki na časovnico.",
           "field": {
-            "label": "Date",
-            "description": "Data",
+            "label": "Datum",
+            "description": "Datum",
             "fields": [
               {
-                "label": "Inizio data",
-                "description": "YYYY,MM,DD (YYYY minimo richiesto)"
+                "label": "Začetek",
+                "description": "YYYY,MM,DD (zahtevano vsaj leto - YYYY)"
               },
               {
-                "label": "Fine data",
-                "description": "YYYY,MM,DD (YYYY minimo richiesto)"
+                "label": "Konec",
+                "description": "YYYY,MM,DD (zahtevano vsaj leto - YYYY)"
               },
               {
-                "label": "Titolo",
-                "description": "Titolo data d'ingresso"
+                "label": "Naslov",
+                "description": "Naslov dogodka."
               },
               {
-                "label": "Testo del corpo",
-                "description": "Corpo della data d'ingresso"
+                "label": "Opis",
+                "description": "Besedilo za opis dogodka."
               },
               {
-                "label": "Tags",
-                "description": "Inserisci Tags (categorie)"
+                "label": "Oznaka",
+                "description": "Vnos oznake za dogodek in uvrstitev v ločeno kategorijo na časovnici."
               },
               {
-                "label": "Risorsa",
+                "label": "Sredstva",
                 "description": "",
                 "fields": [
                   {
-                    "label": "Media",
-                    "description": "URL media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps e SoundCloud sono correttamente supportati)."
+                    "label": "Medij",
+                    "description": "Spletna povezava (URL). Podprte so povezave za Twitter, YouTube, Flickr, Vimeo, Google Maps in SoundCloud."
                   },
                   {
-                    "label": "immagine in miniatura",
-                    "description": "Aggiungere un'immagine in miniatura se necessario, 32x32 px"
+                    "label": "Sličica",
+                    "description": "Sličica dogodka v velikosti 32x32 slikovnih točk za prikaz na časovnici."
                   },
                   {
-                    "label": "Reputazione",
-                    "description": "Reputazione sui media"
+                    "label": "Zasluge",
+                    "description": "Zasluge za medij."
                   },
                   {
-                    "label": "Didascalia",
-                    "description": "Testo della didascalia"
+                    "label": "Napis",
+                    "description": "Napis za medij."
                   }
                 ]
               }
@@ -94,38 +94,38 @@
           }
         },
         {
-          "label": "Epoche",
-          "description": "Aggiugni un'epoca alla tua timeline",
+          "label": "Obdobja",
+          "description": "Dodajanje obdobja na časovnico.",
           "field": {
-            "label": "Epoca",
+            "label": "Obdobje",
             "description": "",
             "fields": [
               {
-                "label": "Data inizio",
-                "description": "YYYY,MM,DD (YYYY minimo richiesto)"
+                "label": "Začetek",
+                "description": "YYYY,MM,DD (zahtevano vsaj leto - YYYY)"
               },
               {
-                "label": "Data fine",
-                "description": "YYYY,MM,DD (YYYY minimo richiesto)"
+                "label": "Konec",
+                "description": "YYYY,MM,DD (zahtevano vsaj leto - YYYY)"
               },
               {
-                "label": "Intstazione",
-                "description": "Intestazione epoca"
+                "label": "Naslov",
+                "description": "Naslov obdobja."
               },
               {
-                "label": "Testo",
-                "description": "Corpo dell'epoca"
+                "label": "Opis",
+                "description": "Besedilo za opis obdobja."
               },
               {
-                "label": "Tag",
-                "description": "Tags epoca (categorie)"
+                "label": "Oznaka",
+                "description": "Vnos oznake za obdobje in uvrstitev v ločeno kategorijo na časovnici."
               }
             ]
           }
         },
         {
-          "label": "Lingua",
-          "description": "Imposta la lingua dell'interfaccia utente",
+          "label": "Jezik",
+          "description": "Izbira jezika uporabniškega vmesnika za udeležence.",
           "options": [
             {
               "label": "Afrikaans"
@@ -263,7 +263,7 @@
               "label": "Slovak"
             },
             {
-              "label": "Slovenian"
+              "label": "Slovenščina"
             },
             {
               "label": "Spanish"

@@ -13,7 +13,6 @@
         },
         {
           "label": "Niveau de zoom par défaut",
-          "default": "0",
           "description": "Cela va modifier le niveau de zoom par défaut. Equivalent à appuyer sur le bouton zoom avant ou zoom arrière le nombre de fois spécifié. Les nombres négatifs effectuent un zoom arrière. La valeur par défaut est 0."
         },
         {
