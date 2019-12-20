@@ -50,11 +50,11 @@
             "fields": [
               {
                 "label": "Data di inizio",
-                "description": "YYYY,MM,DD (YYYY minimo richiesto)"
+                "description": "AAAA,MM,GG (AAAA minimo richiesto)"
               },
               {
                 "label": "Data di fine",
-                "description": "YYYY,MM,DD (YYYY minimo richiesto)"
+                "description": "AAAA,MM,GG (AAAA minimo richiesto)"
               },
               {
                 "label": "Titolo",
@@ -102,11 +102,11 @@
             "fields": [
               {
                 "label": "Data di inizio",
-                "description": "YYYY,MM,DD (YYYY minimo richiesto)"
+                "description": "AAAA,MM,GG (AAAA minimo richiesto)"
               },
               {
                 "label": "Data di fine",
-                "description": "YYYY,MM,DD (YYYY minimo richiesto)"
+                "description": "AAAA,MM,GG (AAAA minimo richiesto)"
               },
               {
                 "label": "Titolo",
