@@ -28,7 +28,7 @@
           "description": "Aquí puede agregar un activo a su línea de tiempo \"portada\"",
           "fields": [
             {
-              "label": "Media",
+              "label": "Medio",
               "description": "Enlace URL a los medios (Twitter, YouTube, Flickr, Vimeo, Google Maps y SoundCloud son actualmente compatibles)"
             },
             {
@@ -69,11 +69,11 @@
                 "description": "Ingrese las etiquetas (categorías)"
               },
               {
-                "label": "Asset",
+                "label": "Recurso",
                 "description": "",
                 "fields": [
                   {
-                    "label": "Media",
+                    "label": "Medio",
                     "description": "URL a los medios (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps y SoundCloud son actualmente compatibles)."
                   },
                   {
@@ -94,38 +94,38 @@
           }
         },
         {
-          "label": "Eras",
-          "description": "Agrega una era a tu línea de tiempo",
+          "label": "Época",
+          "description": "Agrega una época a tu línea de tiempo",
           "field": {
-            "label": "Era",
+            "label": "época",
             "description": "",
             "fields": [
               {
                 "label": "Fecha de inicio",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "description": "AAAA,MM,DD (Mínimo YYYY requerido)"
               },
               {
                 "label": "Fecha final",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "description": "AAAA,MM,DD (Mínimo YYYY requerido)"
               },
               {
                 "label": "Titular",
-                "description": "Titular de la Era"
+                "description": "Titular de la Época"
               },
               {
                 "label": "Texto",
-                "description": "Cuerpo de la Era"
+                "description": "Cuerpo de la Época"
               },
               {
                 "label": "Etiqueta",
-                "description": "Etiquetas de la Era (categorías)"
+                "description": "Etiquetas de la Época (categorías)"
               }
             ]
           }
         },
         {
           "label": "Idioma",
-          "description": "Lenguaje de la interfaz de usuario",
+          "description": "Idioma de la interfaz de usuario",
           "options": [
             {
               "label": "Afrikaans"
@@ -173,7 +173,7 @@
               "label": "Estoniano"
             },
             {
-              "label": "Faroese"
+              "label": "Faroes"
             },
             {
               "label": "Farsi"
@@ -245,7 +245,7 @@
               "label": "Portugués (Brasileño)"
             },
             {
-              "label": "Romansh"
+              "label": "Rumano"
             },
             {
               "label": "Ruso"
