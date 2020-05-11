@@ -8,20 +8,20 @@
           "description": "L'intestazione principale della timeline va qui (prima pagina)"
         },
         {
-          "label": "Testo del corpo",
+          "label": "Corpo del testo",
           "description": "Il corpo principale della timeline va qui (prima pagina)."
         },
         {
           "label": "Livello di zoom predefinito",
-          "description": "Questo modifica il livello di zoom predefinito. Equivale a premere il tasto zoom-in o zoom-out il numero di volte specificato. I numeri negativi indicano i valori di zoom-out. Il valore di default è 0."
+          "description": "Questo modificherà il livello di zoom predefinito. Equivale a premere il tasto per ingrandire o rimpicciolire per un certo numero di volte. I numeri negativi indicano i valori di zoom out. Il valore predefinito è 0"
         },
         {
-          "label": "Background image",
-          "description": "An image to display as background."
+          "label": "Immagine di sfondo",
+          "description": "Immagine da mostrare come sfondo"
         },
         {
-          "label": "Height",
-          "description": "The height in pixels"
+          "label": "Altezza",
+          "description": "Altezza in pixel"
         },
         {
           "label": "Risorsa",
@@ -29,44 +29,44 @@
           "fields": [
             {
               "label": "Media",
-              "description": "URL media (Twitter, YouTube, Flickr, Vimeo, Google Maps e SoundCloud sono correttamente supportati)"
+              "description": "Indirizzo URL dei media (Twitter, YouTube, Flickr, Vimeo, Google Maps e SoundCloud sono correttamente supportati)"
             },
             {
-              "label": "Reputazione",
-              "description": "Reputazione sui media"
+              "label": "Crediti",
+              "description": "Crediti ai media"
             },
             {
               "label": "Didascalia",
-              "description": "Qui descrizione didascalia"
+              "description": "La descrizione della didascalia va qui"
             }
           ]
         },
         {
           "label": "Date",
-          "description": "Aggiungi le tue date alla timeline!",
+          "description": "Aggiungi delle date alla timeline!",
           "field": {
             "label": "Date",
             "description": "Data",
             "fields": [
               {
-                "label": "Inizio data",
-                "description": "YYYY,MM,DD (YYYY minimo richiesto)"
+                "label": "Data di inizio",
+                "description": "AAAA,MM,GG (AAAA minimo richiesto)"
               },
               {
-                "label": "Fine data",
-                "description": "YYYY,MM,DD (YYYY minimo richiesto)"
+                "label": "Data di fine",
+                "description": "AAAA,MM,GG (AAAA minimo richiesto)"
               },
               {
                 "label": "Titolo",
-                "description": "Titolo data d'ingresso"
+                "description": "Titolo per l'inserimento della data"
               },
               {
-                "label": "Testo del corpo",
-                "description": "Corpo della data d'ingresso"
+                "label": "Corpo del testo",
+                "description": "Corpo per l'inserimento della data"
               },
               {
-                "label": "Tags",
-                "description": "Inserisci Tags (categorie)"
+                "label": "Tag",
+                "description": "Inserisci tag (categorie)"
               },
               {
                 "label": "Risorsa",
@@ -74,15 +74,15 @@
                 "fields": [
                   {
                     "label": "Media",
-                    "description": "URL media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps e SoundCloud sono correttamente supportati)."
+                    "description": "Indirizzo dell'URL dei media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps e SoundCloud sono correttamente supportati)."
                   },
                   {
-                    "label": "immagine in miniatura",
-                    "description": "Aggiungere un'immagine in miniatura se necessario, 32x32 px"
+                    "label": "Miniatura",
+                    "description": "Aggiungere una miniatura se necessario, 32x32 (px)"
                   },
                   {
-                    "label": "Reputazione",
-                    "description": "Reputazione sui media"
+                    "label": "Credito",
+                    "description": "Crediti ai media"
                   },
                   {
                     "label": "Didascalia",
@@ -95,22 +95,22 @@
         },
         {
           "label": "Epoche",
-          "description": "Aggiugni un'epoca alla tua timeline",
+          "description": "Aggiungi un'epoca alla timeline",
           "field": {
             "label": "Epoca",
             "description": "",
             "fields": [
               {
-                "label": "Data inizio",
-                "description": "YYYY,MM,DD (YYYY minimo richiesto)"
+                "label": "Data di inizio",
+                "description": "AAAA,MM,GG (AAAA minimo richiesto)"
               },
               {
-                "label": "Data fine",
-                "description": "YYYY,MM,DD (YYYY minimo richiesto)"
+                "label": "Data di fine",
+                "description": "AAAA,MM,GG (AAAA minimo richiesto)"
               },
               {
-                "label": "Intstazione",
-                "description": "Intestazione epoca"
+                "label": "Titolo",
+                "description": "Titolo dell'epoca"
               },
               {
                 "label": "Testo",
@@ -118,158 +118,158 @@
               },
               {
                 "label": "Tag",
-                "description": "Tags epoca (categorie)"
+                "description": "Tag di epoche (categorie)"
               }
             ]
           }
         },
         {
           "label": "Lingua",
-          "description": "Imposta la lingua dell'interfaccia utente",
+          "description": "Lingua dell'interfaccia utente",
           "options": [
             {
               "label": "Afrikaans"
             },
             {
-              "label": "Arabic"
+              "label": "Arabo"
             },
             {
-              "label": "Armenian"
+              "label": "Armeno"
             },
             {
-              "label": "Basque"
+              "label": "Basco"
             },
             {
-              "label": "Bulgarian"
+              "label": "Bulgaro"
             },
             {
-              "label": "Catalan"
+              "label": "Catalano"
             },
             {
-              "label": "Chinese"
+              "label": "Cinese"
             },
             {
-              "label": "Croatian / Hrvatski"
+              "label": "Croato / Hrvatski"
             },
             {
-              "label": "Czech"
+              "label": "Ceco"
             },
             {
-              "label": "Danish"
+              "label": "Danese"
             },
             {
-              "label": "Dutch"
+              "label": "Olandese"
             },
             {
-              "label": "English"
+              "label": "Inglese"
             },
             {
-              "label": "English (24-hour time)"
+              "label": "Inglese (24 ore)"
             },
             {
               "label": "Esperanto"
             },
             {
-              "label": "Estonian"
+              "label": "Estone"
             },
             {
-              "label": "Faroese"
+              "label": "Faringio"
             },
             {
-              "label": "Farsi"
+              "label": "Persiano / Farsi"
             },
             {
-              "label": "Finnish"
+              "label": "Finlandese"
             },
             {
-              "label": "French"
+              "label": "Francese"
             },
             {
-              "label": "Galician"
+              "label": "Galiziano"
             },
             {
-              "label": "Georgian"
+              "label": "Georgiano"
             },
             {
-              "label": "German / Deutsch"
+              "label": "Tedesco / Deutsch"
             },
             {
-              "label": "Greek"
+              "label": "Greco"
             },
             {
-              "label": "Hebrew"
+              "label": "Ebraico"
             },
             {
-              "label": "Hungarian"
+              "label": "Ungherese"
             },
             {
-              "label": "Icelandic"
+              "label": "Islandese"
             },
             {
-              "label": "Indonesian"
+              "label": "Indonesiano"
             },
             {
-              "label": "Italian"
+              "label": "Italiano"
             },
             {
-              "label": "Japanese"
+              "label": "Giapponese"
             },
             {
-              "label": "Korean"
+              "label": "Coreano"
             },
             {
-              "label": "Latvian"
+              "label": "Lettone"
             },
             {
-              "label": "Lithuanian"
+              "label": "Lituano"
             },
             {
-              "label": "Luxembourgish"
+              "label": "Lussemburghese"
             },
             {
-              "label": "Malay"
+              "label": "Malese"
             },
             {
-              "label": "Nepali"
+              "label": "Nepalese"
             },
             {
-              "label": "Norwegian"
+              "label": "Norvegese"
             },
             {
-              "label": "Polish"
+              "label": "Polacco"
             },
             {
-              "label": "Portuguese"
+              "label": "Portoghese"
             },
             {
-              "label": "Portuguese (Brazilian)"
+              "label": "Portoghese (Brasiliano)"
             },
             {
-              "label": "Romansh"
+              "label": "Romancio"
             },
             {
-              "label": "Russian"
+              "label": "Russo"
             },
             {
-              "label": "Serbian - Cyrillic"
+              "label": "Serbo - Cirillico"
             },
             {
-              "label": "Serbian - Latin"
+              "label": "Serbo - Latino"
             },
             {
-              "label": "Sinhalese"
+              "label": "Singalese"
             },
             {
-              "label": "Slovak"
+              "label": "Slovacco"
             },
             {
-              "label": "Slovenian"
+              "label": "Sloveno"
             },
             {
-              "label": "Spanish"
+              "label": "Spagnolo"
             },
             {
-              "label": "Swedish"
+              "label": "Svedese"
             },
             {
               "label": "Tagalog"
@@ -284,10 +284,10 @@
               "label": "Telugu"
             },
             {
-              "label": "Turkish"
+              "label": "Turco"
             },
             {
-              "label": "Ukrainian"
+              "label": "Ucraino"
             }
           ]
         }

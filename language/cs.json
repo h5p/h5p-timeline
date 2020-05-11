@@ -1,92 +1,92 @@
 {
   "semantics": [
     {
-      "label": "Timeline",
+      "label": "Časová osa",
       "fields": [
         {
-          "label": "Headline",
-          "description": "Main timeline heading goes here (first page)"
+          "label": "Titulek",
+          "description": "Titulek hlavní stránky časové osy (první stránka)"
         },
         {
-          "label": "Body Text",
-          "description": "The main timeline body goes here (first page)."
+          "label": "Text těla",
+          "description": "Text hlavní stránky časové osy (první stránka)."
         },
         {
-          "label": "Default zoom level",
-          "description": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
+          "label": "Výchozí úroveň přiblížení",
+          "description": "Tím se vylepší výchozí úroveň zvětšení. Rovněž je možné stisknout tlačítko zvětšení nebo zmenšení zadané velikosti změny. Záporná čísla zmenšují. Výchozí hodnota je 0"
         },
         {
-          "label": "Background image",
-          "description": "An image to display as background."
+          "label": "Obrázek na pozadí",
+          "description": "Obrázek, který se má zobrazit jako pozadí."
         },
         {
-          "label": "Height",
-          "description": "The height in pixels"
+          "label": "Výška",
+          "description": "Výška v pixelech"
         },
         {
-          "label": "Asset",
-          "description": "Here you can add an asset to your timeline \"front page\"",
+          "label": "Událost",
+          "description": "Zde můžete do své časové osy přidat událost \"hlavní stránka\"",
           "fields": [
             {
-              "label": "Media",
-              "description": "Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)"
+              "label": "Média",
+              "description": "Odkaz URL na média (Aktuálně jsou podporována média Twitter, YouTube, Flickr, Vimeo, Google Maps a SoundCloud)"
             },
             {
-              "label": "Credits",
-              "description": "Credits to the media"
+              "label": "Příspěvek",
+              "description": "Příspěvky medií"
             },
             {
-              "label": "Caption",
-              "description": "Caption description goes here"
+              "label": "Nadpis",
+              "description": "Nadpis popisu najdete zde"
             }
           ]
         },
         {
-          "label": "Dates",
-          "description": "Add some dates to your timeline!",
+          "label": "Datum",
+          "description": "Přidat na svou časovou osu některá data!",
           "field": {
-            "label": "Date",
-            "description": "Date",
+            "label": "Datum",
+            "description": "Datum",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Datum zahájení",
+                "description": "YYYY,MM,DD (Minimálně YYYY povinné)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Datum ukončení",
+                "description": "YYYY,MM,DD (Minimálně YYYY povinné)"
               },
               {
-                "label": "Headline",
-                "description": "Headline for the date entry"
+                "label": "Titulek",
+                "description": "Titulek pro zadání data"
               },
               {
-                "label": "Body text",
-                "description": "Body for the date entry"
+                "label": "Text těla",
+                "description": "Tělo pro zadání data"
               },
               {
-                "label": "Tags",
-                "description": "Enter Tags (categories)"
+                "label": "Štítky",
+                "description": "Vložit štítek (kategorie)"
               },
               {
-                "label": "Asset",
+                "label": "Událost",
                 "description": "",
                 "fields": [
                   {
-                    "label": "Media",
-                    "description": "URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported)."
+                    "label": "Média",
+                    "description": "Odkaz URL na média (Aktuálně jsou podporována média Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps a SoundCloud )."
                   },
                   {
-                    "label": "Thumbnail",
-                    "description": "Add a thumbnail if needed, 32x32"
+                    "label": "Miniatura",
+                    "description": "V případě potřeby přidejte miniaturu, 32x32"
                   },
                   {
-                    "label": "Credit",
-                    "description": "Credits to the media"
+                    "label": "Příspěvek",
+                    "description": "Příspěvky medií"
                   },
                   {
-                    "label": "Caption",
-                    "description": "Caption text"
+                    "label": "Nadpis",
+                    "description": "Text nadpisu"
                   }
                 ]
               }
@@ -94,38 +94,38 @@
           }
         },
         {
-          "label": "Eras",
-          "description": "Add an era to your timeline",
+          "label": "Éry",
+          "description": "Přidejte éru na svou časovou osu",
           "field": {
-            "label": "Era",
+            "label": "Éra",
             "description": "",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Datum zahájení",
+                "description": "YYYY,MM,DD (Minimálně YYYY povinné)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Datum ukončení",
+                "description": "YYYY,MM,DD (Minimálně YYYY povinné)"
               },
               {
-                "label": "Headline",
-                "description": "Era headline"
+                "label": "Titulek",
+                "description": "Titulek éry"
               },
               {
                 "label": "Text",
-                "description": "Era body"
+                "description": "Tělo éry"
               },
               {
-                "label": "Tag",
-                "description": "Era tags (categories)"
+                "label": "Štítek",
+                "description": "Štítky éry (kategorie)"
               }
             ]
           }
         },
         {
-          "label": "Language",
-          "description": "The language of the user interface",
+          "label": "Jazyk",
+          "description": "Jazyk uživatelského rozhraní",
           "options": [
             {
               "label": "Afrikaans"
