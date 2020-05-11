@@ -1,92 +1,92 @@
 {
   "semantics": [
     {
-      "label": "Timeline",
+      "label": "Временная шкала",
       "fields": [
         {
-          "label": "Headline",
-          "description": "Main timeline heading goes here (first page)"
+          "label": "Заголовок",
+          "description": "Основное название временной шкалы (первая страница)"
         },
         {
-          "label": "Body Text",
-          "description": "The main timeline body goes here (first page)."
+          "label": "Основной текст",
+          "description": "Основной текст временной шкалы (первая страница)."
         },
         {
-          "label": "Default zoom level",
-          "description": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
+          "label": "Размер приближения по умолчанию",
+          "description": "Эта настройка меняет размер приближение по умолчанию. Равен количеству нажатиям кнопки приближения или отдаления. Негативные показатели отдаляют. По умолчанию ровно 0."
         },
         {
-          "label": "Background image",
-          "description": "An image to display as background."
+          "label": "Фоновое изображение",
+          "description": "Изображение на заднем фоне."
         },
         {
-          "label": "Height",
-          "description": "The height in pixels"
+          "label": "Высота",
+          "description": "Высота в пикселях"
         },
         {
-          "label": "Asset",
-          "description": "Here you can add an asset to your timeline \"front page\"",
+          "label": "Объект",
+          "description": "Сюда можете добавить дополнение в переменной шкале \"главная страница\"",
           "fields": [
             {
-              "label": "Media",
-              "description": "Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)"
+              "label": "Медиа",
+              "description": "Ссылка на медию (Twitter, YouTube, Flickr, Vimeo, Google Maps и SoundCloud на данный момент поддерживаются)"
             },
             {
-              "label": "Credits",
-              "description": "Credits to the media"
+              "label": "Источник",
+              "description": "Источник"
             },
             {
-              "label": "Caption",
-              "description": "Caption description goes here"
+              "label": "Титры",
+              "description": "Сюда можете добавить описание титров"
             }
           ]
         },
         {
-          "label": "Dates",
-          "description": "Add some dates to your timeline!",
+          "label": "Даты",
+          "description": "Добавьте даты на временную шкалу!",
           "field": {
-            "label": "Date",
-            "description": "Date",
+            "label": "Дата",
+            "description": "Дата",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Начало",
+                "description": "ГГГГ,MM,ДД (Минимально ГГГГ)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Конец",
+                "description": "ГГГГ,MM,ДД (Минимально ГГГГ)"
               },
               {
-                "label": "Headline",
-                "description": "Headline for the date entry"
+                "label": "Заголовок",
+                "description": "Заголовок для ввода даты"
               },
               {
-                "label": "Body text",
-                "description": "Body for the date entry"
+                "label": "Основной текст",
+                "description": "Основное для ввода даты"
               },
               {
-                "label": "Tags",
-                "description": "Enter Tags (categories)"
+                "label": "Метки",
+                "description": "Добавьте метки (категории)"
               },
               {
-                "label": "Asset",
+                "label": "Объект",
                 "description": "",
                 "fields": [
                   {
-                    "label": "Media",
-                    "description": "URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported)."
+                    "label": "Медиа",
+                    "description": "Ссылка на медию (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps и SoundCloud на данный момент поддерживаются)."
                   },
                   {
-                    "label": "Thumbnail",
-                    "description": "Add a thumbnail if needed, 32x32"
+                    "label": "Икона",
+                    "description": "При необходимости добавить икону, 32x32"
                   },
                   {
-                    "label": "Credit",
-                    "description": "Credits to the media"
+                    "label": "Источник",
+                    "description": "Источники на медию"
                   },
                   {
-                    "label": "Caption",
-                    "description": "Caption text"
+                    "label": "Титры",
+                    "description": "Текст титров"
                   }
                 ]
               }
@@ -94,38 +94,38 @@
           }
         },
         {
-          "label": "Eras",
-          "description": "Add an era to your timeline",
+          "label": "Эра",
+          "description": "Добавить эру на временную шкалу",
           "field": {
-            "label": "Era",
+            "label": "Эра",
             "description": "",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Начало",
+                "description": "ГГГГ,MM,ДД (Минимально ГГГГ)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Конец",
+                "description": "ГГГГ,MM,ДД (Минимально ГГГГ)"
               },
               {
-                "label": "Headline",
-                "description": "Era headline"
+                "label": "Заглоловок",
+                "description": "Заголовок для эры"
               },
               {
-                "label": "Text",
-                "description": "Era body"
+                "label": "Текст",
+                "description": "Текст"
               },
               {
-                "label": "Tag",
-                "description": "Era tags (categories)"
+                "label": "Метки",
+                "description": "Метки для эры (категории)"
               }
             ]
           }
         },
         {
-          "label": "Language",
-          "description": "The language of the user interface",
+          "label": "Язык",
+          "description": "Язык интерфейса пользователя",
           "options": [
             {
               "label": "Afrikaans"
@@ -248,7 +248,7 @@
               "label": "Romansh"
             },
             {
-              "label": "Russian"
+              "label": "Русский"
             },
             {
               "label": "Serbian - Cyrillic"
