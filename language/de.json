@@ -13,7 +13,7 @@
         },
         {
           "label": "Standard-Zoomstufe",
-          "description": "Der Zahlenwert enstpricht dem mehrmaligen Drücken des Buttons zum Hinein- oder Herauszoomen. Negative Zahlen zoomenen heraus. Voreinstellung ist 0."
+          "description": "Der Zahlenwert enstpricht dem mehrmaligen Drücken des Buttons zum Hinein- oder Herauszoomen. Negative Zahlen zoomen heraus. Voreinstellung ist 0."
         },
         {
           "label": "Hintergrundbild",
