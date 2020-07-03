@@ -28,7 +28,7 @@
           "description": "Aquí puede agregar un activo a su línea de tiempo \"portada\"",
           "fields": [
             {
-              "label": "Media",
+              "label": "Medio",
               "description": "Enlace URL a los medios (Twitter, YouTube, Flickr, Vimeo, Google Maps y SoundCloud son actualmente compatibles)"
             },
             {
