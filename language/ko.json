@@ -1,92 +1,92 @@
 {
   "semantics": [
     {
-      "label": "Timeline",
+      "label": "연대표",
       "fields": [
         {
-          "label": "Headline",
-          "description": "Main timeline heading goes here (first page)"
+          "label": "헤드라인",
+          "description": "주 타임라인 제목 삽입(첫 페이지)"
         },
         {
-          "label": "Body Text",
-          "description": "The main timeline body goes here (first page)."
+          "label": "본문 글",
+          "description": "주 타임라인 본문을 여기(첫 페이지)에 수록."
         },
         {
-          "label": "Default zoom level",
-          "description": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
+          "label": "기본 줌 레벨",
+          "description": "이 설정은 기본 줌 레벨을 변경한다. 확대 또는 축소 버튼을 지정된 횟수만큼 누르는 것과 동일하다. 음수는 축소를 의미함. 기본값은 0"
         },
         {
-          "label": "Background image",
-          "description": "An image to display as background."
+          "label": "배경 그림",
+          "description": "배경으로 표시할 이미지."
         },
         {
-          "label": "Height",
-          "description": "The height in pixels"
+          "label": "높이",
+          "description": "높이(픽셀)"
         },
         {
-          "label": "Asset",
-          "description": "Here you can add an asset to your timeline \"front page\"",
+          "label": "자료(asset)",
+          "description": "여기서 자료를 연대표 \"front page\" (전면 페이지) 에 추가할 수 있다.",
           "fields": [
             {
-              "label": "Media",
-              "description": "Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)"
+              "label": "미디어",
+              "description": "링크할 미디어 URL (트위터, 유튜브, 플리커, 비메오, 구글 지도 and 사운드클라우드가 현재 지원됩니다.)"
             },
             {
-              "label": "Credits",
-              "description": "Credits to the media"
+              "label": "크레딧",
+              "description": "미디어에 대한 크레딧"
             },
             {
-              "label": "Caption",
-              "description": "Caption description goes here"
+              "label": "캡션",
+              "description": "캡션 설명 입력"
             }
           ]
         },
         {
-          "label": "Dates",
-          "description": "Add some dates to your timeline!",
+          "label": "날짜",
+          "description": "연대표에 날짜를 추가하십시오!",
           "field": {
-            "label": "Date",
-            "description": "Date",
+            "label": "날짜",
+            "description": "날짜",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "시작일",
+                "description": "YYYY,MM,DD (최소한 연도 네 자리 필수)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "마지막일",
+                "description": "YYYY,MM,DD (최소한 연도 네 자리 필수)"
               },
               {
-                "label": "Headline",
-                "description": "Headline for the date entry"
+                "label": "헤드라인",
+                "description": "날짜 항목의 헤드라인"
               },
               {
-                "label": "Body text",
-                "description": "Body for the date entry"
+                "label": "본문 글자",
+                "description": "날짜 항목의 본문"
               },
               {
-                "label": "Tags",
-                "description": "Enter Tags (categories)"
+                "label": "태그",
+                "description": "태그 (카테고리) 입력"
               },
               {
-                "label": "Asset",
+                "label": "자료",
                 "description": "",
                 "fields": [
                   {
-                    "label": "Media",
-                    "description": "URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported)."
+                    "label": "미디어",
+                    "description": "링크할 미디어 URL (트위터, 유튜브, 플리커, 비메오, 구글 지도 and 사운드클라우드가 현재 지원됩니다.)"
                   },
                   {
-                    "label": "Thumbnail",
-                    "description": "Add a thumbnail if needed, 32x32"
+                    "label": "썸네일",
+                    "description": "필요한 경우 축소판 그림 추가, 32x32"
                   },
                   {
-                    "label": "Credit",
-                    "description": "Credits to the media"
+                    "label": "크레딧",
+                    "description": "미디어에 대한 크레딧"
                   },
                   {
-                    "label": "Caption",
-                    "description": "Caption text"
+                    "label": "캡션",
+                    "description": "캡션 텍스트"
                   }
                 ]
               }
@@ -94,38 +94,38 @@
           }
         },
         {
-          "label": "Eras",
-          "description": "Add an era to your timeline",
+          "label": "시대",
+          "description": "연대표에 시대 추가",
           "field": {
-            "label": "Era",
+            "label": "시대",
             "description": "",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "시작일",
+                "description": "YYYY,MM,DD (최소한 연도 네 자리 필수)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "마지막일",
+                "description": "YYYY,MM,DD (최소한 연도 네 자리 필수)"
               },
               {
-                "label": "Headline",
-                "description": "Era headline"
+                "label": "헤드라인",
+                "description": "시대 헤드라인"
               },
               {
-                "label": "Text",
-                "description": "Era body"
+                "label": "텍스트",
+                "description": "시대 본문"
               },
               {
-                "label": "Tag",
-                "description": "Era tags (categories)"
+                "label": "태그",
+                "description": "시대 태그(카테고리)"
               }
             ]
           }
         },
         {
-          "label": "Language",
-          "description": "The language of the user interface",
+          "label": "언어",
+          "description": "사용자 인터페이스 언어",
           "options": [
             {
               "label": "Afrikaans"
