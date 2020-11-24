@@ -1,92 +1,92 @@
 {
   "semantics": [
     {
-      "label": "Timeline",
+      "label": "Tydlyn",
       "fields": [
         {
-          "label": "Headline",
-          "description": "Main timeline heading goes here (first page)"
+          "label": "Hoofopskrif",
+          "description": "Hooftydlynopskrif kom hier (eerste bladsy)"
         },
         {
-          "label": "Body Text",
-          "description": "The main timeline body goes here (first page)."
+          "label": "Liggaamsteks",
+          "description": "Die tydlynteks kom hier (eerste bladsy)."
         },
         {
-          "label": "Default zoom level",
-          "description": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
+          "label": "Verstek zoom vlak",
+          "description": "Dit sal die standaardzoomvlak aanpas. Gelyk aan die in- of uitzoom-knoppie om die gespesifiseerde aantal kere te druk. Negatiewe getalle vergroot default is 0"
         },
         {
-          "label": "Background image",
-          "description": "An image to display as background."
+          "label": "Agtergrondprent",
+          "description": "'n Beeld om as agtergrond te vertoon."
         },
         {
-          "label": "Height",
-          "description": "The height in pixels"
+          "label": "Hoogte",
+          "description": "Die hoogte in 'pixels'"
         },
         {
-          "label": "Asset",
-          "description": "Here you can add an asset to your timeline \"front page\"",
+          "label": "Bronne",
+          "description": "Hier kan jy 'n bron by jou tydlyn voeg \"voorblad\"",
           "fields": [
             {
               "label": "Media",
-              "description": "Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)"
+              "description": "Webskakels (Twitter, YouTube, Flickr, Vimeo, Google Maps en SoundCloud word tans ondersteun)"
             },
             {
-              "label": "Credits",
-              "description": "Credits to the media"
+              "label": "Erkenning",
+              "description": "Erkenning aan bronne"
             },
             {
-              "label": "Caption",
-              "description": "Caption description goes here"
+              "label": "Byskrif",
+              "description": "Beskrywings van byskrifte kom hier"
             }
           ]
         },
         {
-          "label": "Dates",
-          "description": "Add some dates to your timeline!",
+          "label": "Datums",
+          "description": "Voeg 'n paar datums by jou tydlyn",
           "field": {
-            "label": "Date",
-            "description": "Date",
+            "label": "Datum",
+            "description": "Datum",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Begindatum",
+                "description": "YYYY,MM,DD (Minimum YYYY word vereis)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Einddatum",
+                "description": "YYYY,MM,DD (Minimum YYYY word vereis)"
               },
               {
-                "label": "Headline",
-                "description": "Headline for the date entry"
+                "label": "Hoofopskrif",
+                "description": "Hoofopskrif vir datuminskrywing"
               },
               {
-                "label": "Body text",
-                "description": "Body for the date entry"
+                "label": "Liggaamteks",
+                "description": "Liggaamteks vir datuminskrywing"
               },
               {
-                "label": "Tags",
-                "description": "Enter Tags (categories)"
+                "label": "Merkers",
+                "description": "Sleutel merker (kategorieë)"
               },
               {
-                "label": "Asset",
+                "label": "Bronne",
                 "description": "",
                 "fields": [
                   {
                     "label": "Media",
-                    "description": "URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported)."
+                    "description": "Webskakels (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps en SoundCloud word tans ondersteun)."
                   },
                   {
-                    "label": "Thumbnail",
-                    "description": "Add a thumbnail if needed, 32x32"
+                    "label": "Kleinkiekkie",
+                    "description": "Voeg 'n kleinkiekkie indien nodig, 32x32"
                   },
                   {
-                    "label": "Credit",
-                    "description": "Credits to the media"
+                    "label": "Erkenning",
+                    "description": "Erkenning aan bronne"
                   },
                   {
-                    "label": "Caption",
-                    "description": "Caption text"
+                    "label": "Byskrifte",
+                    "description": "Byskrifteks"
                   }
                 ]
               }
@@ -95,181 +95,181 @@
         },
         {
           "label": "Eras",
-          "description": "Add an era to your timeline",
+          "description": "Voeg 'n era by jou tydlyn",
           "field": {
             "label": "Era",
             "description": "",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Begindatum",
+                "description": "YYYY,MM,DD (Minimum YYYY word vereis)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Einddatum",
+                "description": "YYYY,MM,DD (Minimum YYYY word vereis)"
               },
               {
-                "label": "Headline",
-                "description": "Era headline"
+                "label": "Hoofopskrif",
+                "description": "Era hoofopskrif"
               },
               {
-                "label": "Text",
-                "description": "Era body"
+                "label": "Teks",
+                "description": "Era teks"
               },
               {
-                "label": "Tag",
-                "description": "Era tags (categories)"
+                "label": "Merker",
+                "description": "Era merker (kategorieë)"
               }
             ]
           }
         },
         {
-          "label": "Language",
-          "description": "The language of the user interface",
+          "label": "Taal",
+          "description": "Die taal van die gebruiker",
           "options": [
             {
               "label": "Afrikaans"
             },
             {
-              "label": "Arabic"
+              "label": "Arabies"
             },
             {
-              "label": "Armenian"
+              "label": "Armeens"
             },
             {
-              "label": "Basque"
+              "label": "Baskies"
             },
             {
-              "label": "Bulgarian"
+              "label": "Bulgaars"
             },
             {
-              "label": "Catalan"
+              "label": "Katalaans"
             },
             {
-              "label": "Chinese"
+              "label": "Chinees"
             },
             {
-              "label": "Croatian / Hrvatski"
+              "label": "Kroaties / Hrvatski"
             },
             {
-              "label": "Czech"
+              "label": "Tsjeggies"
             },
             {
-              "label": "Danish"
+              "label": "Deens"
             },
             {
-              "label": "Dutch"
+              "label": "Nederlands"
             },
             {
-              "label": "English"
+              "label": "Engels"
             },
             {
-              "label": "English (24-hour time)"
+              "label": "Engels (24-uur tyd)"
             },
             {
               "label": "Esperanto"
             },
             {
-              "label": "Estonian"
+              "label": "Esties"
             },
             {
-              "label": "Faroese"
+              "label": "Faroërs"
             },
             {
               "label": "Farsi"
             },
             {
-              "label": "Finnish"
+              "label": "Fins"
             },
             {
-              "label": "French"
+              "label": "Frans"
             },
             {
-              "label": "Galician"
+              "label": "Galisies"
             },
             {
-              "label": "Georgian"
+              "label": "Georgies"
             },
             {
-              "label": "German / Deutsch"
+              "label": "Duits"
             },
             {
-              "label": "Greek"
+              "label": "Grieks"
             },
             {
-              "label": "Hebrew"
+              "label": "Hebreeus"
             },
             {
-              "label": "Hungarian"
+              "label": "Hongaars"
             },
             {
-              "label": "Icelandic"
+              "label": "Yslands"
             },
             {
-              "label": "Indonesian"
+              "label": "Indonesies"
             },
             {
-              "label": "Italian"
+              "label": "Italiaans"
             },
             {
-              "label": "Japanese"
+              "label": "Japanees"
             },
             {
-              "label": "Korean"
+              "label": "Koreaans"
             },
             {
-              "label": "Latvian"
+              "label": "Lets"
             },
             {
-              "label": "Lithuanian"
+              "label": "Litaus"
             },
             {
-              "label": "Luxembourgish"
+              "label": "Luxemburgs"
             },
             {
-              "label": "Malay"
+              "label": "Maleis"
             },
             {
-              "label": "Nepali"
+              "label": "Nepalees"
             },
             {
-              "label": "Norwegian"
+              "label": "Noors"
             },
             {
-              "label": "Polish"
+              "label": "Pools"
             },
             {
-              "label": "Portuguese"
+              "label": "Portugees"
             },
             {
-              "label": "Portuguese (Brazilian)"
+              "label": "Portugees (Brasiliaans)"
             },
             {
-              "label": "Romansh"
+              "label": "Romeins"
             },
             {
-              "label": "Russian"
+              "label": "Russies"
             },
             {
-              "label": "Serbian - Cyrillic"
+              "label": "Serwies - Cyrillies"
             },
             {
-              "label": "Serbian - Latin"
+              "label": "Serwies - Latyn"
             },
             {
-              "label": "Sinhalese"
+              "label": "Singalees"
             },
             {
-              "label": "Slovak"
+              "label": "Slowaaks"
             },
             {
-              "label": "Slovenian"
+              "label": "Sloweens"
             },
             {
-              "label": "Spanish"
+              "label": "Spaans"
             },
             {
-              "label": "Swedish"
+              "label": "Sweeds"
             },
             {
               "label": "Tagalog"
@@ -278,16 +278,16 @@
               "label": "Tamil"
             },
             {
-              "label": "Taiwanese"
+              "label": "Taiwanees"
             },
             {
               "label": "Telugu"
             },
             {
-              "label": "Turkish"
+              "label": "Turks"
             },
             {
-              "label": "Ukrainian"
+              "label": "Oekraïens"
             }
           ]
         }
