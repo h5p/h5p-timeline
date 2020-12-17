@@ -1,19 +1,19 @@
 {
   "semantics": [
     {
-      "label": "Timeline",
+      "label": "Línia de temps",
       "fields": [
         {
           "label": "Títol",
           "description": "Títol principal de la línia del temps (primera pàgina)"
         },
         {
-          "label": "Cos del Text",
+          "label": "Text del cos",
           "description": "El cos de text principal va aquí (primera pàgina)."
         },
         {
-          "label": "Nivell de zoom per defecte",
-          "description": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
+          "label": "Nivell de zoom predeterminat",
+          "description": "Canviarà el nivell de zoom predeterminat. És el mateix que prémer el botó d’ampliar o d’allunyar el nombre de vegades indicat. Els números negatius allunyen. El valor predeterminat és 0."
         },
         {
           "label": "Imatge de fons",
@@ -21,22 +21,22 @@
         },
         {
           "label": "Alçària",
-          "description": "L'alçària en píxels."
+          "description": "L’alçària en píxels."
         },
         {
           "label": "Recurs",
           "description": "Aquí pots afegir recursos multimèdia a la línia del temps (primera pàgina).",
           "fields": [
             {
-              "label": "Contingut",
-              "description": "Enllaç al recurs (Actualment s'accepten enllaços de: Twitter, YouTube, Flickr, Vimeo, Google Maps i SoundCloud)."
+              "label": "Recurs",
+              "description": "Enllaç al recurs (Actualment s’accepten enllaços de: Twitter, YouTube, Flickr, Vimeo, Google Maps i SoundCloud)."
             },
             {
               "label": "Crèdits",
-              "description": "Crèdits del recurs."
+              "description": "Crèdits del recurs"
             },
             {
-              "label": "Peu",
+              "label": "Peu de recurs",
               "description": "El text de peu pel recurs va aquí."
             }
           ]
@@ -49,20 +49,20 @@
             "description": "Data",
             "fields": [
               {
-                "label": "Data d'inici",
-                "description": "AAAA,MM,DD (Com a mínim, l'any, AAAA, és obligatori)"
+                "label": "Data d’inici",
+                "description": "AAAA,MM,DD (Com a mínim, l’any, AAAA, és obligatori)"
               },
               {
-                "label": "Data d'acabament",
-                "description": "AAAA,MM,DD (Com a mínim, l'any, AAAA, és obligatori)"
+                "label": "Data de finalització",
+                "description": "AAAA,MM,DD (Com a mínim, l’any, AAAA, és obligatori)"
               },
               {
                 "label": "Títol",
-                "description": "Títol de l'esdeveniment."
+                "description": "Títol de l’esdeveniment."
               },
               {
-                "label": "Cos de text",
-                "description": "Cos de text de l'esdeveniment."
+                "label": "Text del cos",
+                "description": "Text del cos"
               },
               {
                 "label": "Etiquetes",
@@ -73,8 +73,8 @@
                 "description": "",
                 "fields": [
                   {
-                    "label": "Contingut",
-                    "description": "Enllaç al recurs (Actualment, s'accepten recursos de: Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps i SoundCloud)."
+                    "label": "Recurs",
+                    "description": "Enllaç al recurs (Actualment, s’accepten recursos de: Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps i SoundCloud)."
                   },
                   {
                     "label": "Imatge prèvia",
@@ -101,12 +101,12 @@
             "description": "",
             "fields": [
               {
-                "label": "Data d'inici",
-                "description": "AAAA,MM,DD (Com a mínim, l'any, AAAA, és obligatori)"
+                "label": "Data d’inici",
+                "description": "AAAA,MM,DD (Com a mínim, l’any, AAAA, és obligatori)"
               },
               {
-                "label": "Data d'acabament",
-                "description": "AAAA,MM,DD (Com a mínim, l'any, AAAA, és obligatori)"
+                "label": "Data de finalització",
+                "description": "AAAA,MM,DD (Com a mínim, l’any, AAAA, és obligatori)"
               },
               {
                 "label": "Títol",
@@ -125,7 +125,7 @@
         },
         {
           "label": "Idioma",
-          "description": "Idioma de la inferfície de l'usuari",
+          "description": "Idioma de la inferfície de l’usuari",
           "options": [
             {
               "label": "Afrikaans"
@@ -137,10 +137,10 @@
               "label": "Armeni"
             },
             {
-              "label": "Èuscar"
+              "label": "Basc"
             },
             {
-              "label": "Bulgar"
+              "label": "Búlgar"
             },
             {
               "label": "Català"
@@ -164,7 +164,7 @@
               "label": "Anglès"
             },
             {
-              "label": "Anglès (24-hour time)"
+              "label": "Anglès (format 24 hores)"
             },
             {
               "label": "Esperanto"
