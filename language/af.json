@@ -8,7 +8,7 @@
           "description": "Hooftydlynopskrif kom hier (eerste bladsy)"
         },
         {
-          "label": "Liggaamsteks",
+          "label": "Lyfteks",
           "description": "Die tydlynteks kom hier (eerste bladsy)."
         },
         {
@@ -43,7 +43,7 @@
         },
         {
           "label": "Datums",
-          "description": "Voeg 'n paar datums by jou tydlyn",
+          "description": "Voeg 'n paar datums by jou tydlyn!",
           "field": {
             "label": "Datum",
             "description": "Datum",
@@ -61,8 +61,8 @@
                 "description": "Hoofopskrif vir datuminskrywing"
               },
               {
-                "label": "Liggaamteks",
-                "description": "Liggaamteks vir datuminskrywing"
+                "label": "Lyfteks",
+                "description": "Lyfteks vir datuminskrywing"
               },
               {
                 "label": "Merkers",
@@ -125,7 +125,7 @@
         },
         {
           "label": "Taal",
-          "description": "Die taal van die gebruiker",
+          "description": "Die taal van die gebruikersaansig",
           "options": [
             {
               "label": "Afrikaans"
