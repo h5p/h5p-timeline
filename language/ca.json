@@ -13,7 +13,7 @@
         },
         {
           "label": "Nivell de zoom predeterminat",
-          "description": "Canviarà el nivell de zoom predeterminat. És el mateix que prémer el botó d’ampliar o d’allunyar el nombre de vegades indicat. Els números negatius allunyen. El valor predeterminat és 0."
+          "description": "Canviarà el nivell de zoom predeterminat. És el mateix que prémer el botó d’ampliar o d’allunyar el nombre de vegades indicat. Els números negatius allunyen. El valor predeterminat és 0"
         },
         {
           "label": "Imatge de fons",
