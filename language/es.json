@@ -8,7 +8,7 @@
           "description": "El título principal de la línea de tiempo va aquí (primera página)"
         },
         {
-          "label": "Cuerpo de texto",
+          "label": "Texto del Cuerpo",
           "description": "El cuerpo principal de la línea de tiempo va aquí (primera página)."
         },
         {
@@ -24,8 +24,8 @@
           "description": "La altura en píxeles"
         },
         {
-          "label": "Activo",
-          "description": "Aquí puede agregar un activo a su línea de tiempo \"portada\"",
+          "label": "Recurso",
+          "description": "Aquí puede agregar un recurso a la \"portada\" de su línea de tiempo",
           "fields": [
             {
               "label": "Medio",
@@ -36,32 +36,32 @@
               "description": "Créditos de los medios"
             },
             {
-              "label": "Subtítulo",
-              "description": "La descripción del subtítulo va aquí"
+              "label": "Letrerito",
+              "description": "La descripción del letrerito va aquí"
             }
           ]
         },
         {
           "label": "Fechas",
-          "description": "Agrega algunas fechas a tu línea de tiempo!",
+          "description": "¡Agrega algunas fechas a tu línea de tiempo!",
           "field": {
             "label": "Fecha",
             "description": "Fecha",
             "fields": [
               {
                 "label": "Fecha de inicio",
-                "description": "YYYY,MM,DD (Mínimo necesario YYYY)"
+                "description": "AAAA,MM,DD (Mínimo necesario AAAA)"
               },
               {
                 "label": "Fecha final",
-                "description": "YYYY,MM,DD (Mínimo necesario YYYY)"
+                "description": "AAAA,MM,DD (Mínimo necesario AAAA)"
               },
               {
-                "label": "Titular",
-                "description": "Título para la fecha"
+                "label": "Titulo",
+                "description": "Título para la entrada de fecha"
               },
               {
-                "label": "Cuerpo de texto",
+                "label": "Texto del cuerpo",
                 "description": "Cuerpo para la entrada de la fecha"
               },
               {
@@ -77,16 +77,16 @@
                     "description": "URL a los medios (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps y SoundCloud son actualmente compatibles)."
                   },
                   {
-                    "label": "Miniatura",
-                    "description": "Agrega una miniatura si es necesario, 32x32"
+                    "label": "Imagen miniatura",
+                    "description": "Agrega una imagen miniatura si fuera necesario, 32x32"
                   },
                   {
                     "label": "Crédito",
                     "description": "Créditos a los medios"
                   },
                   {
-                    "label": "Subtítulo",
-                    "description": "Texto del subtítulo"
+                    "label": "Letrerito",
+                    "description": "Texto del letrerito"
                   }
                 ]
               }
@@ -94,15 +94,15 @@
           }
         },
         {
-          "label": "Época",
+          "label": "Épocas",
           "description": "Agrega una época a tu línea de tiempo",
           "field": {
-            "label": "época",
+            "label": "Época",
             "description": "",
             "fields": [
               {
                 "label": "Fecha de inicio",
-                "description": "AAAA,MM,DD (Mínimo YYYY requerido)"
+                "description": "AAAA,MM,DD (Mínimo AAAA requerido)"
               },
               {
                 "label": "Fecha final",
@@ -164,7 +164,7 @@
               "label": "Inglés"
             },
             {
-              "label": "Inglés (24-horas)"
+              "label": "Inglés (horario de 24-horas)"
             },
             {
               "label": "Esperanto"
@@ -173,10 +173,10 @@
               "label": "Estoniano"
             },
             {
-              "label": "Faroes"
+              "label": "Feroés"
             },
             {
-              "label": "Farsi"
+              "label": "Persa"
             },
             {
               "label": "Finlandés"
@@ -224,7 +224,7 @@
               "label": "Lituano"
             },
             {
-              "label": "Luxemburgues"
+              "label": "Luxemburgués"
             },
             {
               "label": "Malayo"
@@ -254,7 +254,7 @@
               "label": "Serbio - Cirílico"
             },
             {
-              "label": "Serbio - Latin"
+              "label": "Serbio - Latino"
             },
             {
               "label": "Sinhalés"
@@ -263,7 +263,7 @@
               "label": "Eslovaco"
             },
             {
-              "label": "Eslovenio"
+              "label": "Esloveno"
             },
             {
               "label": "Español"
@@ -272,16 +272,16 @@
               "label": "Sueco"
             },
             {
-              "label": "Tagalog"
+              "label": "Tagalo"
             },
             {
               "label": "Tamil"
             },
             {
-              "label": "Taiwanes"
+              "label": "Taiwanés"
             },
             {
-              "label": "Telugu"
+              "label": "Télugu"
             },
             {
               "label": "Turco"
