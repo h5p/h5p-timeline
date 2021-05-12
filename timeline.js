@@ -152,7 +152,7 @@
               "year": startDateRegexResult.groups.year
             };
 
-            var endDateRegexResult = event2.endDate.match(/^(?<year>-?\d{1,})(,(?<month>1[012]|[0]?[1-9])(,(?<day>[12][0-9]|3[01]|[0]?[1-9]))?)?$/);
+            var endDateRegexResult = event2.endDate && event2.endDate.match(/^(?<year>-?\d{1,})(,(?<month>1[012]|[0]?[1-9])(,(?<day>[12][0-9]|3[01]|[0]?[1-9]))?)?$/);
             if (endDateRegexResult) {
               event3.end_date = {
                 "month": endDateRegexResult.groups.month,
@@ -184,7 +184,7 @@
               "year": startDateRegexResult.groups.year
             };
 
-            var endDateRegexResult = era2.endDate.match(/^(?<year>-?\d{1,})(,(?<month>1[012]|[0]?[1-9])(,(?<day>[12][0-9]|3[01]|[0]?[1-9]))?)?$/);
+            var endDateRegexResult = era2.endDate && era2.endDate.match(/^(?<year>-?\d{1,})(,(?<month>1[012]|[0]?[1-9])(,(?<day>[12][0-9]|3[01]|[0]?[1-9]))?)?$/);
             if (endDateRegexResult) {
               era3.end_date = {
                 "month": endDateRegexResult.groups.month,
