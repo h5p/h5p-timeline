@@ -125,7 +125,7 @@
         },
         {
           "label": "Idioma",
-          "description": "Idioma de la interfaz del usuario",
+          "description": "El idioma de la interfaz del usuario",
           "options": [
             {
               "label": "Afrikáans"
@@ -287,7 +287,7 @@
               "label": "Turco"
             },
             {
-              "label": "Ucrainiano"
+              "label": "Ucraniano"
             }
           ]
         }
