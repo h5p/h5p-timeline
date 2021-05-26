@@ -2,16 +2,16 @@
   "title": "Timeline",
   "description": "Create good loking timelines",
   "majorVersion": 1,
-  "minorVersion": 1,
-  "patchVersion": 21,
+  "minorVersion": 2,
+  "patchVersion": 0,
   "runnable": 1,
   "fullscreen": 1,
   "machineName": "H5P.Timeline",
   "preloadedDependencies": [
     {
       "machineName": "TimelineJS",
-      "majorVersion": 1,
-      "minorVersion": 1
+      "majorVersion": 2,
+      "minorVersion": 0
     }
   ],
   "author": "Joubel",
