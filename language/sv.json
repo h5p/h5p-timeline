@@ -1,92 +1,92 @@
 {
   "semantics": [
     {
-      "label": "Timeline",
+      "label": "Tidslinje",
       "fields": [
         {
-          "label": "Headline",
-          "description": "Main timeline heading goes here (first page)"
+          "label": "Rubrik",
+          "description": "Huvudrubrik för tidslinje här (första sidan)"
         },
         {
-          "label": "Body Text",
-          "description": "The main timeline body goes here (first page)."
+          "label": "Text",
+          "description": "Huvudtexten för tidslinjen här (första sidan)."
         },
         {
           "label": "Default zoom level",
-          "description": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
+          "description": "Detta kommer att anpassa förvald zoom-nivå. Värdet motsvarar antalet knapptryckningar för att zooma in eller ut. Negativa värden zoomar ut. Standard är 0"
         },
         {
-          "label": "Background image",
-          "description": "An image to display as background."
+          "label": "Bakgrundsbild",
+          "description": "En bild att visa som bakgrund."
         },
         {
-          "label": "Height",
-          "description": "The height in pixels"
+          "label": "Höjd",
+          "description": "Höjd i pixlar"
         },
         {
-          "label": "Asset",
-          "description": "Here you can add an asset to your timeline \"front page\"",
+          "label": "Resurs",
+          "description": "Här kan du lägga till en resurs på \"startsidan\" för din tidslinje",
           "fields": [
             {
               "label": "Media",
-              "description": "Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)"
+              "description": "URL-länk till media (Twitter, YouTube, Flickr, Vimeo, Google Maps och SoundCloud stöds för närvarande)"
             },
             {
-              "label": "Credits",
-              "description": "Credits to the media"
+              "label": "Källhänvisning",
+              "description": "Källhänvisning för valt media"
             },
             {
-              "label": "Caption",
-              "description": "Caption description goes here"
+              "label": "Undertext",
+              "description": "Beskrivande undertext här"
             }
           ]
         },
         {
-          "label": "Dates",
-          "description": "Add some dates to your timeline!",
+          "label": "Datum",
+          "description": "Lägg till några datum till din tidslinje!",
           "field": {
             "label": "Date",
             "description": "Date",
             "fields": [
               {
                 "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "description": "ÅÅÅÅ,MM,DD (ÅÅÅÅ krävs som minimum)"
               },
               {
                 "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "description": "ÅÅÅÅ,MM,DD (ÅÅÅÅ krävs som minimum)"
               },
               {
-                "label": "Headline",
-                "description": "Headline for the date entry"
+                "label": "Rubrik",
+                "description": "Rubrik för datumposten"
               },
               {
-                "label": "Body text",
-                "description": "Body for the date entry"
+                "label": "Text",
+                "description": "Text för datumposten"
               },
               {
                 "label": "Tags",
-                "description": "Enter Tags (categories)"
+                "description": "Lägg till taggar (kategorier)"
               },
               {
-                "label": "Asset",
+                "label": "Resurs",
                 "description": "",
                 "fields": [
                   {
                     "label": "Media",
-                    "description": "URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported)."
+                    "description": "URL-länk till media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps och SoundCloud stöds)."
                   },
                   {
-                    "label": "Thumbnail",
-                    "description": "Add a thumbnail if needed, 32x32"
+                    "label": "Miniatyr",
+                    "description": "Lägg till en miniatyr om du vill, 32x32"
                   },
                   {
-                    "label": "Credit",
-                    "description": "Credits to the media"
+                    "label": "Källhänvisning",
+                    "description": "Källhänvisning för valt media"
                   },
                   {
-                    "label": "Caption",
-                    "description": "Caption text"
+                    "label": "Undertext",
+                    "description": "Undertext"
                   }
                 ]
               }
@@ -94,38 +94,38 @@
           }
         },
         {
-          "label": "Eras",
-          "description": "Add an era to your timeline",
+          "label": "Epoker",
+          "description": "Lägg till en epok till din tidslinje",
           "field": {
-            "label": "Era",
+            "label": "Epok",
             "description": "",
             "fields": [
               {
                 "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "description": "ÅÅÅÅ,MM,DD (ÅÅÅÅ krävs som minimum)"
               },
               {
                 "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "description": "ÅÅÅÅ,MM,DD (ÅÅÅÅ krävs som minimum)"
               },
               {
-                "label": "Headline",
-                "description": "Era headline"
+                "label": "Rubrik",
+                "description": "Rubrik för epok"
               },
               {
                 "label": "Text",
-                "description": "Era body"
+                "description": "Text för epok"
               },
               {
                 "label": "Tag",
-                "description": "Era tags (categories)"
+                "description": "Epok-taggar (kategorier)"
               }
             ]
           }
         },
         {
-          "label": "Language",
-          "description": "The language of the user interface",
+          "label": "Språk",
+          "description": "Språket för användargränssnittet",
           "options": [
             {
               "label": "Afrikaans"
@@ -149,7 +149,7 @@
               "label": "Chinese"
             },
             {
-              "label": "Croatian / Hrvatski"
+              "label": "Kroatiska / Hrvatski"
             },
             {
               "label": "Czech"
@@ -164,7 +164,7 @@
               "label": "English"
             },
             {
-              "label": "English (24-hour time)"
+              "label": "Engelskt (24-timmars)"
             },
             {
               "label": "Esperanto"
@@ -191,7 +191,7 @@
               "label": "Georgian"
             },
             {
-              "label": "German / Deutsch"
+              "label": "Tyska / Deutsch"
             },
             {
               "label": "Greek"
@@ -278,7 +278,7 @@
               "label": "Tamil"
             },
             {
-              "label": "Taiwanese"
+              "label": "Taiwanesiska"
             },
             {
               "label": "Telugu"
