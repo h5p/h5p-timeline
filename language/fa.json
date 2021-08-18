@@ -1,92 +1,92 @@
 {
   "semantics": [
     {
-      "label": "Tidslinje",
+      "label": "گاه‌شمار",
       "fields": [
         {
-          "label": "Rubrik",
-          "description": "Huvudrubrik för tidslinje här (första sidan)"
+          "label": "سرخط",
+          "description": "سرخط اصلی گاه‌شمار اینجا می‌آید (صفحه اول)"
         },
         {
-          "label": "Text",
-          "description": "Huvudtexten för tidslinjen här (första sidan)."
+          "label": "متن بدنه",
+          "description": "بدنه اصلی گاه‌شمار اینجا می‌آید (صفحه اول)."
         },
         {
-          "label": "Default zoom level",
-          "description": "Detta kommer att anpassa förvald zoom-nivå. Värdet motsvarar antalet knapptryckningar för att zooma in eller ut. Negativa värden zoomar ut. Standard är 0"
+          "label": "سطح برگنمایی پیش‌فرض",
+          "description": "این سطح بزرگنمایی پیش‌فرض را بهبود خواهد داد. معادل فشردن دکمه‌های بزرگنمایی یا کوچک‌نمایی به تعداد مرتبه تعیین شده. اعداد منفی کوچک‌نمایی می‌کنند. پیش‌فرض صفر است"
         },
         {
-          "label": "Bakgrundsbild",
-          "description": "En bild att visa som bakgrund."
+          "label": "تصور پس‌زمینه",
+          "description": "تصویری برای نمایش به عنوان پس‌زمینه."
         },
         {
-          "label": "Höjd",
-          "description": "Höjd i pixlar"
+          "label": "ارتفاع",
+          "description": "ارتفاع برحسب پیکسل"
         },
         {
-          "label": "Resurs",
-          "description": "Här kan du lägga till en resurs på \"startsidan\" för din tidslinje",
+          "label": "دارایی",
+          "description": "در اینجا می‌توانید یک دارایی به صفحه اول گاه‌شمار اضافه کنید",
           "fields": [
             {
-              "label": "Media",
-              "description": "URL-länk till media (Twitter, YouTube, Flickr, Vimeo, Google Maps och SoundCloud stöds för närvarande)"
+              "label": "رسانه",
+              "description": "پیوند به رسانه (پشتیبانی Twitter, YouTube, Flickr, Vimeo, Google Maps, SoundCloud)"
             },
             {
-              "label": "Källhänvisning",
-              "description": "Källhänvisning för valt media"
+              "label": "تیتراژ",
+              "description": "تیتراژ رسانه"
             },
             {
-              "label": "Undertext",
-              "description": "Beskrivande undertext här"
+              "label": "کپشن",
+              "description": "توصیف کپشن اینجا می‌آید"
             }
           ]
         },
         {
-          "label": "Datum",
-          "description": "Lägg till några datum till din tidslinje!",
+          "label": "تاریخ‌ها",
+          "description": "تاریخ‌هایی را به گاه‌شمار خود بیفزایید!",
           "field": {
-            "label": "Date",
-            "description": "Date",
+            "label": "تاریخ",
+            "description": "تاریخ",
             "fields": [
               {
-                "label": "Start date",
-                "description": "ÅÅÅÅ,MM,DD (ÅÅÅÅ krävs som minimum)"
+                "label": "تاریخ شروع",
+                "description": "YYYY,MM,DD (حداقل YYYY لازم است)"
               },
               {
-                "label": "End date",
-                "description": "ÅÅÅÅ,MM,DD (ÅÅÅÅ krävs som minimum)"
+                "label": "تاریخ پایان",
+                "description": "YYYY,MM,DD (حداقل YYYY لازم است)"
               },
               {
-                "label": "Rubrik",
-                "description": "Rubrik för datumposten"
+                "label": "سرخط",
+                "description": "سرخط برای ورودی تاریخ"
               },
               {
-                "label": "Text",
-                "description": "Text för datumposten"
+                "label": "متن بدنه",
+                "description": "بدنه برای ورودی تاریخ"
               },
               {
-                "label": "Tags",
-                "description": "Lägg till taggar (kategorier)"
+                "label": "برچسب‌ها",
+                "description": "برچسب‌ها را وارد کنید (دسته‌بندی‌ها)"
               },
               {
-                "label": "Resurs",
+                "label": "دارایی",
                 "description": "",
                 "fields": [
                   {
-                    "label": "Media",
-                    "description": "URL-länk till media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps och SoundCloud stöds)."
+                    "label": "رسانه",
+                    "description": "آدرس رسانه (پشتیبانی Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps, SoundCloud)."
                   },
                   {
-                    "label": "Miniatyr",
-                    "description": "Lägg till en miniatyr om du vill, 32x32"
+                    "label": "تصویر بندانگشتی",
+                    "description": "افزودن یک تصویر بند انگشتی در صورت نیاز، ۳۲x۳۲"
                   },
                   {
-                    "label": "Källhänvisning",
-                    "description": "Källhänvisning för valt media"
+                    "label": "تیتراژ",
+                    "description": "تیتراژ رسانه"
                   },
                   {
-                    "label": "Undertext",
-                    "description": "Undertext"
+                    "label": "کپشن",
+                    "description": "متن کپشن"
                   }
                 ]
               }
@@ -94,38 +94,38 @@
           }
         },
         {
-          "label": "Epoker",
-          "description": "Lägg till en epok till din tidslinje",
+          "label": "دوره‌ها",
+          "description": "یک دوره به گاه‌شمار خود اضافه کنید",
           "field": {
-            "label": "Epok",
+            "label": "دوره",
             "description": "",
             "fields": [
               {
-                "label": "Start date",
-                "description": "ÅÅÅÅ,MM,DD (ÅÅÅÅ krävs som minimum)"
+                "label": "تاریخ شروع",
+                "description": "YYYY,MM,DD (حداقل YYYY لازم است)"
               },
               {
-                "label": "End date",
-                "description": "ÅÅÅÅ,MM,DD (ÅÅÅÅ krävs som minimum)"
+                "label": "تاریخ پایان",
+                "description": "YYYY,MM,DD (حداقل YYYY لازم است)"
               },
               {
-                "label": "Rubrik",
-                "description": "Rubrik för epok"
+                "label": "سرخط",
+                "description": "سرخط دوره"
               },
               {
-                "label": "Text",
-                "description": "Text för epok"
+                "label": "متن",
+                "description": "بدنه دوره"
               },
               {
-                "label": "Tag",
-                "description": "Epok-taggar (kategorier)"
+                "label": "برچسب",
+                "description": "برچسب‌های دوره (دسته‌بندی‌ها)"
               }
             ]
           }
         },
         {
-          "label": "Språk",
-          "description": "Språket för användargränssnittet",
+          "label": "زبان",
+          "description": "زبان واسط کاربر",
           "options": [
             {
               "label": "Afrikaans"
@@ -149,7 +149,7 @@
               "label": "Chinese"
             },
             {
-              "label": "Kroatiska / Hrvatski"
+              "label": "Croatian / Hrvatski"
             },
             {
               "label": "Czech"
@@ -164,7 +164,7 @@
               "label": "English"
             },
             {
-              "label": "Engelskt (24-timmars)"
+              "label": "English (24-hour time)"
             },
             {
               "label": "Esperanto"
@@ -176,7 +176,7 @@
               "label": "Faroese"
             },
             {
-              "label": "Farsi"
+              "label": "فارسی"
             },
             {
               "label": "Finnish"
@@ -191,7 +191,7 @@
               "label": "Georgian"
             },
             {
-              "label": "Tyska / Deutsch"
+              "label": "German / Deutsch"
             },
             {
               "label": "Greek"
@@ -278,7 +278,7 @@
               "label": "Tamil"
             },
             {
-              "label": "Taiwanesiska"
+              "label": "Taiwanese"
             },
             {
               "label": "Telugu"
