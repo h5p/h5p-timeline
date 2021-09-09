@@ -25,6 +25,7 @@ H5P.Timeline = (function ($) {
     }, options);
 
     C.counter = (C.counter === undefined ? 0 : C.counter + 1);
+    this.domId = "h5p-timeline-" + C.counter;
 
     // Need to create the URL for all H5P.Images
     if (this.options.timeline.date !== undefined) {
@@ -100,12 +101,10 @@ H5P.Timeline = (function ($) {
   C.prototype.attach = function ($container) {
     var self = this;
 
-    const id = 'h5p-timeline-' + C.counter;
-
     self.$container = $container;
     $container.addClass('h5p-timeline').css('height', self.options.timeline.height + 'px');
     $container.append($('<div>', {
-      id: id,
+      id: self.domId,
       class: 'h5p-timeline-container'
     }));
 
@@ -122,7 +121,7 @@ H5P.Timeline = (function ($) {
           source: self.options,
           lang: self.options.timeline.language,
           start_zoom_adjust: self.options.timeline.defaultZoomLevel,
-          embed_id: id
+          embed_id: self.domId
         }, data.preloadedDependencies[0].majorVersion, data.preloadedDependencies[0].minorVersion);
 
         // Add background image if any:
