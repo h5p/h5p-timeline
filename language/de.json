@@ -118,7 +118,7 @@
               },
               {
                 "label": "Kategorie",
-                "description": "Wenn eine Kategorie eingegeben wird, wird die Epoche nur in der jeweiligen Zeile angezeigt.  Es muss keine Kategorie angegeben werden."
+                "description": "Wenn eine Kategorie eingegeben wird, wird die Epoche nur in der jeweiligen Zeile angezeigt. Es muss keine Kategorie angegeben werden."
               }
             ]
           }
