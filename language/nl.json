@@ -8,16 +8,16 @@
           "description": "Hoofdopschrift van de tijdlijn komt hier (eerste pagina)"
         },
         {
-          "label": "Bodytekst",
-          "description": "Hoofdbodytekst van de tijdlijn komt hier (eerste pagina)"
+          "label": "Hoofdtekst",
+          "description": "Hoofdtekst van de tijdlijn komt hier (eerste pagina)."
         },
         {
-          "label": "Standaar zoomniveau",
-          "description": "Dit zal het standaard zoomniveau optimaliseren. Gelijk aan het indrukken van in- of uitzoom knop verandert het beeld. Een negatief getal zoom uit. Standaard is 0"
+          "label": "Standaard zoomniveau",
+          "description": "Dit zal het standaard zoomniveau optimaliseren. Getal staat gelijk aan het aantal keer indrukken van de in- of uitzoomknop. Een negatief getal zoomt uit. Standaard is 0"
         },
         {
           "label": "Achtergrondafbeelding",
-          "description": "Toon een afbeelding als achtergrond"
+          "description": "Toon een afbeelding als achtergrond."
         },
         {
           "label": "Hoogte",
@@ -32,18 +32,18 @@
               "description": "Link naar media URL (Twitter, Youtube, Flickr, Vimeo, Google Maps and SoundCloud worden ondersteund)"
             },
             {
-              "label": "Auteursrechten",
-              "description": "Auteursrechten van de media"
+              "label": "Bronvermelding",
+              "description": "Bronvermelding van de media"
             },
             {
-              "label": "Onderschrift",
-              "description": "Het onderschrift van de media komt hier"
+              "label": "Ondertitel",
+              "description": "Ondertitelbeschrijving komt hier"
             }
           ]
         },
         {
           "label": "Datums",
-          "description": "Voeg datums toe aan je tijdlijn",
+          "description": "Voeg datums toe aan je tijdlijn!",
           "field": {
             "label": "Datum",
             "description": "Datum",
@@ -58,15 +58,15 @@
               },
               {
                 "label": "Opschrift",
-                "description": "Opschrift voor de startdatum"
+                "description": "Opschrift voor de datuminvoer"
               },
               {
-                "label": "Bodytekst",
-                "description": "Bodytekst voor de startdatum"
+                "label": "Hoofdtekst",
+                "description": "Hoofdtekst voor de datuminvoer"
               },
               {
                 "label": "Labels",
-                "description": "Voeg labels in (categorieën)"
+                "description": "Labels invoeren (categorieën)"
               },
               {
                 "label": "Middel",
@@ -76,16 +76,16 @@
                     "description": "URL naar de media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps en SoundCloud worden ondersteund)."
                   },
                   {
-                    "label": "Miniatuurafbeelding",
-                    "description": "Voeg een miniatuurafbeelding toe indien nodig, 32x32"
+                    "label": "Miniatuur",
+                    "description": "Voeg een miniatuur toe indien nodig, 32x32"
                   },
                   {
-                    "label": "Auteursrecht",
-                    "description": "Auteursrechten voor de media"
+                    "label": "Bronvermelding",
+                    "description": "Bronvermelding voor de media"
                   },
                   {
-                    "label": "Onderschrift",
-                    "description": "Onderschrift bij de media"
+                    "label": "Ondertitel",
+                    "description": "Tekst van ondertitel"
                   }
                 ]
               }
@@ -93,7 +93,7 @@
           }
         },
         {
-          "label": "Periode",
+          "label": "Perioden",
           "description": "Voeg een periode toe aan je tijdlijn",
           "field": {
             "label": "Periode",
@@ -111,12 +111,12 @@
                 "description": "Periode opschrift"
               },
               {
-                "label": "tekst",
-                "description": "Bodytekst voor de periode"
+                "label": "Tekst",
+                "description": "Hoofdtekst voor periode"
               },
               {
                 "label": "Label",
-                "description": "Labels voor de perioden (categorieën)"
+                "description": "Labels voor perioden (categorieën)"
               }
             ]
           }
@@ -129,7 +129,7 @@
               "label": "Afrikaans"
             },
             {
-                "label": "Arabisch"
+              "label": "Arabisch"
             },
             {
               "label": "Armeens"
@@ -162,7 +162,7 @@
               "label": "Engels"
             },
             {
-              "label": "Engels (24-uur klok)"
+              "label": "Engels (24-uurs tijd opmaak)"
             },
             {
               "label": "Esperanto"
@@ -243,7 +243,7 @@
               "label": "Portugees (Brazilië)"
             },
             {
-              "label": "Romaans"
+              "label": "Roemeens"
             },
             {
               "label": "Russisch"
