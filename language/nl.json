@@ -70,7 +70,6 @@
               },
               {
                 "label": "Middel",
-                "description": "",
                 "fields": [
                   {
                     "label": "Media",
@@ -98,7 +97,6 @@
           "description": "Voeg een periode toe aan je tijdlijn",
           "field": {
             "label": "Periode",
-            "description": "",
             "fields": [
               {
                 "label": "Startdatum",

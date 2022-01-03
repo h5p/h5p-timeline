@@ -70,7 +70,6 @@
               },
               {
                 "label": "Dodatak",
-                "description": "",
                 "fields": [
                   {
                     "label": "Mediji",
@@ -98,7 +97,6 @@
           "description": "Unesite eru za vaš Vremenski tok.",
           "field": {
             "label": "Era",
-            "description": "",
             "fields": [
               {
                 "label": "Početni datum",

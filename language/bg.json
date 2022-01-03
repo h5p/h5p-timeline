@@ -70,7 +70,6 @@
               },
               {
                 "label": "Asset",
-                "description": "",
                 "fields": [
                   {
                     "label": "Медия",
@@ -98,7 +97,6 @@
           "description": "Добавяне на ера във времевата линия",
           "field": {
             "label": "Ера",
-            "description": "",
             "fields": [
               {
                 "label": "Начална дата",

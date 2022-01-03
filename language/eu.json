@@ -70,7 +70,6 @@
               },
               {
                 "label": "Atributuak",
-                "description": "",
                 "fields": [
                   {
                     "label": "Multimedia",
@@ -98,7 +97,6 @@
           "description": "Gehitu aroa zure denbora-lerrora",
           "field": {
             "label": "Aroak",
-            "description": "",
             "fields": [
               {
                 "label": "Hasiera-data",

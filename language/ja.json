@@ -70,7 +70,6 @@
               },
               {
                 "label": "アセット",
-                "description": "",
                 "fields": [
                   {
                     "label": "メディア",
@@ -98,7 +97,6 @@
           "description": "タイムラインに時代を追加",
           "field": {
             "label": "時代",
-            "description": "",
             "fields": [
               {
                 "label": "開始日",

@@ -70,7 +70,6 @@
               },
               {
                 "label": "Asset",
-                "description": "",
                 "fields": [
                   {
                     "label": "Mídia",
@@ -98,7 +97,6 @@
           "description": "Adicione uma era à sua linha do tempo",
           "field": {
             "label": "Era",
-            "description": "",
             "fields": [
               {
                 "label": "Data inicial",

@@ -70,7 +70,6 @@
               },
               {
                 "label": "Объект",
-                "description": "",
                 "fields": [
                   {
                     "label": "Медиа",
@@ -98,7 +97,6 @@
           "description": "Добавить эру на временную шкалу",
           "field": {
             "label": "Эра",
-            "description": "",
             "fields": [
               {
                 "label": "Начало",

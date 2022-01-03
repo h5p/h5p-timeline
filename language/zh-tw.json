@@ -70,7 +70,6 @@
               },
               {
                 "label": "資產",
-                "description": "",
                 "fields": [
                   {
                     "label": "媒體",
@@ -98,7 +97,6 @@
           "description": "在時間軸中新增新的年代",
           "field": {
             "label": "年代",
-            "description": "",
             "fields": [
               {
                 "label": "起始日期",

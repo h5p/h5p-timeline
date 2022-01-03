@@ -70,7 +70,6 @@
               },
               {
                 "label": "Recurs",
-                "description": "",
                 "fields": [
                   {
                     "label": "Recurs",
@@ -98,7 +97,6 @@
           "description": "Afegeix una era a la teva línia del temps",
           "field": {
             "label": "Era",
-            "description": "",
             "fields": [
               {
                 "label": "Data d’inici",

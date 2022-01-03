@@ -70,7 +70,6 @@
               },
               {
                 "label": "Risorsa",
-                "description": "",
                 "fields": [
                   {
                     "label": "Media",
@@ -98,7 +97,6 @@
           "description": "Aggiungi un'epoca alla timeline",
           "field": {
             "label": "Epoca",
-            "description": "",
             "fields": [
               {
                 "label": "Data di inizio",

@@ -70,7 +70,6 @@
               },
               {
                 "label": "ארוע",
-                "description": "",
                 "fields": [
                   {
                     "label": "מדיה",
@@ -98,7 +97,6 @@
           "description": "הוסיפו תקופה לציר הזמן שלכם",
           "field": {
             "label": "תקופה",
-            "description": "",
             "fields": [
               {
                 "label": "תאריך התחלה",

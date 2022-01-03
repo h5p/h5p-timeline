@@ -70,7 +70,6 @@
               },
               {
                 "label": "Recurso",
-                "description": "",
                 "fields": [
                   {
                     "label": "Medio",
@@ -98,7 +97,6 @@
           "description": "Agrega una época a tu línea de tiempo",
           "field": {
             "label": "Época",
-            "description": "",
             "fields": [
               {
                 "label": "Fecha de inicio",

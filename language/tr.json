@@ -70,7 +70,6 @@
               },
               {
                 "label": "Varlık",
-                "description": "",
                 "fields": [
                   {
                     "label": "Medya",
@@ -98,7 +97,6 @@
           "description": "Zaman çizelgenize bir dönem ekleyin",
           "field": {
             "label": "Dönem",
-            "description": "",
             "fields": [
               {
                 "label": "Başlangıç ​​tarihi",

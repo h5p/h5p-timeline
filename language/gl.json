@@ -70,7 +70,6 @@
               },
               {
                 "label": "Referencias",
-                "description": "",
                 "fields": [
                   {
                     "label": "Medios",
@@ -98,7 +97,6 @@
           "description": "Engade unha era á túa liña temporal",
           "field": {
             "label": "Era",
-            "description": "",
             "fields": [
               {
                 "label": "Data de inicio",

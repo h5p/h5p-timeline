@@ -70,7 +70,6 @@
               },
               {
                 "label": "Objekt",
-                "description": "",
                 "fields": [
                   {
                     "label": "Meedia",
@@ -98,7 +97,6 @@
           "description": "Lisa ajajoonele vahemik",
           "field": {
             "label": "Vahemik",
-            "description": "",
             "fields": [
               {
                 "label": "Alguskuupäev",

@@ -70,7 +70,6 @@
               },
               {
                 "label": "Medium",
-                "description": "",
                 "fields": [
                   {
                     "label": "URL des Mediums",
@@ -98,7 +97,6 @@
           "description": "Epochen sind farblich markierte Zeitabschnitte, die hinter den Datumseinträgen in der Zeitleiste angezeigt werden",
           "field": {
             "label": "Epoche",
-            "description": "",
             "fields": [
               {
                 "label": "Startdatum",

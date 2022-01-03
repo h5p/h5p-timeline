@@ -70,7 +70,6 @@
               },
               {
                 "label": "Média",
-                "description": "",
                 "fields": [
                   {
                     "label": "Adresse URL du média",
@@ -98,7 +97,6 @@
           "description": "Ajoutez une période à votre chronologie",
           "field": {
             "label": "Période",
-            "description": "",
             "fields": [
               {
                 "label": "Date de début",

@@ -70,7 +70,6 @@
               },
               {
                 "label": "Ressurs",
-                "description": "",
                 "fields": [
                   {
                     "label": "Media",
@@ -98,7 +97,6 @@
           "description": "Legg til en periode til tidslinjen",
           "field": {
             "label": "Periode",
-            "description": "",
             "fields": [
               {
                 "label": "Startdato",

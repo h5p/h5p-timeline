@@ -70,7 +70,6 @@
               },
               {
                 "label": "资料来源",
-                "description": "",
                 "fields": [
                   {
                     "label": "媒体",
@@ -98,7 +97,6 @@
           "description": "额外为时间轴添加划时代的分隔线，可以有很多的分类形式，例如 宋朝、罗马帝国、19世纪、工业时代、90后…等等。",
           "field": {
             "label": "时代",
-            "description": "",
             "fields": [
               {
                 "label": "开始日期",
