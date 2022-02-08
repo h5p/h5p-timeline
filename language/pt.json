@@ -8,12 +8,12 @@
           "description": "A linha do tempo principal vai aqui (primeira página)"
         },
         {
-          "label": "Texto de corpo",
+          "label": "Texto do corpo",
           "description": "O corpo da linha do tempo principal vai aqui (primeira página)."
         },
         {
           "label": "Nível de zoom padrão",
-          "description": "Isso mudará o nível de zoom padrão. Equivalente a pressionar o botão de zoom o número especificado de vezes. Números negativos reduzem o zoom. O padrão é 0"
+          "description": "Isto mudará o nível de zoom padrão. Equivalente a pressionar o botão de zoom o número especificado de vezes. Números negativos reduzem o zoom. O padrão é 0"
         },
         {
           "label": "Imagem de fundo",
@@ -21,19 +21,19 @@
         },
         {
           "label": "Altura",
-          "description": "A altura em pixels"
+          "description": "A altura em píxeis"
         },
         {
           "label": "Asset",
-          "description": "Aqui você pode adicionar assets em sua linha do tempo \"página inicial\"",
+          "description": "Aqui pode adicionar assets à sua linha do tempo \"página inicial\"",
           "fields": [
             {
-              "label": "Mídia",
-              "description": "URL da mídia (Twitter, YouTube, Flickr, Vimeo, Google Maps e SoundCloud são suportados)"
+              "label": "Multimédia",
+              "description": "URL da multimédia (Twitter, YouTube, Flickr, Vimeo, Google Maps e SoundCloud são suportados)"
             },
             {
               "label": "Créditos",
-              "description": "Créditos da mídia"
+              "description": "Créditos da multimédia"
             },
             {
               "label": "Legendas(acessibilidade)",
@@ -49,31 +49,31 @@
             "description": "Data",
             "fields": [
               {
-                "label": "Data inicial",
+                "label": "Data de início",
                 "description": "AAAA,MM,DD (Mínimo necessário: AAAA)"
               },
               {
-                "label": "Data final",
+                "label": "Data de fim",
                 "description": "AAAA,MM,DD (Mínimo necessário: AAAA)"
               },
               {
                 "label": "Título",
-                "description": "Título da entrada de data"
+                "description": "Título da entrada da data"
               },
               {
-                "label": "Texto de corpo",
-                "description": "Texto de corpo da entrada de data"
+                "label": "Texto do corpo",
+                "description": "Texto de corpo da entrada da data"
               },
               {
-                "label": "Marcações",
-                "description": "Insira marcações (categorias)"
+                "label": "Tags",
+                "description": "Insira tags (categorias)"
               },
               {
                 "label": "Asset",
                 "fields": [
                   {
-                    "label": "Mídia",
-                    "description": "URL da mídia (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps e SoundCloud são suportados)."
+                    "label": "Multimédia",
+                    "description": "URL da multimédia (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps e SoundCloud são suportados)."
                   },
                   {
                     "label": "Miniatura",
@@ -81,7 +81,7 @@
                   },
                   {
                     "label": "Crédito",
-                    "description": "Créditos da mídia"
+                    "description": "Créditos da multimédia"
                   },
                   {
                     "label": "Legendas(acessibilidade)",
@@ -112,18 +112,18 @@
               },
               {
                 "label": "Texto",
-                "description": "Texto de corpo da era"
+                "description": "Texto do corpo da era"
               },
               {
-                "label": "Marcações",
-                "description": "Marcações da era (categorias)"
+                "label": "Tag",
+                "description": "Tags da era (categorias)"
               }
             ]
           }
         },
         {
-          "label": "Linguagem",
-          "description": "A linguagem da interface de usuário",
+          "label": "Idioma",
+          "description": "O idioma da interface do utilizador",
           "options": [
             {
               "label": "Afrikaans"
