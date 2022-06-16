@@ -13,7 +13,7 @@
         },
         {
           "label": "Nivel de zoom predeterminado",
-          "description": "Esto modificará el nivel de zoom predeterminado. Equivale a presionar el botón acercar o alejar el número especificado de veces. Los números negativos se alejan. el valor predeterminado es 0"
+          "description": "Esto modificará el nivel de zoom predeterminado. Equivale a pulsar el botón acercar o alejar el número especificado de veces. Los números negativos se alejan. El valor predeterminado es 0"
         },
         {
           "label": "Imagen de fondo",
@@ -25,19 +25,19 @@
         },
         {
           "label": "Recurso",
-          "description": "Aquí puede agregar un recurso a la \"portada\" de su línea de tiempo",
+          "description": "Aquí puedes agregar un recurso a la \"portada\" de su línea de tiempo",
           "fields": [
             {
-              "label": "Medio",
-              "description": "Enlace URL a los medios (Twitter, YouTube, Flickr, Vimeo, Google Maps y SoundCloud son actualmente compatibles)"
+              "label": "Medios",
+              "description": "URL de los medios (Compatibles: Twitter, YouTube, Flickr, Vimeo, Google Maps y SoundCloud)"
             },
             {
               "label": "Créditos",
               "description": "Créditos de los medios"
             },
             {
-              "label": "Letrerito",
-              "description": "La descripción del letrerito va aquí"
+              "label": "Leyenda",
+              "description": "La descripción de la leyenda va aquí"
             }
           ]
         },
@@ -66,26 +66,26 @@
               },
               {
                 "label": "Etiquetas",
-                "description": "Ingrese las etiquetas (categorías)"
+                "description": "Escribe las etiquetas (categorías)"
               },
               {
                 "label": "Recurso",
                 "fields": [
                   {
-                    "label": "Medio",
-                    "description": "URL a los medios (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps y SoundCloud son actualmente compatibles)."
+                    "label": "Medios",
+                    "description": "URL de los medios (Compatibles: Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps y SoundCloud)."
                   },
                   {
-                    "label": "Imagen miniatura",
-                    "description": "Agrega una imagen miniatura si fuera necesario, 32x32"
+                    "label": "Imagen en miniatura",
+                    "description": "Agrega una imagen en miniatura si fuera necesario, 32x32"
                   },
                   {
                     "label": "Crédito",
                     "description": "Créditos a los medios"
                   },
                   {
-                    "label": "Letrerito",
-                    "description": "Texto del letrerito"
+                    "label": "Leyenda",
+                    "description": "Texto de la leyenda"
                   }
                 ]
               }
@@ -107,8 +107,8 @@
                 "description": "AAAA,MM,DD (Mínimo YYYY requerido)"
               },
               {
-                "label": "Titular",
-                "description": "Titular de la Época"
+                "label": "Cabecera",
+                "description": "Cabecera de la Época"
               },
               {
                 "label": "Texto",
@@ -168,7 +168,7 @@
               "label": "Esperanto"
             },
             {
-              "label": "Estoniano"
+              "label": "Estonio"
             },
             {
               "label": "Feroés"
@@ -228,7 +228,7 @@
               "label": "Malayo"
             },
             {
-              "label": "Nepalés"
+              "label": "Nepalí"
             },
             {
               "label": "Noruego"
@@ -285,7 +285,7 @@
               "label": "Turco"
             },
             {
-              "label": "Ucrainiano"
+              "label": "Ucraniano"
             }
           ]
         }
