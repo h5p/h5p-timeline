@@ -70,7 +70,6 @@
               },
               {
                 "label": "Resurs",
-                "description": "",
                 "fields": [
                   {
                     "label": "Media",
@@ -98,7 +97,6 @@
           "description": "Lägg till en epok till din tidslinje",
           "field": {
             "label": "Epok",
-            "description": "",
             "fields": [
               {
                 "label": "Start date",

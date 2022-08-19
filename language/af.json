@@ -70,7 +70,6 @@
               },
               {
                 "label": "Bronne",
-                "description": "",
                 "fields": [
                   {
                     "label": "Media",
@@ -98,7 +97,6 @@
           "description": "Voeg 'n era by jou tydlyn",
           "field": {
             "label": "Era",
-            "description": "",
             "fields": [
               {
                 "label": "Begindatum",

@@ -70,7 +70,6 @@
               },
               {
                 "label": "자료",
-                "description": "",
                 "fields": [
                   {
                     "label": "미디어",
@@ -98,7 +97,6 @@
           "description": "연대표에 시대 추가",
           "field": {
             "label": "시대",
-            "description": "",
             "fields": [
               {
                 "label": "시작일",

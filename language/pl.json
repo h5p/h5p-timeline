@@ -70,7 +70,6 @@
               },
               {
                 "label": "Asset",
-                "description": "",
                 "fields": [
                   {
                     "label": "Media",
@@ -98,7 +97,6 @@
           "description": "Add an era to your timeline",
           "field": {
             "label": "Era",
-            "description": "",
             "fields": [
               {
                 "label": "Start date",

@@ -1,92 +1,91 @@
 {
   "semantics": [
     {
-      "label": "Timeline",
+      "label": "Zaman Çizelgesi",
       "fields": [
         {
-          "label": "Headline",
-          "description": "Main timeline heading goes here (first page)"
+          "label": "Başlık",
+          "description": "Ana zaman çizelgesi başlığı buraya gelir (ilk sayfa)"
         },
         {
-          "label": "Body Text",
-          "description": "The main timeline body goes here (first page)."
+          "label": "Gövde Metni",
+          "description": "Ana zaman çizelgesi gövdesi buraya gelir (ilk sayfa)."
         },
         {
-          "label": "Default zoom level",
-          "description": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
+          "label": "Varsayılan yakınlaştırma düzeyi",
+          "description": "Bu, varsayılan yakınlaştırma seviyesini ayarlayacaktır. Yakınlaştırma veya uzaklaştırma düğmesine belirtilen sayıda basmaya eşdeğerdir. Negatif sayılar uzaklaştırır. Varsayılan: 0"
         },
         {
-          "label": "Background image",
-          "description": "An image to display as background."
+          "label": "Arka plan görüntüsü",
+          "description": "Arka plan olarak görüntülenecek bir resim."
         },
         {
-          "label": "Height",
-          "description": "The height in pixels"
+          "label": "Yükseklik",
+          "description": "Piksel cinsinden yükseklik"
         },
         {
-          "label": "Asset",
-          "description": "Here you can add an asset to your timeline \"front page\"",
+          "label": "Varlık",
+          "description": "Burada zaman çizelgenizin \"ön sayfası\"na bir varlık ekleyebilirsiniz.",
           "fields": [
             {
-              "label": "Media",
-              "description": "Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)"
+              "label": "Medya",
+              "description": "Medya URL'sine bağlantı (Twitter, YouTube, Flickr, Vimeo, Google Haritalar ve SoundCloud şu anda desteklenmektedir)"
             },
             {
-              "label": "Credits",
-              "description": "Credits to the media"
+              "label": "Üreticiler",
+              "description": "Medyayı üretenler"
             },
             {
-              "label": "Caption",
-              "description": "Caption description goes here"
+              "label": "Altyazı",
+              "description": "Altyazı açıklaması buraya gelir"
             }
           ]
         },
         {
-          "label": "Dates",
-          "description": "Add some dates to your timeline!",
+          "label": "Tarihler",
+          "description": "Zaman çizelgenize bazı tarihler ekleyin!",
           "field": {
-            "label": "Date",
-            "description": "Date",
+            "label": "Tarih",
+            "description": "Tarih",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Başlangıç ​​tarihi",
+                "description": "YYYY,AA,GG (Minimum YYYY gerekli)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Bitiş tarihi",
+                "description": "YYYY,AA,GG (Minimum YYYY gerekli)"
               },
               {
-                "label": "Headline",
-                "description": "Headline for the date entry"
+                "label": "Başlık",
+                "description": "Tarih girişi için başlık"
               },
               {
-                "label": "Body text",
-                "description": "Body for the date entry"
+                "label": "Gövde metni",
+                "description": "Tarih girişi için gövde metni"
               },
               {
-                "label": "Tags",
-                "description": "Enter Tags (categories)"
+                "label": "Etiketler",
+                "description": "Etiketleri Girin (kategoriler)"
               },
               {
-                "label": "Asset",
-                "description": "",
+                "label": "Varlık",
                 "fields": [
                   {
-                    "label": "Media",
-                    "description": "URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported)."
+                    "label": "Medya",
+                    "description": "Medyanın URL'si (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Haritalar ve SoundCloud şu anda desteklenmektedir)."
                   },
                   {
-                    "label": "Thumbnail",
-                    "description": "Add a thumbnail if needed, 32x32"
+                    "label": "Küçük resim",
+                    "description": "Gerekirse küçük resim ekleyin, 32x32"
                   },
                   {
-                    "label": "Credit",
-                    "description": "Credits to the media"
+                    "label": "Üreticiler",
+                    "description": "Medyayı üretenler"
                   },
                   {
-                    "label": "Caption",
-                    "description": "Caption text"
+                    "label": "Altyazı",
+                    "description": "Altyazı metni"
                   }
                 ]
               }
@@ -94,200 +93,199 @@
           }
         },
         {
-          "label": "Eras",
-          "description": "Add an era to your timeline",
+          "label": "Dönemler (Çağlar)",
+          "description": "Zaman çizelgenize bir dönem ekleyin",
           "field": {
-            "label": "Era",
-            "description": "",
+            "label": "Dönem",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Başlangıç ​​tarihi",
+                "description": "YYYY,AA,GG (Minimum YYYY gerekli)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Bitiş tarihi",
+                "description": "YYYY,AA,GG (Minimum YYYY gerekli)"
               },
               {
-                "label": "Headline",
-                "description": "Era headline"
+                "label": "Başlık",
+                "description": "Dönem başlığı"
               },
               {
-                "label": "Text",
-                "description": "Era body"
+                "label": "Metin",
+                "description": "Dönem gövde metni"
               },
               {
-                "label": "Tag",
-                "description": "Era tags (categories)"
+                "label": "Etiket",
+                "description": "Dönem etiketleri (kategoriler)"
               }
             ]
           }
         },
         {
-          "label": "Language",
-          "description": "The language of the user interface",
+          "label": "Dil",
+          "description": "Kullanıcı arayüzünün dili",
           "options": [
             {
-              "label": "Afrikaans"
+              "label": "Afrika Dili"
             },
             {
-              "label": "Arabic"
+              "label": "Arapça"
             },
             {
-              "label": "Armenian"
+              "label": "Ermenice"
             },
             {
-              "label": "Basque"
+              "label": "Baskça"
             },
             {
-              "label": "Bulgarian"
+              "label": "Bulgarca"
             },
             {
-              "label": "Catalan"
+              "label": "Katalanca"
             },
             {
-              "label": "Chinese"
+              "label": "Çince"
             },
             {
-              "label": "Croatian / Hrvatski"
+              "label": "Hırvatça"
             },
             {
-              "label": "Czech"
+              "label": "Çekçe"
             },
             {
-              "label": "Danish"
+              "label": "Danca"
             },
             {
-              "label": "Dutch"
+              "label": "Flemenkçe"
             },
             {
-              "label": "English"
+              "label": "İngilizce"
             },
             {
-              "label": "English (24-hour time)"
+              "label": "İngilizce (24 saat zamanı)"
             },
             {
               "label": "Esperanto"
             },
             {
-              "label": "Estonian"
+              "label": "Estonyaca"
             },
             {
-              "label": "Faroese"
+              "label": "Faroe dili"
             },
             {
-              "label": "Farsi"
+              "label": "Farsça"
             },
             {
-              "label": "Finnish"
+              "label": "Fince"
             },
             {
-              "label": "French"
+              "label": "Fransızca"
             },
             {
-              "label": "Galician"
+              "label": "Galiçyaca"
             },
             {
-              "label": "Georgian"
+              "label": "Gürcüce"
             },
             {
-              "label": "German / Deutsch"
+              "label": "Almanca"
             },
             {
-              "label": "Greek"
+              "label": "Yunanca"
             },
             {
-              "label": "Hebrew"
+              "label": "İbranice"
             },
             {
-              "label": "Hungarian"
+              "label": "Macarca"
             },
             {
-              "label": "Icelandic"
+              "label": "İzlandaca"
             },
             {
-              "label": "Indonesian"
+              "label": "Endonezya dili"
             },
             {
-              "label": "Italian"
+              "label": "İtalyanca"
             },
             {
-              "label": "Japanese"
+              "label": "Japonca"
             },
             {
-              "label": "Korean"
+              "label": "Korece"
             },
             {
-              "label": "Latvian"
+              "label": "Letonca"
             },
             {
-              "label": "Lithuanian"
+              "label": "Litvanca"
             },
             {
-              "label": "Luxembourgish"
+              "label": "Lüksemburgca"
             },
             {
-              "label": "Malay"
+              "label": "Malayca"
             },
             {
-              "label": "Nepali"
+              "label": "Nepalce"
             },
             {
-              "label": "Norwegian"
+              "label": "Norveççe"
             },
             {
-              "label": "Polish"
+              "label": "Lehçe"
             },
             {
-              "label": "Portuguese"
+              "label": "Portekizce"
             },
             {
-              "label": "Portuguese (Brazilian)"
+              "label": "Portekizce (Brezilya)"
             },
             {
-              "label": "Romansh"
+              "label": "Romence"
             },
             {
-              "label": "Russian"
+              "label": "Rusça"
             },
             {
-              "label": "Serbian - Cyrillic"
+              "label": "Sırpça - Kiril"
             },
             {
-              "label": "Serbian - Latin"
+              "label": "Sırpça - Latince"
             },
             {
-              "label": "Sinhalese"
+              "label": "Sint"
             },
             {
-              "label": "Slovak"
+              "label": "Slovakça"
             },
             {
-              "label": "Slovenian"
+              "label": "Slovence"
             },
             {
-              "label": "Spanish"
+              "label": "İspanyolca"
             },
             {
-              "label": "Swedish"
+              "label": "İsveççe"
             },
             {
               "label": "Tagalog"
             },
             {
-              "label": "Tamil"
+              "label": "Tamilce"
             },
             {
-              "label": "Taiwanese"
+              "label": "Tay Dili"
             },
             {
-              "label": "Telugu"
+              "label": "Telugu Dili"
             },
             {
-              "label": "Turkish"
+              "label": "Türkçe"
             },
             {
-              "label": "Ukrainian"
+              "label": "Ukraynaca"
             }
           ]
         }

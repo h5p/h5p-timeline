@@ -70,7 +70,6 @@
               },
               {
                 "label": "Sredstva",
-                "description": "",
                 "fields": [
                   {
                     "label": "Medij",
@@ -98,7 +97,6 @@
           "description": "Dodajanje obdobja na časovnico.",
           "field": {
             "label": "Obdobje",
-            "description": "",
             "fields": [
               {
                 "label": "Začetek",

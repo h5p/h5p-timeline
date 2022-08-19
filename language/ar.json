@@ -70,7 +70,6 @@
               },
               {
                 "label": "الموجودات",
-                "description": "",
                 "fields": [
                   {
                     "label": "اعلام",
@@ -98,7 +97,6 @@
           "description": "إضافة عصر إلى الجدول الزمني الخاص بك",
           "field": {
             "label": "عصر",
-            "description": "",
             "fields": [
               {
                 "label": "تاريخ الابتداء",

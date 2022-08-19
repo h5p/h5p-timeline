@@ -21,15 +21,15 @@
         },
         {
           "label": "Alçària",
-          "description": "L’alçària en píxels."
+          "description": "L’alçària en píxels"
         },
         {
           "label": "Recurs",
-          "description": "Aquí pots afegir recursos multimèdia a la línia del temps (primera pàgina).",
+          "description": "Aquí pots afegir recursos multimèdia a la línia del temps (primera pàgina)",
           "fields": [
             {
               "label": "Recurs",
-              "description": "Enllaç al recurs (Actualment s’accepten enllaços de: Twitter, YouTube, Flickr, Vimeo, Google Maps i SoundCloud)."
+              "description": "Enllaç al recurs (actualment s’accepten enllaços de: Twitter, YouTube, Flickr, Vimeo, Google Maps i SoundCloud)"
             },
             {
               "label": "Crèdits",
@@ -37,7 +37,7 @@
             },
             {
               "label": "Peu de recurs",
-              "description": "El text de peu pel recurs va aquí."
+              "description": "El text de peu pel recurs va aquí"
             }
           ]
         },
@@ -58,7 +58,7 @@
               },
               {
                 "label": "Títol",
-                "description": "Títol de l’esdeveniment."
+                "description": "Títol de l’esdeveniment"
               },
               {
                 "label": "Text del cos",
@@ -66,11 +66,10 @@
               },
               {
                 "label": "Etiquetes",
-                "description": "Introdueix etiquetes (categories)."
+                "description": "Introdueix etiquetes (categories)"
               },
               {
                 "label": "Recurs",
-                "description": "",
                 "fields": [
                   {
                     "label": "Recurs",
@@ -95,10 +94,9 @@
         },
         {
           "label": "Eres",
-          "description": "Afegeix una era a la teva línia del temps.",
+          "description": "Afegeix una era a la teva línia del temps",
           "field": {
             "label": "Era",
-            "description": "",
             "fields": [
               {
                 "label": "Data d’inici",
@@ -125,7 +123,7 @@
         },
         {
           "label": "Idioma",
-          "description": "Idioma de la inferfície de l’usuari",
+          "description": "Idioma de la interfície de l’usuari",
           "options": [
             {
               "label": "Afrikaans"
@@ -278,7 +276,7 @@
               "label": "Tàmil"
             },
             {
-              "label": "Twi"
+              "label": "Taiwanès"
             },
             {
               "label": "Telugu"

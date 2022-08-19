@@ -70,7 +70,6 @@
               },
               {
                 "label": "Událost",
-                "description": "",
                 "fields": [
                   {
                     "label": "Média",
@@ -98,7 +97,6 @@
           "description": "Přidejte éru na svou časovou osu",
           "field": {
             "label": "Éra",
-            "description": "",
             "fields": [
               {
                 "label": "Datum zahájení",

@@ -8,12 +8,12 @@
           "description": "A linha do tempo principal vai aqui (primeira página)"
         },
         {
-          "label": "Texto de corpo",
+          "label": "Texto do corpo",
           "description": "O corpo da linha do tempo principal vai aqui (primeira página)."
         },
         {
           "label": "Nível de zoom padrão",
-          "description": "Isso mudará o nível de zoom padrão. Equivalente a pressionar o botão de zoom o número especificado de vezes. Números negativos reduzem o zoom. O padrão é 0"
+          "description": "Isto mudará o nível de zoom padrão. Equivalente a pressionar o botão de zoom o número especificado de vezes. Números negativos reduzem o zoom. O padrão é 0"
         },
         {
           "label": "Imagem de fundo",
@@ -21,23 +21,23 @@
         },
         {
           "label": "Altura",
-          "description": "A altura em pixels"
+          "description": "A altura em píxeis"
         },
         {
-          "label": "Asset",
-          "description": "Aqui você pode adicionar assets em sua linha do tempo \"página inicial\"",
+          "label": "Recurso",
+          "description": "Aqui pode adicionar um recurso à sua linha do tempo \"página inicial\"",
           "fields": [
             {
-              "label": "Mídia",
-              "description": "URL da mídia (Twitter, YouTube, Flickr, Vimeo, Google Maps e SoundCloud são suportados)"
+              "label": "Multimédia",
+              "description": "URL da multimédia (Twitter, YouTube, Flickr, Vimeo, Google Maps e SoundCloud são suportados)"
             },
             {
               "label": "Créditos",
-              "description": "Créditos da mídia"
+              "description": "Créditos da multimédia"
             },
             {
-              "label": "Legendas(acessibilidade)",
-              "description": "Texto da legenda de acessibilidade"
+              "label": "Legenda",
+              "description": "A descrição da legenda vai aqui"
             }
           ]
         },
@@ -49,32 +49,31 @@
             "description": "Data",
             "fields": [
               {
-                "label": "Data inicial",
+                "label": "Data de início",
                 "description": "AAAA,MM,DD (Mínimo necessário: AAAA)"
               },
               {
-                "label": "Data final",
+                "label": "Data de fim",
                 "description": "AAAA,MM,DD (Mínimo necessário: AAAA)"
               },
               {
                 "label": "Título",
-                "description": "Título da entrada de data"
+                "description": "Título da entrada da data"
               },
               {
-                "label": "Texto de corpo",
-                "description": "Texto de corpo da entrada de data"
+                "label": "Texto do corpo",
+                "description": "Texto de corpo da entrada da data"
               },
               {
-                "label": "Marcações",
-                "description": "Insira marcações (categorias)"
+                "label": "Tags",
+                "description": "Insira tags (categorias)"
               },
               {
-                "label": "Asset",
-                "description": "",
+                "label": "Recurso",
                 "fields": [
                   {
-                    "label": "Mídia",
-                    "description": "URL da mídia (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps e SoundCloud são suportados)."
+                    "label": "Multimédia",
+                    "description": "URL da multimédia (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps e SoundCloud são suportados)."
                   },
                   {
                     "label": "Miniatura",
@@ -82,11 +81,11 @@
                   },
                   {
                     "label": "Crédito",
-                    "description": "Créditos da mídia"
+                    "description": "Créditos da multimédia"
                   },
                   {
-                    "label": "Legendas(acessibilidade)",
-                    "description": "Texto da legenda de acessibilidade"
+                    "label": "Legenda",
+                    "description": "Texto da legenda"
                   }
                 ]
               }
@@ -98,7 +97,6 @@
           "description": "Adicione uma era à sua linha do tempo",
           "field": {
             "label": "Era",
-            "description": "",
             "fields": [
               {
                 "label": "Data inicial",
@@ -114,18 +112,18 @@
               },
               {
                 "label": "Texto",
-                "description": "Texto de corpo da era"
+                "description": "Texto do corpo da era"
               },
               {
-                "label": "Marcações",
-                "description": "Marcações da era (categorias)"
+                "label": "Tag",
+                "description": "Tags da era (categorias)"
               }
             ]
           }
         },
         {
-          "label": "Linguagem",
-          "description": "A linguagem da interface de usuário",
+          "label": "Idioma",
+          "description": "O idioma da interface do utilizador",
           "options": [
             {
               "label": "Afrikaans"
@@ -143,100 +141,100 @@
               "label": "Bulgarian"
             },
             {
-              "label": "Catalan"
+              "label": "Catalão"
             },
             {
-              "label": "Chinese"
+              "label": "Chinês"
             },
             {
-              "label": "Croatian / Hrvatski"
+              "label": "Croata/ Hrvatski"
             },
             {
-              "label": "Czech"
+              "label": "Checo"
             },
             {
-              "label": "Danish"
+              "label": "Dinamarquês"
             },
             {
-              "label": "Dutch"
+              "label": "Neerlandês"
             },
             {
-              "label": "English"
+              "label": "Inglês"
             },
             {
-              "label": "English (24-hour time)"
+              "label": "Inglês (formato 24 horas)"
             },
             {
               "label": "Esperanto"
             },
             {
-              "label": "Estonian"
+              "label": "Estónio"
             },
             {
               "label": "Faroese"
             },
             {
-              "label": "Farsi"
+              "label": "Persa / Farsi"
             },
             {
-              "label": "Finnish"
+              "label": "Finlandês"
             },
             {
-              "label": "French"
+              "label": "Francês"
             },
             {
-              "label": "Galician"
+              "label": "Galego"
             },
             {
-              "label": "Georgian"
+              "label": "Georgiano"
             },
             {
-              "label": "German / Deutsch"
+              "label": "Alemão / Deutsch"
             },
             {
-              "label": "Greek"
+              "label": "Grego"
             },
             {
-              "label": "Hebrew"
+              "label": "Hebreu"
             },
             {
-              "label": "Hungarian"
+              "label": "Húngaro"
             },
             {
-              "label": "Icelandic"
+              "label": "Islandês"
             },
             {
-              "label": "Indonesian"
+              "label": "Indonésio"
             },
             {
-              "label": "Italian"
+              "label": "Italiano"
             },
             {
-              "label": "Japanese"
+              "label": "Japonês"
             },
             {
-              "label": "Korean"
+              "label": "Coreano"
             },
             {
-              "label": "Latvian"
+              "label": "Letão"
             },
             {
-              "label": "Lithuanian"
+              "label": "Lituano"
             },
             {
-              "label": "Luxembourgish"
+              "label": "Luxemburguês"
             },
             {
-              "label": "Malay"
+              "label": "Malaio"
             },
             {
-              "label": "Nepali"
+              "label": "Nepalês"
             },
             {
-              "label": "Norwegian"
+              "label": "Norueguês"
             },
             {
-              "label": "Polish"
+              "label": "Polaco"
             },
             {
               "label": "Português"
@@ -248,28 +246,28 @@
               "label": "Romansh"
             },
             {
-              "label": "Russian"
+              "label": "Russo"
             },
             {
-              "label": "Serbian - Cyrillic"
+              "label": "Sérvio - Cirílico"
             },
             {
-              "label": "Serbian - Latin"
+              "label": "Sérvio - Latim"
             },
             {
-              "label": "Sinhalese"
+              "label": "Cingalês"
             },
             {
-              "label": "Slovak"
+              "label": "Eslovaco"
             },
             {
-              "label": "Slovenian"
+              "label": "Esloveno"
             },
             {
-              "label": "Spanish"
+              "label": "Espanhol"
             },
             {
-              "label": "Swedish"
+              "label": "Sueco"
             },
             {
               "label": "Tagalog"
@@ -284,10 +282,10 @@
               "label": "Telugu"
             },
             {
-              "label": "Turkish"
+              "label": "Turco"
             },
             {
-              "label": "Ukrainian"
+              "label": "Ucraniano"
             }
           ]
         }

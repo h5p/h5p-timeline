@@ -70,7 +70,6 @@
               },
               {
                 "label": "Media",
-                "description": "",
                 "fields": [
                   {
                     "label": "Media",
@@ -98,7 +97,6 @@
           "description": "Lisää aikakausi aikajanalle.",
           "field": {
             "label": "Aikakausi",
-            "description": "",
             "fields": [
               {
                 "label": "Alkupäivämäärä",
