@@ -99,7 +99,7 @@
     var self = this;
 
     self.$container = $container;
-    $container.addClass('h5p-timeline').css('height', self.options.timeline.height + 'px');
+    $container.addClass('h5p-timeline h5p-theme').css('height', self.options.timeline.height + 'px');
     $container.append($('<div>', {id: 'h5p-timeline'}));
 
     // Need to set this to make timeline behave correctly:
