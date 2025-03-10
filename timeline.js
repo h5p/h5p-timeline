@@ -100,7 +100,8 @@
 
     self.$container = $container;
     $container.addClass('h5p-timeline').css('height', self.options.timeline.height + 'px');
-    $container.append($('<div>', {id: 'h5p-timeline'}));
+    const containerId = `h5p-timeline-${H5P.createUUID()}`;
+    $container.append($('<div>', {id: containerId}));
 
     // Need to set this to make timeline behave correctly:
     window.jQuery = $;
@@ -115,7 +116,7 @@
           source: self.options,
           lang: self.options.timeline.language,
           start_zoom_adjust: self.options.timeline.defaultZoomLevel,
-          embed_id: 'h5p-timeline'
+          embed_id: containerId
         }, data.preloadedDependencies[0].majorVersion, data.preloadedDependencies[0].minorVersion);
 
         // Add background image if any:
