@@ -43,6 +43,7 @@
         },
         {
           "label": "Kuupäevad",
+          "entity": "date",
           "description": "Lisa mõned kuupäevad ajajoonele!",
           "field": {
             "label": "Kuupäev",

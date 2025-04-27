@@ -95,6 +95,7 @@
         "name": "date",
         "type": "list",
         "label": "Dates",
+        "entity": "date",
         "importance": "medium",
         "min": 1,
         "description": "Add some dates to your timeline!",

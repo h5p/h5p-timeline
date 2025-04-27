@@ -43,6 +43,7 @@
         },
         {
           "label": "Daty",
+          "entity": "date",
           "description": "Dodaj daty do swojej osi czasu!",
           "field": {
             "label": "Data",

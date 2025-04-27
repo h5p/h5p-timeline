@@ -43,6 +43,7 @@
         },
         {
           "label": "Datoer",
+          "entity": "date",
           "description": "Legg til datoer for tidslinjen",
           "field": {
             "label": "Dato",

@@ -42,6 +42,7 @@
         },
         {
           "label": "Tarehe",
+          "entity": "date",
           "description": "Ongeza tarehe kadhaa kwenye ratiba yako!",
           "field": {
             "label": "Tarehe",

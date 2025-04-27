@@ -43,6 +43,7 @@
         },
         {
           "label": "Datum",
+          "entity": "date",
           "description": "Lägg till några datum till din tidslinje!",
           "field": {
             "label": "Date",

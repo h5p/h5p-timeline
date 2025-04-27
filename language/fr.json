@@ -43,6 +43,7 @@
         },
         {
           "label": "Dates",
+          "entity": "date",
           "description": "Ajoutez des dates à votre chronologie !",
           "field": {
             "label": "Date",

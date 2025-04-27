@@ -43,6 +43,7 @@
         },
         {
           "label": "時間軸內容",
+          "entity": "date",
           "description": "添加要在時間軸上顯示的日期還有文字等內容。",
           "field": {
             "label": "日期",

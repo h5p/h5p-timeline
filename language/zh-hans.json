@@ -43,6 +43,7 @@
         },
         {
           "label": "时间轴内容",
+          "entity": "date",
           "description": "添加要在时间轴上显示的日期还有文字等内容。",
           "field": {
             "label": "日期",

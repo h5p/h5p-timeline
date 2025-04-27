@@ -43,6 +43,7 @@
         },
         {
           "label": "Datums",
+          "entity": "date",
           "description": "Voeg 'n paar datums by jou tydlyn!",
           "field": {
             "label": "Datum",

@@ -43,6 +43,7 @@
         },
         {
           "label": "Date",
+          "entity": "date",
           "description": "Aggiungi delle date alla timeline!",
           "field": {
             "label": "Date",

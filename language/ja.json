@@ -43,6 +43,7 @@
         },
         {
           "label": "日付",
+          "entity": "date",
           "description": "タイムラインにいくつかの日付を追加 !",
           "field": {
             "label": "日付",

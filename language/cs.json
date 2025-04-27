@@ -43,6 +43,7 @@
         },
         {
           "label": "Datum",
+          "entity": "date",
           "description": "Přidat na svou časovou osu některá data!",
           "field": {
             "label": "Datum",

@@ -43,6 +43,7 @@
         },
         {
           "label": "Datums",
+          "entity": "date",
           "description": "Voeg datums toe aan je tijdlijn!",
           "field": {
             "label": "Datum",

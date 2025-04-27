@@ -43,6 +43,7 @@
         },
         {
           "label": "Datas",
+          "entity": "date",
           "description": "Engade datas á túa liña temporal!",
           "field": {
             "label": "Data",

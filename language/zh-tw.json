@@ -43,6 +43,7 @@
         },
         {
           "label": "日期",
+          "entity": "date",
           "description": "在時間軸中新增新的日期!",
           "field": {
             "label": "日期",

@@ -43,6 +43,7 @@
         },
         {
           "label": "Tarihler",
+          "entity": "date",
           "description": "Zaman çizelgenize bazı tarihler ekleyin!",
           "field": {
             "label": "Tarih",

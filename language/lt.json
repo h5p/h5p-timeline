@@ -42,6 +42,7 @@
         },
         {
           "label": "Datos",
+          "entity": "date",
           "description": "Pridėkite keletą datų į savo laiko juostą!",
           "field": {
             "label": "Data",

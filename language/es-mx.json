@@ -43,6 +43,7 @@
         },
         {
           "label": "Fechas",
+          "entity": "date",
           "description": "¡Agregue algunas fechas a su línea de tiempo!",
           "field": {
             "label": "Fecha",

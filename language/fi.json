@@ -43,6 +43,7 @@
         },
         {
           "label": "Päivämäärät",
+          "entity": "date",
           "description": "Lisää päivämääriä aikajanalle.",
           "field": {
             "label": "Päivämäärä",

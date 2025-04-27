@@ -43,6 +43,7 @@
         },
         {
           "label": "Datumi",
+          "entity": "date",
           "description": "Unesite nekoliko datuma u vaš Vremenski tok!",
           "field": {
             "label": "Datum",

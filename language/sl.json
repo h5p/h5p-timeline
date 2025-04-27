@@ -43,6 +43,7 @@
         },
         {
           "label": "Datumi",
+          "entity": "date",
           "description": "Dodajanje datumov z dogodki na časovnico.",
           "field": {
             "label": "Datum",

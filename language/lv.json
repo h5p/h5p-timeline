@@ -42,6 +42,7 @@
         },
         {
           "label": "Datumi",
+          "entity": "date",
           "description": "Pievienojiet savai laika skalai dažus datumus!",
           "field": {
             "label": "Datums",

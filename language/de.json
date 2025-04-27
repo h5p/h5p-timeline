@@ -43,6 +43,7 @@
         },
         {
           "label": "Daten",
+          "entity": "Datum",
           "description": "Füge hier Daten zu deinem Zeitstrahl hinzu.",
           "field": {
             "label": "Datum",
