@@ -42,6 +42,7 @@
         },
         {
           "label": "Datumi",
+          "entity": "date",
           "description": "Pievienojiet savai laika skalai dažus datumus!",
           "field": {
             "label": "Datums",
@@ -93,6 +94,7 @@
         },
         {
           "label": "Laikmeti",
+          "entity": "era",
           "description": "Pievienojiet savai laika skalai laikmetu",
           "field": {
             "label": "Laikmets",

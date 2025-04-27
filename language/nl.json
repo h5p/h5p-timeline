@@ -43,6 +43,7 @@
         },
         {
           "label": "Datums",
+          "entity": "date",
           "description": "Voeg datums toe aan je tijdlijn!",
           "field": {
             "label": "Datum",
@@ -94,6 +95,7 @@
         },
         {
           "label": "Perioden",
+          "entity": "era",
           "description": "Voeg een periode toe aan je tijdlijn",
           "field": {
             "label": "Periode",

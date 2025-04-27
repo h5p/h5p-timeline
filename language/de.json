@@ -43,6 +43,7 @@
         },
         {
           "label": "Daten",
+          "entity": "Datum",
           "description": "Füge hier Daten zu deinem Zeitstrahl hinzu.",
           "field": {
             "label": "Datum",
@@ -94,6 +95,7 @@
         },
         {
           "label": "Epochen",
+          "entity": "Epoche",
           "description": "Epochen sind farblich markierte Zeitabschnitte, die hinter den Datumseinträgen in der Zeitleiste angezeigt werden",
           "field": {
             "label": "Epoche",

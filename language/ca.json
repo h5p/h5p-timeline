@@ -43,6 +43,7 @@
         },
         {
           "label": "Dates",
+          "entity": "date",
           "description": "Afegeix dates a la teva línia del temps!",
           "field": {
             "label": "Data",
@@ -94,6 +95,7 @@
         },
         {
           "label": "Eres",
+          "entity": "era",
           "description": "Afegeix una era a la teva línia del temps",
           "field": {
             "label": "Era",

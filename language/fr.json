@@ -43,6 +43,7 @@
         },
         {
           "label": "Dates",
+          "entity": "date",
           "description": "Ajoutez des dates à votre chronologie !",
           "field": {
             "label": "Date",
@@ -94,6 +95,7 @@
         },
         {
           "label": "Périodes",
+          "entity": "era",
           "description": "Ajoutez une période à votre chronologie",
           "field": {
             "label": "Période",

@@ -43,6 +43,7 @@
         },
         {
           "label": "Datum",
+          "entity": "date",
           "description": "Lägg till några datum till din tidslinje!",
           "field": {
             "label": "Date",
@@ -94,6 +95,7 @@
         },
         {
           "label": "Epoker",
+          "entity": "era",
           "description": "Lägg till en epok till din tidslinje",
           "field": {
             "label": "Epok",

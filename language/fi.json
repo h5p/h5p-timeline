@@ -43,6 +43,7 @@
         },
         {
           "label": "Päivämäärät",
+          "entity": "date",
           "description": "Lisää päivämääriä aikajanalle.",
           "field": {
             "label": "Päivämäärä",
@@ -94,6 +95,7 @@
         },
         {
           "label": "Aikakaudet",
+          "entity": "era",
           "description": "Lisää aikakausi aikajanalle.",
           "field": {
             "label": "Aikakausi",

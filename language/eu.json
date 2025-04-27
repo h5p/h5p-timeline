@@ -43,6 +43,7 @@
         },
         {
           "label": "Datak",
+          "entity": "date",
           "description": "Gehitu data batzuk zure denbora-lerrora!",
           "field": {
             "label": "Data",
@@ -94,6 +95,7 @@
         },
         {
           "label": "Aroak",
+          "entity": "era",
           "description": "Gehitu aroa zure denbora-lerrora",
           "field": {
             "label": "Aroak",

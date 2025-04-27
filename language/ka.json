@@ -43,6 +43,7 @@
         },
         {
           "label": "თარიღები",
+          "entity": "date",
           "description": "დაამატეთ თარიღები დროის ხაზზე!",
           "field": {
             "label": "თარიღი",
@@ -94,6 +95,7 @@
         },
         {
           "label": "ერა",
+          "entity": "era",
           "description": "ერას დამატება დროის ხაზზე",
           "field": {
             "label": "ერა",

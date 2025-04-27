@@ -43,6 +43,7 @@
         },
         {
           "label": "Datumi",
+          "entity": "date",
           "description": "Dodajanje datumov z dogodki na časovnico.",
           "field": {
             "label": "Datum",
@@ -94,6 +95,7 @@
         },
         {
           "label": "Obdobja",
+          "entity": "era",
           "description": "Dodajanje obdobja na časovnico.",
           "field": {
             "label": "Obdobje",

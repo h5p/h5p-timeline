@@ -43,6 +43,7 @@
         },
         {
           "label": "Datoer",
+          "entity": "date",
           "description": "Legg til datoer for tidslinjen",
           "field": {
             "label": "Dato",
@@ -94,6 +95,7 @@
         },
         {
           "label": "Periode",
+          "entity": "era",
           "description": "Legg til en periode til tidslinjen",
           "field": {
             "label": "Periode",

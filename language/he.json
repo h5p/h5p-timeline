@@ -43,6 +43,7 @@
         },
         {
           "label": "תאריכים",
+          "entity": "date",
           "description": "הוסיפו מספר תאריכים לציר הזמן!",
           "field": {
             "label": "תאריך",
@@ -94,6 +95,7 @@
         },
         {
           "label": "תקופות",
+          "entity": "era",
           "description": "הוספת תקופה לציר הזמן שלכם",
           "field": {
             "label": "תקופה",
