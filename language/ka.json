@@ -95,6 +95,7 @@
         },
         {
           "label": "ერა",
+          "entity": "era",
           "description": "ერას დამატება დროის ხაზზე",
           "field": {
             "label": "ერა",

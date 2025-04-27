@@ -95,6 +95,7 @@
         },
         {
           "label": "Obdobja",
+          "entity": "era",
           "description": "Dodajanje obdobja na časovnico.",
           "field": {
             "label": "Obdobje",

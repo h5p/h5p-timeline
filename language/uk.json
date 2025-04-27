@@ -95,6 +95,7 @@
         },
         {
           "label": "Ера",
+          "entity": "era",
           "description": "Додати еру на часову шкалу",
           "field": {
             "label": "Ера",

@@ -95,6 +95,7 @@
         },
         {
           "label": "시대",
+          "entity": "era",
           "description": "연대표에 시대 추가",
           "field": {
             "label": "시대",

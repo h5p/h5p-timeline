@@ -95,6 +95,7 @@
         },
         {
           "label": "Epoker",
+          "entity": "era",
           "description": "Lägg till en epok till din tidslinje",
           "field": {
             "label": "Epok",

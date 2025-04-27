@@ -94,6 +94,7 @@
         },
         {
           "label": "Zama",
+          "entity": "era",
           "description": "Ongeza zama kwenye ratiba yako",
           "field": {
             "label": "Zama",

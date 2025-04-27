@@ -95,6 +95,7 @@
         },
         {
           "label": "Periode",
+          "entity": "era",
           "description": "Legg til en periode til tidslinjen",
           "field": {
             "label": "Periode",

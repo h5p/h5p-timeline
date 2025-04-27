@@ -95,6 +95,7 @@
         },
         {
           "label": "Era",
+          "entity": "era",
           "description": "Unesite eru za vaš Vremenski tok.",
           "field": {
             "label": "Era",

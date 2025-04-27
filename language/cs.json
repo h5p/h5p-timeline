@@ -95,6 +95,7 @@
         },
         {
           "label": "Éry",
+          "entity": "era",
           "description": "Přidejte éru na svou časovou osu",
           "field": {
             "label": "Éra",

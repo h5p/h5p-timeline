@@ -95,6 +95,7 @@
         },
         {
           "label": "Vahemikud",
+          "entity": "era",
           "description": "Lisa ajajoonele vahemik",
           "field": {
             "label": "Vahemik",

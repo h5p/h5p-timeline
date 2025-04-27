@@ -95,6 +95,7 @@
         },
         {
           "label": "Eras",
+          "entity": "era",
           "description": "Add an era to your timeline",
           "field": {
             "label": "Era",

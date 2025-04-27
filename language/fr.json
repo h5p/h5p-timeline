@@ -95,6 +95,7 @@
         },
         {
           "label": "Périodes",
+          "entity": "era",
           "description": "Ajoutez une période à votre chronologie",
           "field": {
             "label": "Période",

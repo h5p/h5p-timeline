@@ -213,6 +213,7 @@
         "name": "era",
         "type": "list",
         "label": "Eras",
+        "entity": "era",
         "importance": "medium",
         "description": "Add an era to your timeline",
         "min": 0,

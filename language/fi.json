@@ -95,6 +95,7 @@
         },
         {
           "label": "Aikakaudet",
+          "entity": "era",
           "description": "Lisää aikakausi aikajanalle.",
           "field": {
             "label": "Aikakausi",

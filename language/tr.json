@@ -95,6 +95,7 @@
         },
         {
           "label": "Dönemler (Çağlar)",
+          "entity": "era",
           "description": "Zaman çizelgenize bir dönem ekleyin",
           "field": {
             "label": "Dönem",

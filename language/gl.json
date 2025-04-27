@@ -95,6 +95,7 @@
         },
         {
           "label": "Eras",
+          "entity": "era",
           "description": "Engade unha era á túa liña temporal",
           "field": {
             "label": "Era",

@@ -94,6 +94,7 @@
         },
         {
           "label": "Eros",
+          "entity": "era",
           "description": "Pridėti erą į savo laiko juostą",
           "field": {
             "label": "Laikotarpis",

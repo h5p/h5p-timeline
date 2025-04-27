@@ -95,6 +95,7 @@
         },
         {
           "label": "Eras",
+          "entity": "era",
           "description": "Voeg 'n era by jou tydlyn",
           "field": {
             "label": "Era",

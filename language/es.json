@@ -95,6 +95,7 @@
         },
         {
           "label": "Épocas",
+          "entity": "era",
           "description": "Agrega una época a tu línea de tiempo",
           "field": {
             "label": "Época",

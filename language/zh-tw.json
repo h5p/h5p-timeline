@@ -95,6 +95,7 @@
         },
         {
           "label": "年代",
+          "entity": "era",
           "description": "在時間軸中新增新的年代",
           "field": {
             "label": "年代",
