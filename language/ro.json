@@ -1,91 +1,91 @@
 {
   "semantics": [
     {
-      "label": "Timeline",
+      "label": "Cronologie",
       "fields": [
         {
-          "label": "Headline",
-          "description": "Main timeline heading goes here (first page)"
+          "label": "Titlu principal",
+          "description": "Titlul principal al cronologiei se introduce aici (prima pagină)"
         },
         {
-          "label": "Body Text",
-          "description": "The main timeline body goes here (first page)."
+          "label": "Text principal",
+          "description": "Textul principal al cronologiei se introduce aici (prima pagină)."
         },
         {
-          "label": "Default zoom level",
-          "description": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
+          "label": "Nivel de zoom implicit",
+          "description": "Acesta va ajusta nivelul de zoom implicit. Echivalent cu apăsarea butonului de mărire sau micșorare de un număr specificat de ori. Numerele negative micșorează. Valoarea implicită este 0."
         },
         {
-          "label": "Background image",
-          "description": "An image to display as background."
+          "label": "Imagine de fundal",
+          "description": "O imagine de afișat ca fundal."
         },
         {
-          "label": "Height",
-          "description": "The height in pixels"
+          "label": "Înălțime",
+          "description": "Înălțimea în pixeli"
         },
         {
-          "label": "Asset",
-          "description": "Here you can add an asset to your timeline \"front page\"",
+          "label": "Resursă media",
+          "description": "Aici puteți adăuga o resursă media la „prima pagină” a cronologiei",
           "fields": [
             {
               "label": "Media",
-              "description": "Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)"
+              "description": "Link către URL-ul media (Twitter, YouTube, Flickr, Vimeo, Google Maps și SoundCloud sunt acceptate în prezent)"
             },
             {
-              "label": "Credits",
-              "description": "Credits to the media"
+              "label": "Credite",
+              "description": "Credite pentru media"
             },
             {
-              "label": "Caption",
-              "description": "Caption description goes here"
+              "label": "Legendă",
+              "description": "Descrierea legendei se introduce aici"
             }
           ]
         },
         {
-          "label": "Dates",
-          "description": "Add some dates to your timeline!",
+          "label": "Date",
+          "description": "Adăugați câteva date la cronologia dumneavoastră!",
           "field": {
-            "label": "Date",
-            "description": "Date",
+            "label": "Dată",
+            "description": "Dată",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Dată de început",
+                "description": "AAAA,LL,ZZ (Minimum AAAA necesar)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Dată de sfârșit",
+                "description": "AAAA,LL,ZZ (Minimum AAAA necesar)"
               },
               {
-                "label": "Headline",
-                "description": "Headline for the date entry"
+                "label": "Titlu",
+                "description": "Titlu pentru intrarea de dată"
               },
               {
-                "label": "Body text",
-                "description": "Body for the date entry"
+                "label": "Text principal",
+                "description": "Text principal pentru intrarea de dată"
               },
               {
-                "label": "Tags",
-                "description": "Enter Tags (categories)"
+                "label": "Etichete",
+                "description": "Introduceți Etichete (categorii)"
               },
               {
-                "label": "Asset",
+                "label": "Resursă media",
                 "fields": [
                   {
                     "label": "Media",
-                    "description": "URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported)."
+                    "description": "URL către media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps și SoundCloud sunt acceptate în prezent)."
                   },
                   {
-                    "label": "Thumbnail",
-                    "description": "Add a thumbnail if needed, 32x32"
+                    "label": "Miniatură",
+                    "description": "Adăugați o miniatură dacă este necesar, 32x32"
                   },
                   {
                     "label": "Credit",
-                    "description": "Credits to the media"
+                    "description": "Credite pentru media"
                   },
                   {
-                    "label": "Caption",
-                    "description": "Caption text"
+                    "label": "Legendă",
+                    "description": "Text legendă"
                   }
                 ]
               }
@@ -93,199 +93,199 @@
           }
         },
         {
-          "label": "Eras",
-          "description": "Add an era to your timeline",
+          "label": "Ere",
+          "description": "Adăugați o eră la cronologia dumneavoastră",
           "field": {
-            "label": "Era",
+            "label": "Eră",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Dată de început",
+                "description": "AAAA,LL,ZZ (Minimum AAAA necesar)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Dată de sfârșit",
+                "description": "AAAA,LL,ZZ (Minimum AAAA necesar)"
               },
               {
-                "label": "Headline",
-                "description": "Era headline"
+                "label": "Titlu",
+                "description": "Titlu eră"
               },
               {
                 "label": "Text",
-                "description": "Era body"
+                "description": "Text principal eră"
               },
               {
-                "label": "Tag",
-                "description": "Era tags (categories)"
+                "label": "Etichetă",
+                "description": "Etichete eră (categorii)"
               }
             ]
           }
         },
         {
-          "label": "Language",
-          "description": "The language of the user interface",
+          "label": "Limbă",
+          "description": "Limba interfeței utilizatorului",
           "options": [
             {
               "label": "Afrikaans"
             },
             {
-              "label": "Arabic"
+              "label": "Arabă"
             },
             {
-              "label": "Armenian"
+              "label": "Armeană"
             },
             {
-              "label": "Basque"
+              "label": "Bască"
             },
             {
-              "label": "Bulgarian"
+              "label": "Bulgară"
             },
             {
-              "label": "Catalan"
+              "label": "Catalană"
             },
             {
-              "label": "Chinese"
+              "label": "Chineză"
             },
             {
-              "label": "Croatian / Hrvatski"
+              "label": "Croată / Hrvatski"
             },
             {
-              "label": "Czech"
+              "label": "Cehă"
             },
             {
-              "label": "Danish"
+              "label": "Daneză"
             },
             {
-              "label": "Dutch"
+              "label": "Olandeză"
             },
             {
-              "label": "English"
+              "label": "Engleză"
             },
             {
-              "label": "English (24-hour time)"
+              "label": "Engleză (format 24 de ore)"
             },
             {
               "label": "Esperanto"
             },
             {
-              "label": "Estonian"
+              "label": "Estonă"
             },
             {
-              "label": "Faroese"
+              "label": "Feroeză"
             },
             {
-              "label": "Farsi"
+              "label": "Farsi (Persană)"
             },
             {
-              "label": "Finnish"
+              "label": "Finlandeză"
             },
             {
-              "label": "French"
+              "label": "Franceză"
             },
             {
-              "label": "Galician"
+              "label": "Galițiană"
             },
             {
-              "label": "Georgian"
+              "label": "Georgiană"
             },
             {
-              "label": "German / Deutsch"
+              "label": "Germană / Deutsch"
             },
             {
-              "label": "Greek"
+              "label": "Greacă"
             },
             {
-              "label": "Hebrew"
+              "label": "Ebraică"
             },
             {
-              "label": "Hungarian"
+              "label": "Maghiară"
             },
             {
-              "label": "Icelandic"
+              "label": "Islandeză"
             },
             {
-              "label": "Indonesian"
+              "label": "Indoneziană"
             },
             {
-              "label": "Italian"
+              "label": "Italiană"
             },
             {
-              "label": "Japanese"
+              "label": "Japoneză"
             },
             {
-              "label": "Korean"
+              "label": "Coreeană"
             },
             {
-              "label": "Latvian"
+              "label": "Letonă"
             },
             {
-              "label": "Lithuanian"
+              "label": "Lituaniană"
             },
             {
-              "label": "Luxembourgish"
+              "label": "Luxemburgheză"
             },
             {
-              "label": "Malay"
+              "label": "Malaeză"
             },
             {
-              "label": "Nepali"
+              "label": "Nepaleză"
             },
             {
-              "label": "Norwegian"
+              "label": "Norvegiană"
             },
             {
-              "label": "Polish"
+              "label": "Poloneză"
             },
             {
-              "label": "Portuguese"
+              "label": "Portugheză"
             },
             {
-              "label": "Portuguese (Brazilian)"
+              "label": "Portugheză (braziliană)"
             },
             {
-              "label": "Romansh"
+              "label": "Romanșă"
             },
             {
-              "label": "Russian"
+              "label": "Rusă"
             },
             {
-              "label": "Serbian - Cyrillic"
+              "label": "Sârbă - Chirilic"
             },
             {
-              "label": "Serbian - Latin"
+              "label": "Sârbă - Latin"
             },
             {
-              "label": "Sinhalese"
+              "label": "Sinhaleză"
             },
             {
-              "label": "Slovak"
+              "label": "Slovacă"
             },
             {
-              "label": "Slovenian"
+              "label": "Slovenă"
             },
             {
-              "label": "Spanish"
+              "label": "Spaniolă"
             },
             {
-              "label": "Swedish"
+              "label": "Suedeză"
             },
             {
               "label": "Tagalog"
             },
             {
-              "label": "Tamil"
+              "label": "Tamilă"
             },
             {
-              "label": "Taiwanese"
+              "label": "Taiwaneză"
             },
             {
               "label": "Telugu"
             },
             {
-              "label": "Turkish"
+              "label": "Turcă"
             },
             {
-              "label": "Ukrainian"
+              "label": "Ucraineană"
             }
           ]
         }
