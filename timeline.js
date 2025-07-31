@@ -105,7 +105,7 @@
     // Need to set this to make timeline behave correctly:
     window.jQuery = $;
 
-    if (self.validate()) {
+    const initTimelinsJS = () => {
       // Load library.json - need to inform TimelineJS which version it is
       $.getJSON(self.getLibraryFilePath('library.json'), function (data) {
         new TimelineJS({
@@ -122,6 +122,31 @@
         if (self.options.timeline.backgroundImage !== undefined) {
           self.setBackgroundImage(self.options.timeline.backgroundImage);
         }
+      });
+    }
+
+    if (self.validate()) {
+      /*
+       * Delay initializing of TimelinsJS until $container attached to DOM.
+       * If observer is started immediately, it may depend on timing whether it
+       * actually fires when target is visible. Waiting for next animation frame
+       * helps but can fail when content is embedded.
+       */
+      const initCallback = window.requestIdleCallback ?
+        window.requestIdleCallback :
+        window.requestAnimationFrame;
+
+      initCallback(() => {
+        const observer = new IntersectionObserver((entries) => {
+          if (entries[0].isIntersecting) {
+            observer.disconnect(); // Not needed anymore
+
+            initTimelinsJS();
+          }
+        }, {
+          threshold: 0.01
+        });
+        observer.observe($container.get(0));
       });
     }
     else {
