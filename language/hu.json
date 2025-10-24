@@ -43,6 +43,7 @@
         },
         {
           "label": "Dátumok",
+          "entity": "date",
           "description": "Adjon hozzá néhány dátumot az idővonalhoz!",
           "field": {
             "label": "Dátum",
@@ -94,6 +95,7 @@
         },
         {
           "label": "Korszakok",
+          "entity": "era",
           "description": "Adjon hozzá egy korszakot az idővonalhoz",
           "field": {
             "label": "Korszak",

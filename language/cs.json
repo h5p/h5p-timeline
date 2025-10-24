@@ -43,6 +43,7 @@
         },
         {
           "label": "Datum",
+          "entity": "date",
           "description": "Přidat na svou časovou osu některá data!",
           "field": {
             "label": "Datum",
@@ -94,6 +95,7 @@
         },
         {
           "label": "Éry",
+          "entity": "era",
           "description": "Přidejte éru na svou časovou osu",
           "field": {
             "label": "Éra",

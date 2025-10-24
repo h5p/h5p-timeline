@@ -43,6 +43,7 @@
         },
         {
           "label": "Datumi",
+          "entity": "date",
           "description": "Unesite nekoliko datuma u vaš Vremenski tok!",
           "field": {
             "label": "Datum",
@@ -94,6 +95,7 @@
         },
         {
           "label": "Era",
+          "entity": "era",
           "description": "Unesite eru za vaš Vremenski tok.",
           "field": {
             "label": "Era",

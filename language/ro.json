@@ -43,6 +43,7 @@
         },
         {
           "label": "Date",
+          "entity": "date",
           "description": "Adăugați câteva date la cronologia dumneavoastră!",
           "field": {
             "label": "Dată",
@@ -94,6 +95,7 @@
         },
         {
           "label": "Ere",
+          "entity": "era",
           "description": "Adăugați o eră la cronologia dumneavoastră",
           "field": {
             "label": "Eră",

@@ -43,6 +43,7 @@
         },
         {
           "label": "Date",
+          "entity": "date",
           "description": "Aggiungi delle date alla timeline!",
           "field": {
             "label": "Date",
@@ -94,6 +95,7 @@
         },
         {
           "label": "Epoche",
+          "entity": "era",
           "description": "Aggiungi un'epoca alla timeline",
           "field": {
             "label": "Epoca",
