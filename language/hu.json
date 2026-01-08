@@ -1,91 +1,91 @@
 {
   "semantics": [
     {
-      "label": "Timeline",
+      "label": "Idővonal",
       "fields": [
         {
-          "label": "Headline",
-          "description": "Main timeline heading goes here (first page)"
+          "label": "Cím",
+          "description": "Ide kerül az idővonal fő címe (első oldal)"
         },
         {
-          "label": "Body Text",
-          "description": "The main timeline body goes here (first page)."
+          "label": "Törzsszöveg",
+          "description": "Ide kerül az idővonal fő törzsszövege (első oldal)."
         },
         {
-          "label": "Default zoom level",
-          "description": "This will tweak the default zoom level. Equivilent to pressing the zoom in or zoom out button the specified number of times. Negative numbers zoom out. default is 0"
+          "label": "Alapértelmezett nagyítási szint",
+          "description": "Ez módosítja az alapértelmezett nagyítási szintet. A nagyítás vagy kicsinyítés gomb meghatározott számú megnyomásával egyenértékű. A negatív számok kicsinyítenek. Az alapértelmezett érték 0"
         },
         {
-          "label": "Background image",
-          "description": "An image to display as background."
+          "label": "Háttérkép",
+          "description": "A háttérként megjelenítendő kép."
         },
         {
-          "label": "Height",
-          "description": "The height in pixels"
+          "label": "Magasság",
+          "description": "A magasság képpontokban"
         },
         {
-          "label": "Asset",
-          "description": "Here you can add an asset to your timeline \"front page\"",
+          "label": "Forrásanyag",
+          "description": "Itt hozzáadhat egy forrást az idővonal „kezdőlapjához”",
           "fields": [
             {
-              "label": "Media",
-              "description": "Link to media URL (Twitter, YouTube, Flickr, Vimeo, Google Maps and SoundCloud are currently supported)"
+              "label": "Média",
+              "description": "Hivatkozás a média URL-címére (jelenleg támogatott a Twitter, a YouTube, a Flickr, a Vimeo, a Google Térkép és a SoundCloud)"
             },
             {
-              "label": "Credits",
-              "description": "Credits to the media"
+              "label": "Forrásmegjelölés",
+              "description": "A média forrásmegjelölése"
             },
             {
-              "label": "Caption",
-              "description": "Caption description goes here"
+              "label": "Felirat",
+              "description": "Ide kerül a felirat szövege"
             }
           ]
         },
         {
-          "label": "Dates",
-          "description": "Add some dates to your timeline!",
+          "label": "Dátumok",
+          "description": "Adjon hozzá néhány dátumot az idővonalhoz!",
           "field": {
-            "label": "Date",
-            "description": "Date",
+            "label": "Dátum",
+            "description": "Dátum",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Kezdő dátum",
+                "description": "Éééé,hh,nn (legalább éééé szükséges)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Záró dátum",
+                "description": "Éééé,hh,nn (legalább éééé szükséges)"
               },
               {
-                "label": "Headline",
-                "description": "Headline for the date entry"
+                "label": "Cím",
+                "description": "A dátumelem címe"
               },
               {
-                "label": "Body text",
-                "description": "Body for the date entry"
+                "label": "Törzsszöveg",
+                "description": "A dátumelem törzse"
               },
               {
-                "label": "Tags",
-                "description": "Enter Tags (categories)"
+                "label": "Címkék",
+                "description": "Adjon meg címkéket (kategóriákat)"
               },
               {
-                "label": "Asset",
+                "label": "Forrásanyag",
                 "fields": [
                   {
-                    "label": "Media",
-                    "description": "URL to the media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps and SoundCloud are currently supported)."
+                    "label": "Média",
+                    "description": "Hivatkozás a média URL-címére (jelenleg támogatott a Twitter, a YouTube, a Flickr, a Vimeo, a Google Térkép és a SoundCloud)"
                   },
                   {
-                    "label": "Thumbnail",
-                    "description": "Add a thumbnail if needed, 32x32"
+                    "label": "Miniatűr kép",
+                    "description": "Adjon hozzá miniatűrt, ha szükséges, 32x32"
                   },
                   {
-                    "label": "Credit",
-                    "description": "Credits to the media"
+                    "label": "Forrásmegjelölés",
+                    "description": "A média forrásmegjelölése"
                   },
                   {
-                    "label": "Caption",
-                    "description": "Caption text"
+                    "label": "Felirat",
+                    "description": "Felirat szövege"
                   }
                 ]
               }
@@ -93,181 +93,181 @@
           }
         },
         {
-          "label": "Eras",
-          "description": "Add an era to your timeline",
+          "label": "Korszakok",
+          "description": "Adjon hozzá egy korszakot az idővonalhoz",
           "field": {
-            "label": "Era",
+            "label": "Korszak",
             "fields": [
               {
-                "label": "Start date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Kezdő dátum",
+                "description": "Éééé,hh,nn (legalább éééé szükséges)"
               },
               {
-                "label": "End date",
-                "description": "YYYY,MM,DD (Minimum YYYY required)"
+                "label": "Záró dátum",
+                "description": "Éééé,hh,nn (legalább éééé szükséges)"
               },
               {
-                "label": "Headline",
-                "description": "Era headline"
+                "label": "Cím",
+                "description": "Korszak címe"
               },
               {
-                "label": "Text",
-                "description": "Era body"
+                "label": "Szöveg",
+                "description": "Korszak törzse"
               },
               {
-                "label": "Tag",
-                "description": "Era tags (categories)"
+                "label": "Címke",
+                "description": "Korszak címkék (kategóriák)"
               }
             ]
           }
         },
         {
-          "label": "Language",
-          "description": "The language of the user interface",
+          "label": "Nyelv",
+          "description": "A felhasználói felület nyelve",
           "options": [
             {
               "label": "Afrikaans"
             },
             {
-              "label": "Arabic"
+              "label": "Arab"
             },
             {
-              "label": "Armenian"
+              "label": "Örmény"
             },
             {
-              "label": "Basque"
+              "label": "Baszk"
             },
             {
-              "label": "Bulgarian"
+              "label": "Bolgár"
             },
             {
-              "label": "Catalan"
+              "label": "Katalán"
             },
             {
-              "label": "Chinese"
+              "label": "Kínai"
             },
             {
-              "label": "Croatian / Hrvatski"
+              "label": "Horvát"
             },
             {
-              "label": "Czech"
+              "label": "Cseh"
             },
             {
-              "label": "Danish"
+              "label": "Dán"
             },
             {
-              "label": "Dutch"
+              "label": "Holland"
             },
             {
-              "label": "English"
+              "label": "Angol"
             },
             {
-              "label": "English (24-hour time)"
+              "label": "Angol (24 órás időformátum)"
             },
             {
-              "label": "Esperanto"
+              "label": "Eszperantó"
             },
             {
-              "label": "Estonian"
+              "label": "Észt"
             },
             {
-              "label": "Faroese"
+              "label": "Feröeri"
             },
             {
-              "label": "Farsi"
+              "label": "Fárszi"
             },
             {
-              "label": "Finnish"
+              "label": "Finn"
             },
             {
-              "label": "French"
+              "label": "Francia"
             },
             {
-              "label": "Galician"
+              "label": "Galíciai"
             },
             {
-              "label": "Georgian"
+              "label": "Georgiai"
             },
             {
-              "label": "German / Deutsch"
+              "label": "Német"
             },
             {
-              "label": "Greek"
+              "label": "Görög"
             },
             {
-              "label": "Hebrew"
+              "label": "Héber"
             },
             {
-              "label": "Hungarian"
+              "label": "Magyar"
             },
             {
-              "label": "Icelandic"
+              "label": "Izlandi"
             },
             {
-              "label": "Indonesian"
+              "label": "Indonéz"
             },
             {
-              "label": "Italian"
+              "label": "Olasz"
             },
             {
-              "label": "Japanese"
+              "label": "Japán"
             },
             {
-              "label": "Korean"
+              "label": "Koreai"
             },
             {
-              "label": "Latvian"
+              "label": "Lett"
             },
             {
-              "label": "Lithuanian"
+              "label": "Litván"
             },
             {
-              "label": "Luxembourgish"
+              "label": "Luxemburgi"
             },
             {
-              "label": "Malay"
+              "label": "Maláj"
             },
             {
-              "label": "Nepali"
+              "label": "Nepáli"
             },
             {
-              "label": "Norwegian"
+              "label": "Norvég"
             },
             {
-              "label": "Polish"
+              "label": "Lengyel"
             },
             {
-              "label": "Portuguese"
+              "label": "Portugál"
             },
             {
-              "label": "Portuguese (Brazilian)"
+              "label": "Portugál (brazil)"
             },
             {
-              "label": "Romansh"
+              "label": "Rétoromán"
             },
             {
-              "label": "Russian"
+              "label": "Orosz"
             },
             {
-              "label": "Serbian - Cyrillic"
+              "label": "Szerb - cirill"
             },
             {
-              "label": "Serbian - Latin"
+              "label": "Szerb - latin"
             },
             {
-              "label": "Sinhalese"
+              "label": "Szingaléz"
             },
             {
-              "label": "Slovak"
+              "label": "Szlovák"
             },
             {
-              "label": "Slovenian"
+              "label": "Szlovén"
             },
             {
-              "label": "Spanish"
+              "label": "Spanyol"
             },
             {
-              "label": "Swedish"
+              "label": "Svéd"
             },
             {
               "label": "Tagalog"
@@ -276,16 +276,16 @@
               "label": "Tamil"
             },
             {
-              "label": "Taiwanese"
+              "label": "Tajvani"
             },
             {
               "label": "Telugu"
             },
             {
-              "label": "Turkish"
+              "label": "Török"
             },
             {
-              "label": "Ukrainian"
+              "label": "Ukrán"
             }
           ]
         }
