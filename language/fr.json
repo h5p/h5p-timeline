@@ -25,7 +25,7 @@
         },
         {
           "label": "Média",
-          "description": "Here you can add an asset to your timeline \"front page\"",
+          "description": "Vous pouvez ajouter un élément à la \"page d'accueil\" de votre chronologie",
           "fields": [
             {
               "label": "Adresse URL du média",
@@ -165,7 +165,7 @@
               "label": "Anglais (24 heures)"
             },
             {
-              "label": "Esperanto"
+              "label": "Espéranto"
             },
             {
               "label": "Estonien"
