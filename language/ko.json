@@ -43,6 +43,7 @@
         },
         {
           "label": "날짜",
+          "entity": "date",
           "description": "연대표에 날짜를 추가하십시오!",
           "field": {
             "label": "날짜",
@@ -94,6 +95,7 @@
         },
         {
           "label": "시대",
+          "entity": "era",
           "description": "연대표에 시대 추가",
           "field": {
             "label": "시대",

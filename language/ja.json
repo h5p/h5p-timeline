@@ -43,6 +43,7 @@
         },
         {
           "label": "日付",
+          "entity": "date",
           "description": "タイムラインにいくつかの日付を追加 !",
           "field": {
             "label": "日付",
@@ -94,6 +95,7 @@
         },
         {
           "label": "時代",
+          "entity": "era",
           "description": "タイムラインに時代を追加",
           "field": {
             "label": "時代",

@@ -43,6 +43,7 @@
         },
         {
           "label": "Fechas",
+          "entity": "date",
           "description": "¡Agregue algunas fechas a su línea de tiempo!",
           "field": {
             "label": "Fecha",
@@ -94,6 +95,7 @@
         },
         {
           "label": "Épocas",
+          "entity": "era",
           "description": "Agrega una época a su línea de tiempo",
           "field": {
             "label": "Época",

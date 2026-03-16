@@ -43,6 +43,7 @@
         },
         {
           "label": "Даты",
+          "entity": "date",
           "description": "Добавьте даты на временную шкалу!",
           "field": {
             "label": "Дата",
@@ -94,6 +95,7 @@
         },
         {
           "label": "Эра",
+          "entity": "era",
           "description": "Добавить эру на временную шкалу",
           "field": {
             "label": "Эра",
