@@ -2,7 +2,7 @@
 /**
  * Init a H5P object.
  **/
- var H5P = H5P || {};
+var H5P = window.H5P = window.H5P || {};
 /**
  *
  * @param object params
